@@ -1,8 +1,8 @@
 window.ANALYSIS_META = {
-  "updatedAt": "2026-11-18T17:09:05.912Z",
-  "runDate": "2026-11-18",
+  "updatedAt": "2026-11-19T16:28:55.577Z",
+  "runDate": "2026-11-19",
   "source": "openfootball-worldcup-json",
-  "externalFetchedAt": "2026-11-18T17:09:05.912Z",
+  "externalFetchedAt": "2026-11-19T16:28:55.577Z",
   "externalMatchCount": 104,
   "model": "six-factor-dixon-coles-v6",
   "modelVersion": "v3",
@@ -21,8 +21,8 @@ window.ANALYSIS_META = {
   "oddsSportKey": "soccer_fifa_world_cup",
   "oddsEventCount": 0,
   "expertProvider": "public-rss+gdelt-doc+google-news-rss",
-  "expertArticleCount": 28,
-  "expertArticleBodyCount": 3,
+  "expertArticleCount": 22,
+  "expertArticleBodyCount": 4,
   "weatherProvider": "Open-Meteo",
   "weatherForecastCount": 0,
   "liveTeamNewsProvider": "API-Football",
@@ -58,7 +58,7 @@ window.ANALYSIS_META = {
   },
   "predictionLockCount": 116,
   "predictionLocksCreated": 0,
-  "oddsSnapshotFile": "snapshots/odds/2026-11-18.json"
+  "oddsSnapshotFile": "snapshots/odds/2026-11-19.json"
 };
 
 window.MATCHES = [
@@ -360,7 +360,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-11",
       "rawTime": "13:00 UTC-6",
       "homeName": "Mexico",
@@ -369,8 +369,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      64,
-      27,
+      65,
+      26,
       9
     ],
     "confidence": 76,
@@ -391,7 +391,7 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 12
+        "chance": 11
       }
     ],
     "scoreBands": [
@@ -406,7 +406,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 24,
+        "chance": 23,
         "examples": [
           "1-1",
           "0-0"
@@ -414,7 +414,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 19,
+        "chance": 20,
         "examples": [
           "3-0",
           "4-0",
@@ -425,7 +425,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 70,
+        "chance": 69,
         "examples": [
           "2-0",
           "1-0",
@@ -434,7 +434,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 64,
+        "chance": 65,
         "examples": [
           "2-0",
           "1-0",
@@ -443,7 +443,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 41,
+        "chance": 42,
         "examples": [
           "2-0",
           "3-0",
@@ -452,14 +452,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 42,
-      "under25": 58,
-      "bttsYes": 39,
-      "bttsNo": 61,
-      "homeWinBy2Plus": 40,
+      "over25": 44,
+      "under25": 56,
+      "bttsYes": 40,
+      "bttsNo": 60,
+      "homeWinBy2Plus": 41,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 2.41,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 2.47,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -467,14 +467,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        64,
-        27,
+        65,
+        26,
         9
       ],
       "market": null,
       "blended": [
-        64,
-        27,
+        65,
+        26,
         9
       ],
       "blendWeight": 0,
@@ -572,7 +572,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -803,9 +803,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -822,25 +822,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 2,
-      "articles": [
-        {
-          "title": "Janine van Wyk: ‘Our rooms were empty … no mattresses, no lightbulbs and not a drop of water’",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/janine-van-wyck-south-africa-wafcon-book-extract-moving-the-goalposts-newsletter",
-          "pubDate": "Tue, 17 Nov 2026 11:57:35 GMT"
-        },
-        {
-          "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-          "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
-        }
-      ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -1066,9 +1051,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -1141,10 +1126,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.83,
-      "away": 0.58
+      "home": 1.88,
+      "away": 0.59
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "mex-rsa-1",
       "date": "2026-06-12",
@@ -1465,7 +1450,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-11",
       "rawTime": "20:00 UTC-6",
       "homeName": "South Korea",
@@ -1474,17 +1459,17 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      37,
-      41,
-      22
+      33,
+      42,
+      25
     ],
-    "confidence": 63,
+    "confidence": 66,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-0",
-        "chance": 19
+        "chance": 20
       },
       {
         "score": "1-1",
@@ -1492,17 +1477,17 @@ window.MATCHES = [
       },
       {
         "score": "1-0",
-        "chance": 13
+        "chance": 12
       },
       {
         "score": "0-1",
-        "chance": 9
+        "chance": 10
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 37,
+        "chance": 38,
         "examples": [
           "0-0",
           "1-1"
@@ -1510,7 +1495,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 28,
+        "chance": 25,
         "examples": [
           "1-0",
           "2-0",
@@ -1519,7 +1504,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 18,
+        "chance": 20,
         "examples": [
           "0-1",
           "1-2",
@@ -1530,7 +1515,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 68,
+        "chance": 66,
         "examples": [
           "0-0",
           "1-1",
@@ -1539,7 +1524,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 56,
+        "chance": 60,
         "examples": [
           "0-0",
           "1-1",
@@ -1548,7 +1533,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 37,
+        "chance": 38,
         "examples": [
           "0-0",
           "1-1"
@@ -1556,14 +1541,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 29,
-      "under25": 71,
+      "over25": 28,
+      "under25": 72,
       "bttsYes": 41,
       "bttsNo": 59,
-      "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 8,
-      "lowScoreDraw": 37,
-      "expectedTotalGoals": 1.94,
+      "homeWinBy2Plus": 14,
+      "awayWinBy2Plus": 9,
+      "lowScoreDraw": 38,
+      "expectedTotalGoals": 1.9,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "中"
@@ -1571,15 +1556,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        37,
-        41,
-        22
+        33,
+        42,
+        25
       ],
       "market": null,
       "blended": [
-        37,
-        41,
-        22
+        33,
+        42,
+        25
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -2057,9 +2042,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -2132,10 +2117,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.13,
-      "away": 0.8
+      "home": 1.04,
+      "away": 0.86
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "kor-cze-2",
       "date": "2026-06-12",
@@ -2467,7 +2452,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-12",
       "rawTime": "15:00 UTC-4",
       "homeName": "Canada",
@@ -2486,7 +2471,7 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "1-0",
-        "chance": 12
+        "chance": 11
       },
       {
         "score": "1-1",
@@ -2494,7 +2479,7 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 18
+        "chance": 17
       },
       {
         "score": "2-0",
@@ -2512,7 +2497,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 29,
+        "chance": 28,
         "examples": [
           "1-0",
           "2-0",
@@ -2520,19 +2505,19 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "客队小胜",
+        "label": "主队大胜",
         "chance": 11,
         "examples": [
-          "0-1",
-          "1-2",
-          "0-2"
+          "3-0",
+          "4-0",
+          "4-1"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 72,
+        "chance": 70,
         "examples": [
           "1-1",
           "0-0",
@@ -2558,16 +2543,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 33,
-      "under25": 67,
-      "bttsYes": 43,
-      "bttsNo": 57,
-      "homeWinBy2Plus": 25,
+      "over25": 35,
+      "under25": 65,
+      "bttsYes": 45,
+      "bttsNo": 55,
+      "homeWinBy2Plus": 26,
       "awayWinBy2Plus": 4,
       "lowScoreDraw": 37,
-      "expectedTotalGoals": 2.24,
+      "expectedTotalGoals": 2.32,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "至少一方零封",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
     "marketCalibration": {
@@ -3157,9 +3142,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -3232,10 +3217,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.58,
-      "away": 0.66
+      "home": 1.63,
+      "away": 0.69
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "can-bih-7",
       "date": "2026-06-13",
@@ -3567,7 +3552,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-12",
       "rawTime": "18:00 UTC-7",
       "homeName": "USA",
@@ -3577,34 +3562,34 @@ window.MATCHES = [
     "modelVersionLabel": "第三版模型",
     "probabilities": [
       35,
-      43,
-      22
+      42,
+      23
     ],
-    "confidence": 66,
+    "confidence": 65,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 4-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 21
+        "chance": 20
       },
       {
         "score": "0-0",
-        "chance": 14
-      },
-      {
-        "score": "2-2",
-        "chance": 7
+        "chance": 15
       },
       {
         "score": "1-0",
+        "chance": 8
+      },
+      {
+        "score": "2-1",
         "chance": 7
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 34,
+        "chance": 35,
         "examples": [
           "1-1",
           "0-0"
@@ -3612,7 +3597,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 21,
+        "chance": 22,
         "examples": [
           "1-0",
           "2-1",
@@ -3621,10 +3606,10 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 15,
+        "chance": 16,
         "examples": [
-          "1-2",
           "0-1",
+          "1-2",
           "0-2"
         ]
       }
@@ -3632,7 +3617,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 59,
+        "chance": 60,
         "examples": [
           "1-1",
           "0-0",
@@ -3641,16 +3626,16 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 51,
+        "chance": 52,
         "examples": [
           "1-1",
           "0-0",
-          "1-2"
+          "0-1"
         ]
       },
       {
         "label": "低比分平局",
-        "chance": 34,
+        "chance": 35,
         "examples": [
           "1-1",
           "0-0"
@@ -3658,36 +3643,36 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 43,
-      "under25": 57,
-      "bttsYes": 56,
-      "bttsNo": 44,
-      "homeWinBy2Plus": 19,
+      "over25": 40,
+      "under25": 60,
+      "bttsYes": 53,
+      "bttsNo": 47,
+      "homeWinBy2Plus": 18,
       "awayWinBy2Plus": 9,
-      "lowScoreDraw": 34,
-      "expectedTotalGoals": 2.59,
+      "lowScoreDraw": 35,
+      "expectedTotalGoals": 2.46,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        45,
-        33,
-        22
+        35,
+        42,
+        23
       ],
       "market": null,
       "blended": [
         35,
-        43,
-        22
+        42,
+        23
       ],
       "blendWeight": 0,
-      "drawGuardApplied": true,
-      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
     },
     "motivation": {
       "phase": "group",
@@ -3778,7 +3763,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -4009,9 +3994,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -4028,19 +4013,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Football Daily | From Cincinnati to Manchester: Pochettino in a hurry to paint town red",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/cincinnati-manchester-united-pochettino-football-daily-newsletter",
-          "pubDate": "Wed, 18 Nov 2026 15:16:44 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -4263,9 +4239,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -4338,10 +4314,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.54,
-      "away": 1.05
+      "home": 1.45,
+      "away": 1.01
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "usa-par-19",
       "date": "2026-06-13",
@@ -4673,7 +4649,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-13",
       "rawTime": "12:00 UTC-7",
       "homeName": "Qatar",
@@ -4682,25 +4658,25 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      9,
+      11,
       43,
-      48
+      46
     ],
-    "confidence": 66,
+    "confidence": 65,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-1",
-        "chance": 15
+        "chance": 14
       },
       {
         "score": "0-0",
-        "chance": 23
+        "chance": 22
       },
       {
         "score": "1-1",
-        "chance": 17
+        "chance": 18
       },
       {
         "score": "0-2",
@@ -4718,7 +4694,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 33,
+        "chance": 32,
         "examples": [
           "0-1",
           "0-2",
@@ -4727,7 +4703,7 @@ window.MATCHES = [
       },
       {
         "label": "客队大胜",
-        "chance": 11,
+        "chance": 10,
         "examples": [
           "0-3",
           "0-4",
@@ -4738,7 +4714,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 80,
+        "chance": 77,
         "examples": [
           "0-0",
           "1-1",
@@ -4747,7 +4723,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 49,
+        "chance": 50,
         "examples": [
           "0-0",
           "1-1",
@@ -4764,14 +4740,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 26,
-      "under25": 74,
-      "bttsYes": 34,
-      "bttsNo": 66,
-      "homeWinBy2Plus": 2,
-      "awayWinBy2Plus": 26,
+      "over25": 27,
+      "under25": 73,
+      "bttsYes": 36,
+      "bttsNo": 64,
+      "homeWinBy2Plus": 3,
+      "awayWinBy2Plus": 25,
       "lowScoreDraw": 40,
-      "expectedTotalGoals": 1.96,
+      "expectedTotalGoals": 1.99,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -4779,15 +4755,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        9,
+        11,
         33,
-        58
+        56
       ],
       "market": null,
       "blended": [
-        9,
+        11,
         43,
-        48
+        46
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -4884,7 +4860,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -5115,9 +5091,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -5134,25 +5110,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 2,
-      "articles": [
-        {
-          "title": "Portugal’s new No 7 Forbs channels Ronaldo for winner as Wales are denied",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/wales-portugal-nations-league-match-report",
-          "pubDate": "Tue, 17 Nov 2026 22:14:37 GMT"
-        },
-        {
-          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
-          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
-        }
-      ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -5375,9 +5336,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -5450,10 +5411,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.47,
-      "away": 1.49
+      "home": 0.51,
+      "away": 1.48
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "qat-sui-8",
       "date": "2026-06-14",
@@ -5785,7 +5746,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-13",
       "rawTime": "18:00 UTC-4",
       "homeName": "Brazil",
@@ -5794,11 +5755,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      31,
-      37,
-      32
+      34,
+      38,
+      28
     ],
-    "confidence": 61,
+    "confidence": 62,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -5815,39 +5776,48 @@ window.MATCHES = [
         "chance": 8
       },
       {
-        "score": "1-2",
+        "score": "2-1",
         "chance": 8
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 24,
+        "chance": 26,
         "examples": [
           "1-1",
           "0-0"
         ]
       },
       {
-        "label": "客队小胜",
-        "chance": 16,
-        "examples": [
-          "1-2",
-          "0-2",
-          "0-1"
-        ]
-      },
-      {
         "label": "主队小胜",
-        "chance": 15,
+        "chance": 17,
         "examples": [
           "2-1",
           "2-0",
           "1-0"
         ]
+      },
+      {
+        "label": "客队小胜",
+        "chance": 14,
+        "examples": [
+          "1-2",
+          "0-2",
+          "0-1"
+        ]
       }
     ],
     "scoreScenarios": [
+      {
+        "label": "主队不败低比分",
+        "chance": 46,
+        "examples": [
+          "1-1",
+          "0-0",
+          "2-1"
+        ]
+      },
       {
         "label": "客队不败低比分",
         "chance": 42,
@@ -5858,49 +5828,40 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队不败低比分",
-        "chance": 41,
-        "examples": [
-          "1-1",
-          "0-0",
-          "2-1"
-        ]
-      },
-      {
         "label": "开放对攻",
-        "chance": 38,
+        "chance": 35,
         "examples": [
           "2-2",
-          "1-3",
-          "3-1"
+          "3-1",
+          "1-3"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 59,
-      "under25": 41,
-      "bttsYes": 68,
-      "bttsNo": 32,
-      "homeWinBy2Plus": 17,
-      "awayWinBy2Plus": 16,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 3.27,
+      "over25": 57,
+      "under25": 43,
+      "bttsYes": 67,
+      "bttsNo": 33,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 15,
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 3.17,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        31,
-        37,
-        32
+        34,
+        38,
+        28
       ],
       "market": null,
       "blended": [
-        31,
-        37,
-        32
+        34,
+        38,
+        28
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -5986,10 +5947,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
-        "awayScore": 48,
+        "homeScore": 50,
+        "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -5997,7 +5958,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -6228,16 +6189,16 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
-        "homeScore": 48,
-        "awayScore": 48,
-        "goalLift": 0.08,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "homeScore": 50,
+        "awayScore": 50,
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -6247,19 +6208,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-          "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -6272,9 +6224,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "巴西",
@@ -6467,54 +6419,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-              "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT",
-              "description": "Win over El Salvador would qualify US for Brazil 2027 Naomi Girma misses squad due to injury Sam Coffey returns after injury absence In the two years since the Paris Olympics, Emma Hayes has thoroughly tested fresh faces and new combinations, gathering a considerable amount of data about the US women’s national team. It’s been a thorough process, with 33 players earning their first caps since Hayes assumed the post, to bring her roster of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Continue reading...",
-              "bodyText": "er of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Hayes’s 23 selections for the tournament suggests what her preferred core may look like for the remainder of the cycle. Only four field players on her roster arrive with fewer than a dozen caps: midfielder Croix Bethune (seven), who sent the Kansas City Current to the NWSL championship last weekend with a brilliant curling free-kick, plus defenders Kennedy Wesley (nine), Kate Del Fava (one) and Evelyn Shores, who becomes only the second uncapped USWNT player selected for a World Cup qualifier (following Taylor Flint, née Kornieck, 2022). Eight players from Hayes’s Olympic gold medal squad remain in the fold, including the star attacking trio of Trinity Rodman, Mallory Swanson and Sophia Wilson. Sam Coffey returns after an injury prevented her from joining the team in the previous window, while Naomi Girma misses out due to persistent muscle issues. Claudia Dickey, Mandy McGlynn and Phallon Tullis-Joyce will continue to vie to start in goal, continuing their open competition following Alyssa Naeher’s retirement. The average age of this roster is 26.1, with only two players (Lindsey Heaps and Rose Lavelle) at least 30. The Concacaf W Championship doubles as qualifying for both the 2027 Women’s World Cup and the 2028 Los Angeles Olympics. All four semi-finalists will be guaranteed a spot in the World Cup field, and the top three finishers will also join the Olympic field. (The US have qualified for the Olympics automatically as hosts). The losing teams in the quarter-finals will compete against each other for Concacaf’s two spots in the inter-confederation playoffs, which are scheduled for February in Morocco. This story will be updated with remarks from Hayes’s presser on Wednesday morning. US women’s national team squad Goalkeepers: Claudia Dickey (Seattle Reign), Mandy McGlynn (Ut",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-              "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT",
-              "description": "Win over El Salvador would qualify US for Brazil 2027 Naomi Girma misses squad due to injury Sam Coffey returns after injury absence In the two years since the Paris Olympics, Emma Hayes has thoroughly tested fresh faces and new combinations, gathering a considerable amount of data about the US women’s national team. It’s been a thorough process, with 33 players earning their first caps since Hayes assumed the post, to bring her roster of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Continue reading...",
-              "bodyText": "er of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Hayes’s 23 selections for the tournament suggests what her preferred core may look like for the remainder of the cycle. Only four field players on her roster arrive with fewer than a dozen caps: midfielder Croix Bethune (seven), who sent the Kansas City Current to the NWSL championship last weekend with a brilliant curling free-kick, plus defenders Kennedy Wesley (nine), Kate Del Fava (one) and Evelyn Shores, who becomes only the second uncapped USWNT player selected for a World Cup qualifier (following Taylor Flint, née Kornieck, 2022). Eight players from Hayes’s Olympic gold medal squad remain in the fold, including the star attacking trio of Trinity Rodman, Mallory Swanson and Sophia Wilson. Sam Coffey returns after an injury prevented her from joining the team in the previous window, while Naomi Girma misses out due to persistent muscle issues. Claudia Dickey, Mandy McGlynn and Phallon Tullis-Joyce will continue to vie to start in goal, continuing their open competition following Alyssa Naeher’s retirement. The average age of this roster is 26.1, with only two players (Lindsey Heaps and Rose Lavelle) at least 30. The Concacaf W Championship doubles as qualifying for both the 2027 Women’s World Cup and the 2028 Los Angeles Olympics. All four semi-finalists will be guaranteed a spot in the World Cup field, and the top three finishers will also join the Olympic field. (The US have qualified for the Olympics automatically as hosts). The losing teams in the quarter-finals will compete against each other for Concacaf’s two spots in the inter-confederation playoffs, which are scheduled for February in Morocco. This story will be updated with remarks from Hayes’s presser on Wednesday morning. US women’s national team squad Goalkeepers: Claudia Dickey (Seattle Reign), Mandy McGlynn (Ut",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-              "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT",
-              "description": "Win over El Salvador would qualify US for Brazil 2027 Naomi Girma misses squad due to injury Sam Coffey returns after injury absence In the two years since the Paris Olympics, Emma Hayes has thoroughly tested fresh faces and new combinations, gathering a considerable amount of data about the US women’s national team. It’s been a thorough process, with 33 players earning their first caps since Hayes assumed the post, to bring her roster of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Continue reading...",
-              "bodyText": "er of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Hayes’s 23 selections for the tournament suggests what her preferred core may look like for the remainder of the cycle. Only four field players on her roster arrive with fewer than a dozen caps: midfielder Croix Bethune (seven), who sent the Kansas City Current to the NWSL championship last weekend with a brilliant curling free-kick, plus defenders Kennedy Wesley (nine), Kate Del Fava (one) and Evelyn Shores, who becomes only the second uncapped USWNT player selected for a World Cup qualifier (following Taylor Flint, née Kornieck, 2022). Eight players from Hayes’s Olympic gold medal squad remain in the fold, including the star attacking trio of Trinity Rodman, Mallory Swanson and Sophia Wilson. Sam Coffey returns after an injury prevented her from joining the team in the previous window, while Naomi Girma misses out due to persistent muscle issues. Claudia Dickey, Mandy McGlynn and Phallon Tullis-Joyce will continue to vie to start in goal, continuing their open competition following Alyssa Naeher’s retirement. The average age of this roster is 26.1, with only two players (Lindsey Heaps and Rose Lavelle) at least 30. The Concacaf W Championship doubles as qualifying for both the 2027 Women’s World Cup and the 2028 Los Angeles Olympics. All four semi-finalists will be guaranteed a spot in the World Cup field, and the top three finishers will also join the Olympic field. (The US have qualified for the Olympics automatically as hosts). The losing teams in the quarter-finals will compete against each other for Concacaf’s two spots in the inter-confederation playoffs, which are scheduled for February in Morocco. This story will be updated with remarks from Hayes’s presser on Wednesday morning. US women’s national team squad Goalkeepers: Claudia Dickey (Seattle Reign), Mandy McGlynn (Ut",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -6560,7 +6482,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -6587,10 +6509,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.72,
-      "away": 1.56
+      "home": 1.58,
+      "away": 1.59
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "bra-mar-13",
       "date": "2026-06-14",
@@ -6922,7 +6844,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-4",
       "homeName": "Haiti",
@@ -6931,25 +6853,25 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      15,
-      44,
+      13,
+      46,
       41
     ],
-    "confidence": 64,
+    "confidence": 66,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 0-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-0",
-        "chance": 22
+        "chance": 23
       },
       {
         "score": "1-1",
-        "chance": 18
+        "chance": 19
       },
       {
         "score": "0-1",
-        "chance": 14
+        "chance": 13
       },
       {
         "score": "0-2",
@@ -6959,7 +6881,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 41,
+        "chance": 42,
         "examples": [
           "0-0",
           "1-1"
@@ -6967,7 +6889,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 30,
+        "chance": 29,
         "examples": [
           "0-1",
           "0-2",
@@ -6976,7 +6898,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 13,
+        "chance": 11,
         "examples": [
           "1-0",
           "2-1",
@@ -6987,7 +6909,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 75,
+        "chance": 76,
         "examples": [
           "0-0",
           "1-1",
@@ -7005,7 +6927,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 41,
+        "chance": 42,
         "examples": [
           "0-0",
           "1-1"
@@ -7018,9 +6940,9 @@ window.MATCHES = [
       "bttsYes": 38,
       "bttsNo": 62,
       "homeWinBy2Plus": 4,
-      "awayWinBy2Plus": 20,
-      "lowScoreDraw": 41,
-      "expectedTotalGoals": 1.93,
+      "awayWinBy2Plus": 21,
+      "lowScoreDraw": 42,
+      "expectedTotalGoals": 1.96,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -7028,21 +6950,21 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        15,
-        44,
-        41
+        13,
+        36,
+        51
       ],
       "market": null,
       "blended": [
-        15,
-        44,
+        13,
+        46,
         41
       ],
       "blendWeight": 0,
-      "drawGuardApplied": false,
-      "drawGuardReason": null,
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
     },
     "motivation": {
       "phase": "group",
@@ -7133,7 +7055,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -7386,28 +7308,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 1,
       "articles": [
         {
-          "title": "Football Daily | From Cincinnati to Manchester: Pochettino in a hurry to paint town red",
+          "title": "Scotland smashed by the Swiss and Mauricio Pochettino takes charge | Football Weekly – video",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/cincinnati-manchester-united-pochettino-football-daily-newsletter",
-          "pubDate": "Wed, 18 Nov 2026 15:16:44 GMT"
-        },
-        {
-          "title": "Swing when you’re winning? Biggest leaps across Fifa’s football rankings | The Knowledge",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/biggest-leaps-across-fifa-football-rankings-the-knowledge",
-          "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT"
-        },
-        {
-          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
-          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
+          "link": "https://www.theguardian.com/football/video/2026/nov/19/scotland-smashed-by-the-swiss-and-mauricio-pochettino-takes-charge-football-weekly-video",
+          "pubDate": "Thu, 19 Nov 2026 13:18:36 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -7627,22 +7537,12 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Football Daily | From Cincinnati to Manchester: Pochettino in a hurry to paint town red",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/18/cincinnati-manchester-united-pochettino-football-daily-newsletter",
-              "pubDate": "Wed, 18 Nov 2026 15:16:44 GMT",
-              "description": "Sign up now! Sign up now! Sign up now? Sign up now! With his team mired in the relegation zone and a massive match at Liverpool this weekend, Mauricio Pochettino has been understandably busy since being appointed head coach of Manchester United. Unfortunately for Old Trafford regulars, the small print of his contract meant the Argentinian was tied up masterminding victory for USA USA USA in the second leg of their Concacaf Nations League quarter-final against Haiti when he ought to have been in Carrington moving red magnets around a tactics board in front of Marcus Rashford, Kobbie Mainoo and Harry Maguire. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -7715,10 +7615,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.61,
-      "away": 1.31
+      "home": 0.59,
+      "away": 1.37
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "hai-sco-14",
       "date": "2026-06-14",
@@ -8039,7 +7939,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-13",
       "rawTime": "21:00 UTC-7",
       "homeName": "Australia",
@@ -8048,25 +7948,25 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      30,
-      36,
-      34
+      28,
+      37,
+      35
     ],
-    "confidence": 60,
+    "confidence": 61,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 17
+        "chance": 18
       },
       {
         "score": "0-0",
-        "chance": 12
+        "chance": 13
       },
       {
         "score": "0-1",
-        "chance": 8
+        "chance": 9
       },
       {
         "score": "1-2",
@@ -8076,7 +7976,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 29,
+        "chance": 31,
         "examples": [
           "1-1",
           "0-0"
@@ -8084,7 +7984,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 22,
+        "chance": 23,
         "examples": [
           "0-1",
           "1-2",
@@ -8104,7 +8004,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 55,
+        "chance": 57,
         "examples": [
           "1-1",
           "0-0",
@@ -8122,7 +8022,7 @@ window.MATCHES = [
       },
       {
         "label": "客队胜出覆盖",
-        "chance": 34,
+        "chance": 35,
         "examples": [
           "0-1",
           "1-2",
@@ -8131,30 +8031,30 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 43,
-      "under25": 57,
-      "bttsYes": 53,
-      "bttsNo": 47,
-      "homeWinBy2Plus": 13,
+      "over25": 41,
+      "under25": 59,
+      "bttsYes": 51,
+      "bttsNo": 49,
+      "homeWinBy2Plus": 12,
       "awayWinBy2Plus": 16,
-      "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.45,
+      "lowScoreDraw": 31,
+      "expectedTotalGoals": 2.37,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        30,
-        36,
-        34
+        28,
+        37,
+        35
       ],
       "market": null,
       "blended": [
-        30,
-        36,
-        34
+        28,
+        37,
+        35
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -8666,9 +8566,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -8741,10 +8641,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.17,
-      "away": 1.28
+      "home": 1.12,
+      "away": 1.26
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "aus-tur-20",
       "date": "2026-06-14",
@@ -9065,7 +8965,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-14",
       "rawTime": "12:00 UTC-5",
       "homeName": "Germany",
@@ -9074,8 +8974,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      67,
-      24,
+      66,
+      25,
       9
     ],
     "confidence": 76,
@@ -9088,21 +8988,21 @@ window.MATCHES = [
       },
       {
         "score": "1-0",
-        "chance": 12
+        "chance": 13
       },
       {
         "score": "1-1",
-        "chance": 11
+        "chance": 12
       },
       {
-        "score": "3-0",
-        "chance": 9
+        "score": "0-0",
+        "chance": 10
       }
     ],
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 35,
+        "chance": 36,
         "examples": [
           "2-0",
           "1-0",
@@ -9110,27 +9010,27 @@ window.MATCHES = [
         ]
       },
       {
+        "label": "低比分平局",
+        "chance": 22,
+        "examples": [
+          "1-1",
+          "0-0"
+        ]
+      },
+      {
         "label": "主队大胜",
-        "chance": 23,
+        "chance": 21,
         "examples": [
           "3-0",
           "4-0",
           "4-1"
-        ]
-      },
-      {
-        "label": "低比分平局",
-        "chance": 20,
-        "examples": [
-          "1-1",
-          "0-0"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 64,
+        "chance": 67,
         "examples": [
           "2-0",
           "1-0",
@@ -9139,7 +9039,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 67,
+        "chance": 66,
         "examples": [
           "2-0",
           "1-0",
@@ -9148,7 +9048,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 46,
+        "chance": 44,
         "examples": [
           "2-0",
           "3-0",
@@ -9157,14 +9057,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 50,
-      "under25": 50,
-      "bttsYes": 44,
-      "bttsNo": 56,
-      "homeWinBy2Plus": 44,
+      "over25": 47,
+      "under25": 53,
+      "bttsYes": 42,
+      "bttsNo": 58,
+      "homeWinBy2Plus": 42,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 20,
-      "expectedTotalGoals": 2.7,
+      "lowScoreDraw": 22,
+      "expectedTotalGoals": 2.58,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -9172,14 +9072,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        67,
-        24,
+        66,
+        25,
         9
       ],
       "market": null,
       "blended": [
-        67,
-        24,
+        66,
+        25,
         9
       ],
       "blendWeight": 0,
@@ -9661,9 +9561,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -9736,10 +9636,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 2.05,
-      "away": 0.65
+      "home": 1.96,
+      "away": 0.62
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "ger-cuw-25",
       "date": "2026-06-15",
@@ -10071,7 +9971,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-14",
       "rawTime": "15:00 UTC-5",
       "homeName": "Netherlands",
@@ -10080,11 +9980,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      29,
+      31,
       39,
-      32
+      30
     ],
-    "confidence": 64,
+    "confidence": 65,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 2-2。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -10102,7 +10002,7 @@ window.MATCHES = [
       },
       {
         "score": "1-2",
-        "chance": 8
+        "chance": 7
       }
     ],
     "scoreBands": [
@@ -10125,7 +10025,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 16,
+        "chance": 17,
         "examples": [
           "2-1",
           "1-0",
@@ -10134,6 +10034,15 @@ window.MATCHES = [
       }
     ],
     "scoreScenarios": [
+      {
+        "label": "主队不败低比分",
+        "chance": 49,
+        "examples": [
+          "1-1",
+          "0-0",
+          "2-1"
+        ]
+      },
       {
         "label": "客队不败低比分",
         "chance": 49,
@@ -10144,49 +10053,40 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队不败低比分",
-        "chance": 47,
+        "label": "主队胜出覆盖",
+        "chance": 31,
         "examples": [
-          "1-1",
-          "0-0",
-          "2-1"
-        ]
-      },
-      {
-        "label": "客队胜出覆盖",
-        "chance": 32,
-        "examples": [
-          "1-2",
-          "0-1",
-          "0-2"
+          "2-1",
+          "1-0",
+          "2-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 51,
-      "under25": 49,
+      "over25": 50,
+      "under25": 50,
       "bttsYes": 62,
       "bttsNo": 38,
-      "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 16,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 14,
       "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.9,
+      "expectedTotalGoals": 2.86,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        29,
+        31,
         39,
-        32
+        30
       ],
       "market": null,
       "blended": [
-        29,
+        31,
         39,
-        32
+        30
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -10759,9 +10659,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -10834,10 +10734,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.49,
-      "away": 1.4
+      "home": 1.51,
+      "away": 1.35
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "ned-jpn-31",
       "date": "2026-06-15",
@@ -11158,7 +11058,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-14",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ivory Coast",
@@ -11167,35 +11067,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      33,
-      42,
-      25
+      38,
+      39,
+      23
     ],
-    "confidence": 66,
+    "confidence": 61,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 20
+        "chance": 18
       },
       {
         "score": "0-0",
-        "chance": 15
+        "chance": 17
       },
       {
         "score": "1-0",
-        "chance": 8
+        "chance": 12
       },
       {
-        "score": "0-1",
-        "chance": 7
+        "score": "2-0",
+        "chance": 8
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 35,
+        "chance": 34,
         "examples": [
           "1-1",
           "0-0"
@@ -11203,11 +11103,11 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 22,
+        "chance": 27,
         "examples": [
           "1-0",
-          "2-1",
-          "2-0"
+          "2-0",
+          "2-1"
         ]
       },
       {
@@ -11223,7 +11123,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 60,
+        "chance": 65,
         "examples": [
           "1-1",
           "0-0",
@@ -11232,7 +11132,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 55,
+        "chance": 54,
         "examples": [
           "1-1",
           "0-0",
@@ -11240,39 +11140,40 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "低比分平局",
-        "chance": 35,
+        "label": "主队胜出覆盖",
+        "chance": 38,
         "examples": [
-          "1-1",
-          "0-0"
+          "1-0",
+          "2-0",
+          "2-1"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 39,
-      "under25": 61,
-      "bttsYes": 52,
-      "bttsNo": 48,
-      "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 10,
-      "lowScoreDraw": 35,
-      "expectedTotalGoals": 2.38,
+      "over25": 33,
+      "under25": 67,
+      "bttsYes": 45,
+      "bttsNo": 55,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 9,
+      "lowScoreDraw": 34,
+      "expectedTotalGoals": 2.11,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
+      "bttsLean": "至少一方零封",
       "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        33,
-        42,
-        25
+        38,
+        39,
+        23
       ],
       "market": null,
       "blended": [
-        33,
-        42,
-        25
+        38,
+        39,
+        23
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -11369,7 +11270,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -11600,9 +11501,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -11619,10 +11520,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Eight-year ban for player who threw rock that hit assistant referee",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cqlyk9yzkz2no?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 19 Nov 2026 10:20:58 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -11753,9 +11663,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -11828,10 +11738,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.35,
-      "away": 1.03
+      "home": 1.2,
+      "away": 0.9
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "civ-ecu-26",
       "date": "2026-06-15",
@@ -12164,7 +12074,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-14",
       "rawTime": "20:00 UTC-6",
       "homeName": "Sweden",
@@ -12173,43 +12083,43 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      37,
-      39,
-      24
+      38,
+      40,
+      22
     ],
-    "confidence": 61,
+    "confidence": 62,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 5-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
+      {
+        "score": "0-0",
+        "chance": 19
+      },
       {
         "score": "1-1",
         "chance": 18
       },
       {
-        "score": "0-0",
-        "chance": 16
-      },
-      {
         "score": "1-0",
-        "chance": 11
+        "chance": 13
       },
       {
         "score": "0-1",
-        "chance": 8
+        "chance": 9
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 34,
+        "chance": 36,
         "examples": [
-          "1-1",
-          "0-0"
+          "0-0",
+          "1-1"
         ]
       },
       {
         "label": "主队小胜",
-        "chance": 26,
+        "chance": 28,
         "examples": [
           "1-0",
           "2-0",
@@ -12229,57 +12139,56 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 64,
+        "chance": 68,
         "examples": [
-          "1-1",
           "0-0",
+          "1-1",
           "1-0"
         ]
       },
       {
         "label": "客队不败低比分",
-        "chance": 54,
+        "chance": 55,
         "examples": [
-          "1-1",
           "0-0",
+          "1-1",
           "0-1"
         ]
       },
       {
-        "label": "主队胜出覆盖",
-        "chance": 37,
+        "label": "低比分平局",
+        "chance": 36,
         "examples": [
-          "1-0",
-          "2-0",
-          "2-1"
+          "0-0",
+          "1-1"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 34,
-      "under25": 66,
-      "bttsYes": 46,
-      "bttsNo": 54,
+      "over25": 30,
+      "under25": 70,
+      "bttsYes": 41,
+      "bttsNo": 59,
       "homeWinBy2Plus": 17,
-      "awayWinBy2Plus": 9,
-      "lowScoreDraw": 34,
-      "expectedTotalGoals": 2.14,
+      "awayWinBy2Plus": 8,
+      "lowScoreDraw": 36,
+      "expectedTotalGoals": 1.96,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
+      "bttsLean": "至少一方零封",
       "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        37,
-        39,
-        24
+        38,
+        40,
+        22
       ],
       "market": null,
       "blended": [
-        37,
-        39,
-        24
+        38,
+        40,
+        22
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -12852,9 +12761,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -12927,10 +12836,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.21,
-      "away": 0.94
+      "home": 1.15,
+      "away": 0.81
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "swe-tun-32",
       "date": "2026-06-15",
@@ -13252,7 +13161,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -13261,8 +13170,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      63,
-      28,
+      60,
+      31,
       9
     ],
     "confidence": 76,
@@ -13271,25 +13180,25 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "1-0",
-        "chance": 15
+        "chance": 17
+      },
+      {
+        "score": "0-0",
+        "chance": 16
       },
       {
         "score": "2-0",
         "chance": 15
       },
       {
-        "score": "0-0",
-        "chance": 13
-      },
-      {
         "score": "1-1",
-        "chance": 12
+        "chance": 13
       }
     ],
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 38,
+        "chance": 39,
         "examples": [
           "1-0",
           "2-0",
@@ -13298,7 +13207,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 25,
+        "chance": 29,
         "examples": [
           "0-0",
           "1-1"
@@ -13306,7 +13215,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 18,
+        "chance": 15,
         "examples": [
           "3-0",
           "4-0",
@@ -13317,16 +13226,16 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 72,
+        "chance": 76,
         "examples": [
           "1-0",
-          "2-0",
-          "0-0"
+          "0-0",
+          "2-0"
         ]
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 63,
+        "chance": 60,
         "examples": [
           "1-0",
           "2-0",
@@ -13335,7 +13244,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 39,
+        "chance": 36,
         "examples": [
           "2-0",
           "3-0",
@@ -13344,14 +13253,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 40,
-      "under25": 60,
-      "bttsYes": 37,
-      "bttsNo": 63,
-      "homeWinBy2Plus": 38,
+      "over25": 34,
+      "under25": 66,
+      "bttsYes": 34,
+      "bttsNo": 66,
+      "homeWinBy2Plus": 34,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 25,
-      "expectedTotalGoals": 2.31,
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.11,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -13359,14 +13268,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        63,
-        28,
+        60,
+        31,
         9
       ],
       "market": null,
       "blended": [
-        63,
-        28,
+        60,
+        31,
         9
       ],
       "blendWeight": 0,
@@ -13464,7 +13373,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -13695,9 +13604,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -13714,25 +13623,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 2,
-      "articles": [
-        {
-          "title": "Swing when you’re winning? Biggest leaps across Fifa’s football rankings | The Knowledge",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/biggest-leaps-across-fifa-football-rankings-the-knowledge",
-          "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT"
-        },
-        {
-          "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-          "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
-        }
-      ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -13863,9 +13757,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -13938,10 +13832,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.76,
-      "away": 0.56
+      "home": 1.61,
+      "away": 0.51
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "esp-cpv-43",
       "date": "2026-06-16",
@@ -14273,7 +14167,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-15",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -14282,9 +14176,9 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      58,
+      57,
       27,
-      15
+      16
     ],
     "confidence": 76,
     "tag": "已完场",
@@ -14303,14 +14197,14 @@ window.MATCHES = [
         "chance": 10
       },
       {
-        "score": "1-0",
-        "chance": 9
+        "score": "3-1",
+        "chance": 6
       }
     ],
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 29,
+        "chance": 28,
         "examples": [
           "2-0",
           "2-1",
@@ -14319,7 +14213,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 21,
+        "chance": 20,
         "examples": [
           "1-1",
           "0-0"
@@ -14338,7 +14232,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 57,
+        "chance": 55,
         "examples": [
           "1-1",
           "2-0",
@@ -14347,7 +14241,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 58,
+        "chance": 57,
         "examples": [
           "2-0",
           "2-1",
@@ -14365,30 +14259,30 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 54,
-      "under25": 46,
-      "bttsYes": 54,
-      "bttsNo": 46,
-      "homeWinBy2Plus": 36,
+      "over25": 56,
+      "under25": 44,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 35,
       "awayWinBy2Plus": 6,
-      "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.88,
-      "totalGoalsLean": "大小球均衡",
-      "bttsLean": "双方进球均衡",
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 2.95,
+      "totalGoalsLean": "大于2.5球",
+      "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        58,
+        57,
         27,
-        15
+        16
       ],
       "market": null,
       "blended": [
-        58,
+        57,
         27,
-        15
+        16
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -14485,7 +14379,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -14716,9 +14610,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -14735,19 +14629,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
-          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -14973,9 +14858,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -15048,10 +14933,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.94,
-      "away": 0.94
+      "home": 1.98,
+      "away": 0.97
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "bel-egy-37",
       "date": "2026-06-16",
@@ -15383,7 +15268,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-4",
       "homeName": "Saudi Arabia",
@@ -15392,24 +15277,24 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      15,
-      43,
-      42
+      13,
+      48,
+      39
     ],
-    "confidence": 63,
+    "confidence": 69,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-0",
-        "chance": 26
-      },
-      {
-        "score": "0-1",
-        "chance": 18
+        "chance": 28
       },
       {
         "score": "1-1",
+        "chance": 18
+      },
+      {
+        "score": "0-1",
         "chance": 15
       },
       {
@@ -15420,7 +15305,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 41,
+        "chance": 46,
         "examples": [
           "0-0",
           "1-1"
@@ -15428,7 +15313,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 34,
+        "chance": 30,
         "examples": [
           "0-1",
           "0-2",
@@ -15437,7 +15322,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 14,
+        "chance": 12,
         "examples": [
           "1-0",
           "2-1",
@@ -15448,16 +15333,16 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 79,
+        "chance": 80,
         "examples": [
           "0-0",
-          "0-1",
-          "1-1"
+          "1-1",
+          "0-1"
         ]
       },
       {
         "label": "主队不败低比分",
-        "chance": 55,
+        "chance": 58,
         "examples": [
           "0-0",
           "1-1",
@@ -15466,7 +15351,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 41,
+        "chance": 46,
         "examples": [
           "0-0",
           "1-1"
@@ -15474,14 +15359,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 19,
-      "under25": 81,
-      "bttsYes": 29,
-      "bttsNo": 71,
-      "homeWinBy2Plus": 4,
+      "over25": 20,
+      "under25": 80,
+      "bttsYes": 32,
+      "bttsNo": 68,
+      "homeWinBy2Plus": 3,
       "awayWinBy2Plus": 18,
-      "lowScoreDraw": 41,
-      "expectedTotalGoals": 1.55,
+      "lowScoreDraw": 46,
+      "expectedTotalGoals": 1.69,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -15489,15 +15374,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        15,
-        43,
-        42
+        13,
+        48,
+        39
       ],
       "market": null,
       "blended": [
-        15,
-        43,
-        42
+        13,
+        48,
+        39
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -15594,7 +15479,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -15825,9 +15710,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -15844,10 +15729,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Inside women’s football’s difficult rise in Syria: ‘A joy that everyone in the country needed’",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/19/syria-womens-football",
+          "pubDate": "Thu, 19 Nov 2026 11:00:26 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -16070,9 +15964,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -16145,10 +16039,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.51,
-      "away": 1.04
+      "home": 0.52,
+      "away": 1.16
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "ksa-uru-44",
       "date": "2026-06-16",
@@ -16480,7 +16374,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-15",
       "rawTime": "18:00 UTC-7",
       "homeName": "Iran",
@@ -16489,8 +16383,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      61,
-      30,
+      62,
+      29,
       9
     ],
     "confidence": 76,
@@ -16499,7 +16393,7 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "1-0",
-        "chance": 16
+        "chance": 15
       },
       {
         "score": "2-0",
@@ -16507,7 +16401,7 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 14
+        "chance": 13
       },
       {
         "score": "1-1",
@@ -16517,7 +16411,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 39,
+        "chance": 38,
         "examples": [
           "1-0",
           "2-0",
@@ -16526,7 +16420,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 27,
+        "chance": 26,
         "examples": [
           "0-0",
           "1-1"
@@ -16534,7 +16428,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 16,
+        "chance": 17,
         "examples": [
           "3-0",
           "4-0",
@@ -16545,7 +16439,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 74,
+        "chance": 73,
         "examples": [
           "1-0",
           "2-0",
@@ -16554,7 +16448,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 61,
+        "chance": 62,
         "examples": [
           "1-0",
           "2-0",
@@ -16563,7 +16457,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 37,
+        "chance": 38,
         "examples": [
           "2-0",
           "3-0",
@@ -16572,14 +16466,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 37,
-      "under25": 63,
-      "bttsYes": 36,
-      "bttsNo": 64,
-      "homeWinBy2Plus": 36,
+      "over25": 38,
+      "under25": 62,
+      "bttsYes": 37,
+      "bttsNo": 63,
+      "homeWinBy2Plus": 37,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 27,
-      "expectedTotalGoals": 2.21,
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 2.27,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -16587,14 +16481,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        61,
-        30,
+        62,
+        29,
         9
       ],
       "market": null,
       "blended": [
-        61,
-        30,
+        62,
+        29,
         9
       ],
       "blendWeight": 0,
@@ -17168,9 +17062,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -17243,10 +17137,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.68,
-      "away": 0.53
+      "home": 1.73,
+      "away": 0.55
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "irn-nzl-38",
       "date": "2026-06-16",
@@ -17578,7 +17472,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-16",
       "rawTime": "15:00 UTC-4",
       "homeName": "France",
@@ -17588,15 +17482,15 @@ window.MATCHES = [
     "modelVersionLabel": "第三版模型",
     "probabilities": [
       59,
-      26,
-      15
+      25,
+      16
     ],
     "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 3-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
-        "score": "2-0",
+        "score": "2-1",
         "chance": 10
       },
       {
@@ -17604,8 +17498,8 @@ window.MATCHES = [
         "chance": 12
       },
       {
-        "score": "2-1",
-        "chance": 10
+        "score": "2-0",
+        "chance": 9
       },
       {
         "score": "3-1",
@@ -17615,69 +17509,69 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 28,
+        "chance": 26,
         "examples": [
-          "2-0",
           "2-1",
+          "2-0",
           "1-0"
         ]
       },
       {
-        "label": "低比分平局",
-        "chance": 19,
+        "label": "主队大胜",
+        "chance": 20,
         "examples": [
-          "1-1",
-          "0-0"
+          "3-0",
+          "4-1",
+          "4-0"
         ]
       },
       {
-        "label": "主队大胜",
-        "chance": 19,
+        "label": "低比分平局",
+        "chance": 18,
         "examples": [
-          "3-0",
-          "4-0",
-          "4-1"
+          "1-1",
+          "0-0"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 54,
+        "chance": 50,
         "examples": [
           "1-1",
+          "2-1",
+          "2-0"
+        ]
+      },
+      {
+        "label": "主队优势胜",
+        "chance": 43,
+        "examples": [
           "2-0",
-          "2-1"
+          "3-1",
+          "3-0"
         ]
       },
       {
         "label": "主队胜出覆盖",
         "chance": 59,
         "examples": [
-          "2-0",
           "2-1",
-          "1-0"
-        ]
-      },
-      {
-        "label": "主队优势胜",
-        "chance": 41,
-        "examples": [
           "2-0",
-          "3-0",
           "3-1"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 58,
-      "under25": 42,
-      "bttsYes": 56,
-      "bttsNo": 44,
+      "over25": 62,
+      "under25": 38,
+      "bttsYes": 60,
+      "bttsNo": 40,
       "homeWinBy2Plus": 38,
       "awayWinBy2Plus": 6,
-      "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.04,
+      "lowScoreDraw": 18,
+      "expectedTotalGoals": 3.22,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -17686,14 +17580,14 @@ window.MATCHES = [
       "status": "no-match",
       "modelOnly": [
         59,
-        26,
-        15
+        25,
+        16
       ],
       "market": null,
       "blended": [
         59,
-        26,
-        15
+        25,
+        16
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -18266,9 +18160,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -18341,10 +18235,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 2.07,
-      "away": 0.97
+      "home": 2.16,
+      "away": 1.06
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "fra-sen-49",
       "date": "2026-06-17",
@@ -18676,7 +18570,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-16",
       "rawTime": "18:00 UTC-4",
       "homeName": "Iraq",
@@ -18685,25 +18579,25 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      14,
-      44,
-      42
+      12,
+      45,
+      43
     ],
-    "confidence": 64,
+    "confidence": 63,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-4。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
-        "score": "1-1",
-        "chance": 20
+        "score": "0-0",
+        "chance": 22
       },
       {
-        "score": "0-0",
+        "score": "1-1",
         "chance": 19
       },
       {
         "score": "0-1",
-        "chance": 11
+        "chance": 13
       },
       {
         "score": "0-2",
@@ -18713,15 +18607,15 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 39,
+        "chance": 41,
         "examples": [
-          "1-1",
-          "0-0"
+          "0-0",
+          "1-1"
         ]
       },
       {
         "label": "客队小胜",
-        "chance": 27,
+        "chance": 30,
         "examples": [
           "0-1",
           "0-2",
@@ -18730,7 +18624,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 11,
+        "chance": 10,
         "examples": [
           "1-0",
           "2-1",
@@ -18741,41 +18635,40 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 71,
+        "chance": 76,
         "examples": [
-          "1-1",
           "0-0",
+          "1-1",
           "0-1"
         ]
       },
       {
         "label": "主队不败低比分",
-        "chance": 51,
+        "chance": 52,
         "examples": [
-          "1-1",
           "0-0",
+          "1-1",
           "1-0"
         ]
       },
       {
-        "label": "客队胜出覆盖",
-        "chance": 42,
+        "label": "低比分平局",
+        "chance": 41,
         "examples": [
-          "0-1",
-          "0-2",
-          "1-2"
+          "0-0",
+          "1-1"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 33,
-      "under25": 67,
-      "bttsYes": 45,
-      "bttsNo": 55,
-      "homeWinBy2Plus": 4,
+      "over25": 28,
+      "under25": 72,
+      "bttsYes": 39,
+      "bttsNo": 61,
+      "homeWinBy2Plus": 3,
       "awayWinBy2Plus": 23,
-      "lowScoreDraw": 39,
-      "expectedTotalGoals": 2.22,
+      "lowScoreDraw": 41,
+      "expectedTotalGoals": 2.04,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -18783,15 +18676,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        14,
-        34,
-        52
+        12,
+        35,
+        53
       ],
       "market": null,
       "blended": [
-        14,
-        44,
-        42
+        12,
+        45,
+        43
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -18878,9 +18771,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "awayScore": 48,
+        "contribution": 0.12,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
       },
       {
         "name": "赔率市场",
@@ -18888,7 +18781,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -19119,16 +19012,16 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "awayScore": 48,
+        "goalLift": -0.03,
+        "confidenceDelta": -1,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
       }
     },
     "marketSignals": {
@@ -19138,10 +19031,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Five return for Wales' World Cup play-off final",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 19 Nov 2026 13:40:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -19154,9 +19056,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-          "source": "squad-projection",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "伊拉克",
@@ -19349,14 +19251,34 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Five return for Wales' World Cup play-off final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Thu, 19 Nov 2026 13:40:43 GMT",
+              "description": "Ceri Holland is in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury.",
+              "bodyText": "Wales v Norway: Ceri Holland in squad for Women's World Cup play-off final - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs Women's Football Scores & Fixtures Table Top Scorers WSL Fan Chat Five return for Wales' World Cup play-off final Image source, FAW Image caption, Ceri Holland has not played for Liverpool since mid-September By Gareth Vincent BBC Sport Wales Published 19 November 2026, 10:00 GMT Updated 2 hours ago Ceri Holland has been named in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury. Olivia Clark, Hayley Ladd, Rhiannon Roberts and Ella Powell are also included after fitness issues, but Ffion Morgan, Laura Hughes and Scarlett Hill are among those who miss out with injuries. The versatile Holland, arguably Wales' most influential player, has been out with a muscle problem, though she is thought to be close to returning to act",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Five return for Wales' World Cup play-off final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Thu, 19 Nov 2026 13:40:43 GMT",
+              "description": "Ceri Holland is in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury.",
+              "bodyText": "Wales v Norway: Ceri Holland in squad for Women's World Cup play-off final - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs Women's Football Scores & Fixtures Table Top Scorers WSL Fan Chat Five return for Wales' World Cup play-off final Image source, FAW Image caption, Ceri Holland has not played for Liverpool since mid-September By Gareth Vincent BBC Sport Wales Published 19 November 2026, 10:00 GMT Updated 2 hours ago Ceri Holland has been named in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury. Olivia Clark, Hayley Ladd, Rhiannon Roberts and Ella Powell are also included after fitness issues, but Ffion Morgan, Laura Hughes and Scarlett Hill are among those who miss out with injuries. The versatile Holland, arguably Wales' most influential player, has been out with a muscle problem, though she is thought to be close to returning to act",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
@@ -19364,9 +19286,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -19412,7 +19334,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "squad-projection",
+            "source": "public-news-unparsed",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -19439,10 +19361,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.7,
-      "away": 1.52
+      "home": 0.59,
+      "away": 1.44
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "irq-nor-50",
       "date": "2026-06-17",
@@ -19774,7 +19696,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-16",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -19783,11 +19705,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      55,
+      54,
       28,
-      17
+      18
     ],
-    "confidence": 76,
+    "confidence": 74,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 3-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -19801,7 +19723,7 @@ window.MATCHES = [
       },
       {
         "score": "2-0",
-        "chance": 10
+        "chance": 9
       },
       {
         "score": "3-1",
@@ -19828,7 +19750,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 16,
+        "chance": 15,
         "examples": [
           "3-0",
           "4-1",
@@ -19839,7 +19761,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 55,
+        "chance": 54,
         "examples": [
           "1-1",
           "2-1",
@@ -19848,7 +19770,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 55,
+        "chance": 54,
         "examples": [
           "2-1",
           "2-0",
@@ -19857,7 +19779,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 37,
+        "chance": 36,
         "examples": [
           "2-0",
           "3-1",
@@ -19868,28 +19790,28 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 55,
       "under25": 45,
-      "bttsYes": 56,
-      "bttsNo": 44,
+      "bttsYes": 57,
+      "bttsNo": 43,
       "homeWinBy2Plus": 33,
       "awayWinBy2Plus": 7,
       "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.92,
-      "totalGoalsLean": "大小球均衡",
+      "expectedTotalGoals": 2.94,
+      "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        55,
+        54,
         28,
-        17
+        18
       ],
       "market": null,
       "blended": [
-        55,
+        54,
         28,
-        17
+        18
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -19986,7 +19908,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -20217,9 +20139,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -20236,31 +20158,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 3,
-      "articles": [
-        {
-          "title": "Janine van Wyk: ‘Our rooms were empty … no mattresses, no lightbulbs and not a drop of water’",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/janine-van-wyck-south-africa-wafcon-book-extract-moving-the-goalposts-newsletter",
-          "pubDate": "Tue, 17 Nov 2026 11:57:35 GMT"
-        },
-        {
-          "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
-          "pubDate": "Tue, 17 Nov 2026 15:00:16 GMT"
-        },
-        {
-          "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-          "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
-        }
-      ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -20486,9 +20387,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -20561,10 +20462,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.92,
-      "away": 1
+      "home": 1.9,
+      "away": 1.04
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "arg-alg-55",
       "date": "2026-06-17",
@@ -20896,7 +20797,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-16",
       "rawTime": "21:00 UTC-7",
       "homeName": "Austria",
@@ -20905,8 +20806,8 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      62,
-      29,
+      61,
+      30,
       9
     ],
     "confidence": 76,
@@ -20915,7 +20816,7 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "1-0",
-        "chance": 15
+        "chance": 17
       },
       {
         "score": "2-0",
@@ -20923,7 +20824,7 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 13
+        "chance": 15
       },
       {
         "score": "1-1",
@@ -20933,7 +20834,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 38,
+        "chance": 39,
         "examples": [
           "1-0",
           "2-0",
@@ -20942,7 +20843,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 26,
+        "chance": 27,
         "examples": [
           "0-0",
           "1-1"
@@ -20950,7 +20851,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 17,
+        "chance": 16,
         "examples": [
           "3-0",
           "4-0",
@@ -20961,7 +20862,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 73,
+        "chance": 75,
         "examples": [
           "1-0",
           "2-0",
@@ -20970,7 +20871,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 62,
+        "chance": 61,
         "examples": [
           "1-0",
           "2-0",
@@ -20979,7 +20880,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 39,
+        "chance": 37,
         "examples": [
           "2-0",
           "3-0",
@@ -20988,14 +20889,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 39,
-      "under25": 61,
-      "bttsYes": 37,
-      "bttsNo": 63,
-      "homeWinBy2Plus": 37,
+      "over25": 36,
+      "under25": 64,
+      "bttsYes": 35,
+      "bttsNo": 65,
+      "homeWinBy2Plus": 36,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 2.29,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 2.17,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -21003,14 +20904,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        62,
-        29,
+        61,
+        30,
         9
       ],
       "market": null,
       "blended": [
-        62,
-        29,
+        61,
+        30,
         9
       ],
       "blendWeight": 0,
@@ -21108,7 +21009,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -21339,9 +21240,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -21358,10 +21259,19 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Inside women’s football’s difficult rise in Syria: ‘A joy that everyone in the country needed’",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/19/syria-womens-football",
+          "pubDate": "Thu, 19 Nov 2026 11:00:26 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -21584,9 +21494,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -21659,10 +21569,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.74,
-      "away": 0.55
+      "home": 1.65,
+      "away": 0.52
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "aut-jor-56",
       "date": "2026-06-17",
@@ -21994,7 +21904,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-17",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -22003,43 +21913,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      47,
-      41,
-      12
+      61,
+      29,
+      10
     ],
-    "confidence": 67,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-0",
-        "chance": 11
-      },
-      {
-        "score": "1-1",
-        "chance": 19
-      },
-      {
-        "score": "0-0",
-        "chance": 17
+        "chance": 14
       },
       {
         "score": "2-0",
-        "chance": 11
+        "chance": 14
+      },
+      {
+        "score": "1-1",
+        "chance": 13
+      },
+      {
+        "score": "0-0",
+        "chance": 13
       }
     ],
     "scoreBands": [
       {
-        "label": "低比分平局",
-        "chance": 36,
-        "examples": [
-          "1-1",
-          "0-0"
-        ]
-      },
-      {
         "label": "主队小胜",
-        "chance": 29,
+        "chance": 37,
         "examples": [
           "1-0",
           "2-0",
@@ -22047,8 +21949,16 @@ window.MATCHES = [
         ]
       },
       {
+        "label": "低比分平局",
+        "chance": 26,
+        "examples": [
+          "1-1",
+          "0-0"
+        ]
+      },
+      {
         "label": "主队大胜",
-        "chance": 12,
+        "chance": 17,
         "examples": [
           "3-0",
           "4-0",
@@ -22061,39 +21971,39 @@ window.MATCHES = [
         "label": "主队不败低比分",
         "chance": 71,
         "examples": [
-          "1-1",
-          "0-0",
-          "1-0"
-        ]
-      },
-      {
-        "label": "客队不败低比分",
-        "chance": 46,
-        "examples": [
-          "1-1",
-          "0-0",
-          "0-1"
+          "1-0",
+          "2-0",
+          "1-1"
         ]
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 47,
+        "chance": 61,
         "examples": [
           "1-0",
           "2-0",
           "2-1"
         ]
+      },
+      {
+        "label": "主队优势胜",
+        "chance": 38,
+        "examples": [
+          "2-0",
+          "3-0",
+          "3-1"
+        ]
       }
     ],
     "expandedMarkets": {
-      "over25": 36,
-      "under25": 64,
-      "bttsYes": 44,
-      "bttsNo": 56,
-      "homeWinBy2Plus": 27,
-      "awayWinBy2Plus": 4,
-      "lowScoreDraw": 36,
-      "expectedTotalGoals": 2.33,
+      "over25": 40,
+      "under25": 60,
+      "bttsYes": 39,
+      "bttsNo": 61,
+      "homeWinBy2Plus": 37,
+      "awayWinBy2Plus": 3,
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 2.35,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -22101,21 +22011,21 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        57,
-        31,
-        12
+        61,
+        29,
+        10
       ],
       "market": null,
       "blended": [
-        47,
-        41,
-        12
+        61,
+        29,
+        10
       ],
       "blendWeight": 0,
-      "drawGuardApplied": true,
-      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
     },
     "motivation": {
       "phase": "group",
@@ -22206,7 +22116,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -22437,9 +22347,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -22456,19 +22366,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Portugal’s new No 7 Forbs channels Ronaldo for winner as Wales are denied",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/wales-portugal-nations-league-match-report",
-          "pubDate": "Tue, 17 Nov 2026 22:14:37 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -22694,9 +22595,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -22769,10 +22670,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.66,
-      "away": 0.67
+      "home": 1.76,
+      "away": 0.59
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "por-cod-61",
       "date": "2026-06-18",
@@ -23104,7 +23005,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-17",
       "rawTime": "15:00 UTC-5",
       "homeName": "England",
@@ -23113,25 +23014,25 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      36,
-      44,
+      38,
+      42,
       20
     ],
-    "confidence": 65,
+    "confidence": 63,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 4-2。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 21
+        "chance": 20
       },
       {
         "score": "0-0",
-        "chance": 16
+        "chance": 13
       },
       {
         "score": "1-0",
-        "chance": 8
+        "chance": 7
       },
       {
         "score": "2-0",
@@ -23141,7 +23042,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 37,
+        "chance": 34,
         "examples": [
           "1-1",
           "0-0"
@@ -23158,10 +23059,10 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 15,
+        "chance": 14,
         "examples": [
-          "0-1",
           "1-2",
+          "0-1",
           "0-2"
         ]
       }
@@ -23169,7 +23070,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 63,
+        "chance": 59,
         "examples": [
           "1-1",
           "0-0",
@@ -23178,46 +23079,47 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 53,
+        "chance": 49,
         "examples": [
           "1-1",
           "0-0",
-          "0-1"
+          "1-2"
         ]
       },
       {
-        "label": "低比分平局",
-        "chance": 37,
+        "label": "主队胜出覆盖",
+        "chance": 38,
         "examples": [
-          "1-1",
-          "0-0"
+          "1-0",
+          "2-0",
+          "2-1"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 38,
-      "under25": 62,
-      "bttsYes": 52,
-      "bttsNo": 48,
-      "homeWinBy2Plus": 19,
-      "awayWinBy2Plus": 7,
-      "lowScoreDraw": 37,
-      "expectedTotalGoals": 2.43,
+      "over25": 43,
+      "under25": 57,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 21,
+      "awayWinBy2Plus": 8,
+      "lowScoreDraw": 34,
+      "expectedTotalGoals": 2.63,
       "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
+      "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        46,
-        34,
+        48,
+        32,
         20
       ],
       "market": null,
       "blended": [
-        36,
-        44,
+        38,
+        42,
         20
       ],
       "blendWeight": 0,
@@ -23304,10 +23206,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 46,
+        "homeScore": 48,
         "awayScore": 48,
-        "contribution": -0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 1 条。"
+        "contribution": 0,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
       },
       {
         "name": "赔率市场",
@@ -23315,7 +23217,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -23551,11 +23453,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 46,
+        "homeScore": 48,
         "awayScore": 48,
-        "goalLift": -0.09,
+        "goalLift": -0.06,
         "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 1 条。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
       }
     },
     "marketSignals": {
@@ -23568,19 +23470,13 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
-          "title": "FA wants to host Nations League finals in England",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c5742x4xldmpo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 17 Nov 2026 15:51:30 GMT"
-        },
-        {
-          "title": "London City's Goodwin gets first England call-up",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT"
+          "title": "Wayne Rooney says he contemplated taking own life during playing career",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
+          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
         },
         {
           "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
@@ -23589,13 +23485,13 @@ window.MATCHES = [
           "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT"
         },
         {
-          "title": "Wayne Rooney says he contemplated taking own life during playing career",
+          "title": "‘The game is in danger’: PFA head Maheta Molango on Fifa, Infantino and football’s future",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
-          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/17/pfa-maheta-molango-interview-fifa-gianni-infantino-interview",
+          "pubDate": "Tue, 17 Nov 2026 20:00:20 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -23805,30 +23701,12 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "London City's Goodwin gets first England call-up",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
-              "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 17 November 2026 London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the ga",
-              "bodyError": ""
-            },
-            {
               "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
               "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
               "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
-              "bodyText": "",
-              "bodyError": "403 Forbidden"
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
@@ -23845,16 +23723,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
               "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
               "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
-              "bodyText": "",
-              "bodyError": "403 Forbidden"
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
@@ -23864,29 +23733,20 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "London City's Goodwin gets first England call-up",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
-              "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 17 November 2026 London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the ga",
-              "bodyError": ""
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
+              "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
               "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
+              "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
+              "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -23959,10 +23819,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.51,
-      "away": 0.92
+      "home": 1.64,
+      "away": 0.99
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "eng-cro-67",
       "date": "2026-06-18",
@@ -24294,7 +24154,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-17",
       "rawTime": "19:00 UTC-4",
       "homeName": "Ghana",
@@ -24304,20 +24164,20 @@ window.MATCHES = [
     "modelVersionLabel": "第三版模型",
     "probabilities": [
       19,
-      44,
-      37
+      45,
+      36
     ],
-    "confidence": 66,
+    "confidence": 68,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-0",
-        "chance": 25
+        "chance": 26
       },
       {
         "score": "1-1",
-        "chance": 17
+        "chance": 16
       },
       {
         "score": "0-1",
@@ -24325,13 +24185,13 @@ window.MATCHES = [
       },
       {
         "score": "1-0",
-        "chance": 9
+        "chance": 10
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 42,
+        "chance": 43,
         "examples": [
           "0-0",
           "1-1"
@@ -24359,7 +24219,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 74,
+        "chance": 75,
         "examples": [
           "0-0",
           "1-1",
@@ -24368,7 +24228,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 59,
+        "chance": 60,
         "examples": [
           "0-0",
           "1-1",
@@ -24377,7 +24237,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 42,
+        "chance": 43,
         "examples": [
           "0-0",
           "1-1"
@@ -24385,14 +24245,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 21,
-      "under25": 79,
-      "bttsYes": 33,
-      "bttsNo": 67,
+      "over25": 19,
+      "under25": 81,
+      "bttsYes": 31,
+      "bttsNo": 69,
       "homeWinBy2Plus": 5,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 42,
-      "expectedTotalGoals": 1.63,
+      "awayWinBy2Plus": 14,
+      "lowScoreDraw": 43,
+      "expectedTotalGoals": 1.57,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -24401,14 +24261,14 @@ window.MATCHES = [
       "status": "no-match",
       "modelOnly": [
         19,
-        44,
-        37
+        45,
+        36
       ],
       "market": null,
       "blended": [
         19,
-        44,
-        37
+        45,
+        36
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -24505,7 +24365,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -24736,9 +24596,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -24755,19 +24615,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Swing when you’re winning? Biggest leaps across Fifa’s football rankings | The Knowledge",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/biggest-leaps-across-fifa-football-rankings-the-knowledge",
-          "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -24993,9 +24844,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -25068,10 +24919,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.63,
-      "away": 1
+      "home": 0.62,
+      "away": 0.95
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "gha-pan-68",
       "date": "2026-06-18",
@@ -25404,7 +25255,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-17",
       "rawTime": "20:00 UTC-6",
       "homeName": "Uzbekistan",
@@ -25414,24 +25265,24 @@ window.MATCHES = [
     "modelVersionLabel": "第三版模型",
     "probabilities": [
       14,
-      45,
-      41
+      46,
+      40
     ],
-    "confidence": 65,
+    "confidence": 67,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-3。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "0-0",
-        "chance": 21
+        "chance": 23
       },
       {
         "score": "1-1",
-        "chance": 19
+        "chance": 20
       },
       {
         "score": "0-1",
-        "chance": 12
+        "chance": 13
       },
       {
         "score": "0-2",
@@ -25441,7 +25292,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 41,
+        "chance": 42,
         "examples": [
           "0-0",
           "1-1"
@@ -25469,7 +25320,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 74,
+        "chance": 75,
         "examples": [
           "0-0",
           "1-1",
@@ -25478,7 +25329,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 53,
+        "chance": 55,
         "examples": [
           "0-0",
           "1-1",
@@ -25487,7 +25338,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 41,
+        "chance": 42,
         "examples": [
           "0-0",
           "1-1"
@@ -25495,14 +25346,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 29,
-      "under25": 71,
-      "bttsYes": 41,
-      "bttsNo": 59,
+      "over25": 27,
+      "under25": 73,
+      "bttsYes": 39,
+      "bttsNo": 61,
       "homeWinBy2Plus": 4,
-      "awayWinBy2Plus": 22,
-      "lowScoreDraw": 41,
-      "expectedTotalGoals": 2.06,
+      "awayWinBy2Plus": 21,
+      "lowScoreDraw": 42,
+      "expectedTotalGoals": 1.99,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -25511,14 +25362,14 @@ window.MATCHES = [
       "status": "no-match",
       "modelOnly": [
         14,
-        35,
-        51
+        36,
+        50
       ],
       "market": null,
       "blended": [
         14,
-        45,
-        41
+        46,
+        40
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -26094,9 +25945,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -26169,10 +26020,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.63,
-      "away": 1.43
+      "home": 0.61,
+      "away": 1.37
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "uzb-col-62",
       "date": "2026-06-18",
@@ -26504,7 +26355,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-4",
       "homeName": "Czech Republic",
@@ -26513,11 +26364,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      40,
-      41,
-      19
+      36,
+      42,
+      22
     ],
-    "confidence": 62,
+    "confidence": 65,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -26527,14 +26378,14 @@ window.MATCHES = [
       },
       {
         "score": "1-1",
-        "chance": 17
+        "chance": 18
       },
       {
         "score": "1-0",
-        "chance": 15
+        "chance": 13
       },
       {
-        "score": "2-0",
+        "score": "0-1",
         "chance": 9
       }
     ],
@@ -26549,7 +26400,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 31,
+        "chance": 28,
         "examples": [
           "1-0",
           "2-0",
@@ -26558,7 +26409,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 16,
+        "chance": 18,
         "examples": [
           "0-1",
           "1-2",
@@ -26569,7 +26420,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 72,
+        "chance": 69,
         "examples": [
           "0-0",
           "1-1",
@@ -26578,7 +26429,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 55,
+        "chance": 58,
         "examples": [
           "0-0",
           "1-1",
@@ -26595,30 +26446,30 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 26,
-      "under25": 74,
-      "bttsYes": 37,
-      "bttsNo": 63,
-      "homeWinBy2Plus": 18,
-      "awayWinBy2Plus": 6,
+      "over25": 27,
+      "under25": 73,
+      "bttsYes": 39,
+      "bttsNo": 61,
+      "homeWinBy2Plus": 15,
+      "awayWinBy2Plus": 8,
       "lowScoreDraw": 38,
-      "expectedTotalGoals": 1.82,
+      "expectedTotalGoals": 1.87,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
-      "upsetRisk": "低"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        40,
-        41,
-        19
+        36,
+        42,
+        22
       ],
       "market": null,
       "blended": [
-        40,
-        41,
-        19
+        36,
+        42,
+        22
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -26715,7 +26566,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -26946,9 +26797,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -26965,19 +26816,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Janine van Wyk: ‘Our rooms were empty … no mattresses, no lightbulbs and not a drop of water’",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/janine-van-wyck-south-africa-wafcon-book-extract-moving-the-goalposts-newsletter",
-          "pubDate": "Tue, 17 Nov 2026 11:57:35 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -27203,9 +27045,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -27278,10 +27120,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.12,
-      "away": 0.71
+      "home": 1.07,
+      "away": 0.8
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "cze-rsa-3",
       "date": "2026-06-19",
@@ -27613,7 +27455,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-18",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -27622,52 +27464,52 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      60,
-      28,
+      46,
+      42,
       12
     ],
-    "confidence": 76,
+    "confidence": 66,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 4-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
-      {
-        "score": "2-0",
-        "chance": 13
-      },
-      {
-        "score": "1-1",
-        "chance": 13
-      },
       {
         "score": "1-0",
         "chance": 12
       },
       {
+        "score": "1-1",
+        "chance": 19
+      },
+      {
         "score": "0-0",
-        "chance": 10
+        "chance": 19
+      },
+      {
+        "score": "2-0",
+        "chance": 11
       }
     ],
     "scoreBands": [
       {
-        "label": "主队小胜",
-        "chance": 34,
-        "examples": [
-          "2-0",
-          "1-0",
-          "2-1"
-        ]
-      },
-      {
         "label": "低比分平局",
-        "chance": 24,
+        "chance": 37,
         "examples": [
           "1-1",
           "0-0"
         ]
       },
       {
+        "label": "主队小胜",
+        "chance": 29,
+        "examples": [
+          "1-0",
+          "2-0",
+          "2-1"
+        ]
+      },
+      {
         "label": "主队大胜",
-        "chance": 18,
+        "chance": 11,
         "examples": [
           "3-0",
           "4-0",
@@ -27678,63 +27520,62 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 65,
+        "chance": 73,
         "examples": [
           "1-1",
-          "2-0",
+          "0-0",
           "1-0"
         ]
       },
       {
-        "label": "主队胜出覆盖",
-        "chance": 60,
+        "label": "客队不败低比分",
+        "chance": 48,
         "examples": [
-          "2-0",
-          "1-0",
-          "2-1"
+          "1-1",
+          "0-0",
+          "0-1"
         ]
       },
       {
-        "label": "主队优势胜",
-        "chance": 39,
+        "label": "低比分平局",
+        "chance": 37,
         "examples": [
-          "2-0",
-          "3-0",
-          "3-1"
+          "1-1",
+          "0-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 46,
-      "under25": 54,
-      "bttsYes": 45,
-      "bttsNo": 55,
-      "homeWinBy2Plus": 37,
-      "awayWinBy2Plus": 4,
-      "lowScoreDraw": 24,
-      "expectedTotalGoals": 2.56,
-      "totalGoalsLean": "大小球均衡",
-      "bttsLean": "双方进球均衡",
+      "over25": 33,
+      "under25": 67,
+      "bttsYes": 43,
+      "bttsNo": 57,
+      "homeWinBy2Plus": 26,
+      "awayWinBy2Plus": 3,
+      "lowScoreDraw": 37,
+      "expectedTotalGoals": 2.23,
+      "totalGoalsLean": "小于2.5球",
+      "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        60,
-        28,
+        56,
+        32,
         12
       ],
       "market": null,
       "blended": [
-        60,
-        28,
+        46,
+        42,
         12
       ],
       "blendWeight": 0,
-      "drawGuardApplied": false,
-      "drawGuardReason": null,
+      "drawGuardApplied": true,
+      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
     },
     "motivation": {
       "phase": "group",
@@ -27825,7 +27666,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -28056,9 +27897,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -28075,25 +27916,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 2,
-      "articles": [
-        {
-          "title": "Portugal’s new No 7 Forbs channels Ronaldo for winner as Wales are denied",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/wales-portugal-nations-league-match-report",
-          "pubDate": "Tue, 17 Nov 2026 22:14:37 GMT"
-        },
-        {
-          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
-          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
-        }
-      ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -28316,9 +28142,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -28391,10 +28217,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.84,
-      "away": 0.72
+      "home": 1.59,
+      "away": 0.64
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "sui-bih-9",
       "date": "2026-06-19",
@@ -28726,7 +28552,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-18",
       "rawTime": "15:00 UTC-7",
       "homeName": "Canada",
@@ -28735,11 +28561,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      46,
-      44,
+      45,
+      45,
       10
     ],
-    "confidence": 64,
+    "confidence": 63,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 6-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -28749,11 +28575,11 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 24
+        "chance": 25
       },
       {
         "score": "1-1",
-        "chance": 17
+        "chance": 18
       },
       {
         "score": "2-0",
@@ -28763,7 +28589,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 41,
+        "chance": 42,
         "examples": [
           "0-0",
           "1-1"
@@ -28779,19 +28605,19 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队大胜",
-        "chance": 10,
+        "label": "客队小胜",
+        "chance": 9,
         "examples": [
-          "3-0",
-          "4-0",
-          "4-1"
+          "0-1",
+          "1-2",
+          "0-2"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 79,
+        "chance": 80,
         "examples": [
           "0-0",
           "1-1",
@@ -28800,7 +28626,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 50,
+        "chance": 51,
         "examples": [
           "0-0",
           "1-1",
@@ -28809,7 +28635,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 41,
+        "chance": 42,
         "examples": [
           "0-0",
           "1-1"
@@ -28817,14 +28643,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 26,
-      "under25": 74,
+      "over25": 24,
+      "under25": 76,
       "bttsYes": 34,
       "bttsNo": 66,
-      "homeWinBy2Plus": 25,
+      "homeWinBy2Plus": 24,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 41,
-      "expectedTotalGoals": 1.94,
+      "lowScoreDraw": 42,
+      "expectedTotalGoals": 1.89,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -28832,14 +28658,14 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        56,
-        34,
+        55,
+        35,
         10
       ],
       "market": null,
       "blended": [
-        46,
-        44,
+        45,
+        45,
         10
       ],
       "blendWeight": 0,
@@ -29416,9 +29242,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -29491,10 +29317,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.46,
-      "away": 0.48
+      "home": 1.4,
+      "away": 0.49
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "can-qat-10",
       "date": "2026-06-19",
@@ -29815,7 +29641,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-18",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -29824,21 +29650,21 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      37,
-      44,
-      19
+      36,
+      42,
+      22
     ],
-    "confidence": 66,
+    "confidence": 65,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 1-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 21
+        "chance": 20
       },
       {
         "score": "0-0",
-        "chance": 16
+        "chance": 15
       },
       {
         "score": "1-0",
@@ -29846,13 +29672,13 @@ window.MATCHES = [
       },
       {
         "score": "2-0",
-        "chance": 8
+        "chance": 7
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 37,
+        "chance": 35,
         "examples": [
           "1-1",
           "0-0"
@@ -29869,7 +29695,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 14,
+        "chance": 16,
         "examples": [
           "0-1",
           "1-2",
@@ -29880,7 +29706,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 64,
+        "chance": 62,
         "examples": [
           "1-1",
           "0-0",
@@ -29889,7 +29715,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 52,
+        "chance": 53,
         "examples": [
           "1-1",
           "0-0",
@@ -29898,7 +29724,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 37,
+        "chance": 35,
         "examples": [
           "1-1",
           "0-0"
@@ -29910,32 +29736,32 @@ window.MATCHES = [
       "under25": 62,
       "bttsYes": 51,
       "bttsNo": 49,
-      "homeWinBy2Plus": 20,
-      "awayWinBy2Plus": 7,
-      "lowScoreDraw": 37,
-      "expectedTotalGoals": 2.42,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 8,
+      "lowScoreDraw": 35,
+      "expectedTotalGoals": 2.37,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
-      "upsetRisk": "低"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        47,
-        34,
-        19
+        36,
+        42,
+        22
       ],
       "market": null,
       "blended": [
-        37,
-        44,
-        19
+        36,
+        42,
+        22
       ],
       "blendWeight": 0,
-      "drawGuardApplied": true,
-      "drawGuardReason": "低总进球 + 平局概率接近热门方向，模型将平局作为主方向保护。",
+      "drawGuardApplied": false,
+      "drawGuardReason": null,
       "deltas": null,
-      "summary": "暂无可用市场概率，模型未进行赔率校准。已触发低进球僵局保护。"
+      "summary": "暂无可用市场概率，模型未进行赔率校准。"
     },
     "motivation": {
       "phase": "group",
@@ -30026,7 +29852,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -30257,9 +30083,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -30276,19 +30102,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-          "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -30416,9 +30233,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -30491,10 +30308,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.53,
-      "away": 0.88
+      "home": 1.42,
+      "away": 0.95
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "mex-kor-4",
       "date": "2026-06-19",
@@ -30827,7 +30644,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-19",
       "rawTime": "12:00 UTC-7",
       "homeName": "USA",
@@ -30836,9 +30653,9 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      36,
-      41,
-      23
+      34,
+      40,
+      26
     ],
     "confidence": 64,
     "tag": "已完场",
@@ -30846,11 +30663,11 @@ window.MATCHES = [
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 20
+        "chance": 19
       },
       {
         "score": "0-0",
-        "chance": 13
+        "chance": 14
       },
       {
         "score": "1-0",
@@ -30881,10 +30698,10 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 16,
+        "chance": 18,
         "examples": [
-          "1-2",
           "0-1",
+          "1-2",
           "0-2"
         ]
       }
@@ -30901,32 +30718,31 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 50,
+        "chance": 53,
         "examples": [
           "1-1",
           "0-0",
-          "1-2"
+          "0-1"
         ]
       },
       {
-        "label": "主队胜出覆盖",
-        "chance": 36,
+        "label": "低比分平局",
+        "chance": 33,
         "examples": [
-          "1-0",
-          "2-1",
-          "2-0"
+          "1-1",
+          "0-0"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 43,
-      "under25": 57,
-      "bttsYes": 55,
-      "bttsNo": 45,
-      "homeWinBy2Plus": 19,
-      "awayWinBy2Plus": 9,
+      "over25": 41,
+      "under25": 59,
+      "bttsYes": 53,
+      "bttsNo": 47,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 11,
       "lowScoreDraw": 33,
-      "expectedTotalGoals": 2.55,
+      "expectedTotalGoals": 2.44,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
@@ -30934,15 +30750,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        36,
-        41,
-        23
+        34,
+        40,
+        26
       ],
       "market": null,
       "blended": [
-        36,
-        41,
-        23
+        34,
+        40,
+        26
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -31039,7 +30855,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -31292,14 +31108,8 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
-        {
-          "title": "Football Daily | From Cincinnati to Manchester: Pochettino in a hurry to paint town red",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/cincinnati-manchester-united-pochettino-football-daily-newsletter",
-          "pubDate": "Wed, 18 Nov 2026 15:16:44 GMT"
-        },
         {
           "title": "Sign up for the Football Daily newsletter: our free football email",
           "source": "www.theguardian.com",
@@ -31319,7 +31129,7 @@ window.MATCHES = [
           "pubDate": "Mon, 15 May 2017 11:00:43 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -31555,9 +31365,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -31630,10 +31440,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.5,
-      "away": 1.05
+      "home": 1.37,
+      "away": 1.08
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "usa-aus-21",
       "date": "2026-06-20",
@@ -31966,7 +31776,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-19",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -31975,35 +31785,35 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      13,
-      40,
-      47
+      14,
+      38,
+      48
     ],
-    "confidence": 68,
+    "confidence": 70,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 0-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
-        "score": "0-1",
-        "chance": 11
+        "score": "0-2",
+        "chance": 10
       },
       {
         "score": "1-1",
-        "chance": 19
+        "chance": 18
       },
       {
         "score": "0-0",
-        "chance": 16
+        "chance": 13
       },
       {
-        "score": "0-2",
-        "chance": 10
+        "score": "0-1",
+        "chance": 9
       }
     ],
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 35,
+        "chance": 31,
         "examples": [
           "1-1",
           "0-0"
@@ -32011,16 +31821,16 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 28,
+        "chance": 26,
         "examples": [
-          "0-1",
           "0-2",
+          "0-1",
           "1-2"
         ]
       },
       {
         "label": "客队大胜",
-        "chance": 12,
+        "chance": 14,
         "examples": [
           "0-3",
           "0-4",
@@ -32031,41 +31841,41 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 69,
+        "chance": 64,
         "examples": [
           "1-1",
           "0-0",
-          "0-1"
+          "0-2"
         ]
       },
       {
         "label": "主队不败低比分",
-        "chance": 45,
+        "chance": 42,
         "examples": [
           "1-1",
           "0-0",
-          "1-0"
+          "2-1"
         ]
       },
       {
         "label": "客队胜出覆盖",
-        "chance": 47,
+        "chance": 48,
         "examples": [
-          "0-1",
           "0-2",
+          "0-1",
           "1-2"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 38,
-      "under25": 62,
-      "bttsYes": 46,
-      "bttsNo": 54,
-      "homeWinBy2Plus": 4,
-      "awayWinBy2Plus": 28,
-      "lowScoreDraw": 35,
-      "expectedTotalGoals": 2.42,
+      "over25": 44,
+      "under25": 56,
+      "bttsYes": 51,
+      "bttsNo": 49,
+      "homeWinBy2Plus": 5,
+      "awayWinBy2Plus": 29,
+      "lowScoreDraw": 31,
+      "expectedTotalGoals": 2.64,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -32073,15 +31883,15 @@ window.MATCHES = [
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        13,
-        30,
-        57
+        14,
+        28,
+        58
       ],
       "market": null,
       "blended": [
-        13,
-        40,
-        47
+        14,
+        38,
+        48
       ],
       "blendWeight": 0,
       "drawGuardApplied": true,
@@ -32178,7 +31988,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -32431,22 +32241,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
-          "title": "Swing when you’re winning? Biggest leaps across Fifa’s football rankings | The Knowledge",
+          "title": "Scotland smashed by the Swiss and Mauricio Pochettino takes charge | Football Weekly – video",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/biggest-leaps-across-fifa-football-rankings-the-knowledge",
-          "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT"
-        },
-        {
-          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
-          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
+          "link": "https://www.theguardian.com/football/video/2026/nov/19/scotland-smashed-by-the-swiss-and-mauricio-pochettino-takes-charge-football-weekly-video",
+          "pubDate": "Thu, 19 Nov 2026 13:18:36 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -32669,9 +32473,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -32744,10 +32548,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 0.7,
-      "away": 1.71
+      "home": 0.8,
+      "away": 1.84
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "sco-mar-15",
       "date": "2026-06-20",
@@ -33079,7 +32883,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:30 UTC-4",
       "homeName": "Brazil",
@@ -33088,11 +32892,11 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      66,
-      25,
+      65,
+      26,
       9
     ],
-    "confidence": 75,
+    "confidence": 76,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 3-0。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
@@ -33102,7 +32906,7 @@ window.MATCHES = [
       },
       {
         "score": "1-0",
-        "chance": 13
+        "chance": 14
       },
       {
         "score": "1-1",
@@ -33110,13 +32914,13 @@ window.MATCHES = [
       },
       {
         "score": "0-0",
-        "chance": 10
+        "chance": 11
       }
     ],
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 36,
+        "chance": 37,
         "examples": [
           "2-0",
           "1-0",
@@ -33125,7 +32929,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 22,
+        "chance": 23,
         "examples": [
           "1-1",
           "0-0"
@@ -33133,7 +32937,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 21,
+        "chance": 20,
         "examples": [
           "3-0",
           "4-0",
@@ -33144,7 +32948,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 67,
+        "chance": 68,
         "examples": [
           "2-0",
           "1-0",
@@ -33153,7 +32957,7 @@ window.MATCHES = [
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 66,
+        "chance": 65,
         "examples": [
           "2-0",
           "1-0",
@@ -33162,7 +32966,7 @@ window.MATCHES = [
       },
       {
         "label": "主队优势胜",
-        "chance": 44,
+        "chance": 43,
         "examples": [
           "2-0",
           "3-0",
@@ -33171,29 +32975,29 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 47,
-      "under25": 53,
-      "bttsYes": 42,
-      "bttsNo": 58,
-      "homeWinBy2Plus": 42,
-      "awayWinBy2Plus": 3,
-      "lowScoreDraw": 22,
-      "expectedTotalGoals": 2.59,
-      "totalGoalsLean": "大小球均衡",
+      "over25": 45,
+      "under25": 55,
+      "bttsYes": 41,
+      "bttsNo": 59,
+      "homeWinBy2Plus": 41,
+      "awayWinBy2Plus": 2,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 2.5,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        66,
-        25,
+        65,
+        26,
         9
       ],
       "market": null,
       "blended": [
-        66,
-        25,
+        65,
+        26,
         9
       ],
       "blendWeight": 0,
@@ -33280,10 +33084,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -33291,7 +33095,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -33522,16 +33326,16 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "goalLift": 0.11,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -33541,25 +33345,10 @@ window.MATCHES = [
       "note": "已连接赔率接口，但本场暂未匹配到可用赔率。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 2,
-      "articles": [
-        {
-          "title": "Football Daily | From Cincinnati to Manchester: Pochettino in a hurry to paint town red",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/cincinnati-manchester-united-pochettino-football-daily-newsletter",
-          "pubDate": "Wed, 18 Nov 2026 15:16:44 GMT"
-        },
-        {
-          "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-          "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT"
-        }
-      ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -33575,9 +33364,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "巴西",
@@ -33770,63 +33559,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-              "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT",
-              "description": "Win over El Salvador would qualify US for Brazil 2027 Naomi Girma misses squad due to injury Sam Coffey returns after injury absence In the two years since the Paris Olympics, Emma Hayes has thoroughly tested fresh faces and new combinations, gathering a considerable amount of data about the US women’s national team. It’s been a thorough process, with 33 players earning their first caps since Hayes assumed the post, to bring her roster of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Continue reading...",
-              "bodyText": "er of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Hayes’s 23 selections for the tournament suggests what her preferred core may look like for the remainder of the cycle. Only four field players on her roster arrive with fewer than a dozen caps: midfielder Croix Bethune (seven), who sent the Kansas City Current to the NWSL championship last weekend with a brilliant curling free-kick, plus defenders Kennedy Wesley (nine), Kate Del Fava (one) and Evelyn Shores, who becomes only the second uncapped USWNT player selected for a World Cup qualifier (following Taylor Flint, née Kornieck, 2022). Eight players from Hayes’s Olympic gold medal squad remain in the fold, including the star attacking trio of Trinity Rodman, Mallory Swanson and Sophia Wilson. Sam Coffey returns after an injury prevented her from joining the team in the previous window, while Naomi Girma misses out due to persistent muscle issues. Claudia Dickey, Mandy McGlynn and Phallon Tullis-Joyce will continue to vie to start in goal, continuing their open competition following Alyssa Naeher’s retirement. The average age of this roster is 26.1, with only two players (Lindsey Heaps and Rose Lavelle) at least 30. The Concacaf W Championship doubles as qualifying for both the 2027 Women’s World Cup and the 2028 Los Angeles Olympics. All four semi-finalists will be guaranteed a spot in the World Cup field, and the top three finishers will also join the Olympic field. (The US have qualified for the Olympics automatically as hosts). The losing teams in the quarter-finals will compete against each other for Concacaf’s two spots in the inter-confederation playoffs, which are scheduled for February in Morocco. This story will be updated with remarks from Hayes’s presser on Wednesday morning. US women’s national team squad Goalkeepers: Claudia Dickey (Seattle Reign), Mandy McGlynn (Ut",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-              "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT",
-              "description": "Win over El Salvador would qualify US for Brazil 2027 Naomi Girma misses squad due to injury Sam Coffey returns after injury absence In the two years since the Paris Olympics, Emma Hayes has thoroughly tested fresh faces and new combinations, gathering a considerable amount of data about the US women’s national team. It’s been a thorough process, with 33 players earning their first caps since Hayes assumed the post, to bring her roster of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Continue reading...",
-              "bodyText": "er of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Hayes’s 23 selections for the tournament suggests what her preferred core may look like for the remainder of the cycle. Only four field players on her roster arrive with fewer than a dozen caps: midfielder Croix Bethune (seven), who sent the Kansas City Current to the NWSL championship last weekend with a brilliant curling free-kick, plus defenders Kennedy Wesley (nine), Kate Del Fava (one) and Evelyn Shores, who becomes only the second uncapped USWNT player selected for a World Cup qualifier (following Taylor Flint, née Kornieck, 2022). Eight players from Hayes’s Olympic gold medal squad remain in the fold, including the star attacking trio of Trinity Rodman, Mallory Swanson and Sophia Wilson. Sam Coffey returns after an injury prevented her from joining the team in the previous window, while Naomi Girma misses out due to persistent muscle issues. Claudia Dickey, Mandy McGlynn and Phallon Tullis-Joyce will continue to vie to start in goal, continuing their open competition following Alyssa Naeher’s retirement. The average age of this roster is 26.1, with only two players (Lindsey Heaps and Rose Lavelle) at least 30. The Concacaf W Championship doubles as qualifying for both the 2027 Women’s World Cup and the 2028 Los Angeles Olympics. All four semi-finalists will be guaranteed a spot in the World Cup field, and the top three finishers will also join the Olympic field. (The US have qualified for the Olympics automatically as hosts). The losing teams in the quarter-finals will compete against each other for Concacaf’s two spots in the inter-confederation playoffs, which are scheduled for February in Morocco. This story will be updated with remarks from Hayes’s presser on Wednesday morning. US women’s national team squad Goalkeepers: Claudia Dickey (Seattle Reign), Mandy McGlynn (Ut",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Football Daily | From Cincinnati to Manchester: Pochettino in a hurry to paint town red",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/18/cincinnati-manchester-united-pochettino-football-daily-newsletter",
-              "pubDate": "Wed, 18 Nov 2026 15:16:44 GMT",
-              "description": "Sign up now! Sign up now! Sign up now? Sign up now! With his team mired in the relegation zone and a massive match at Liverpool this weekend, Mauricio Pochettino has been understandably busy since being appointed head coach of Manchester United. Unfortunately for Old Trafford regulars, the small print of his contract meant the Argentinian was tied up masterminding victory for USA USA USA in the second leg of their Concacaf Nations League quarter-final against Haiti when he ought to have been in Carrington moving red magnets around a tactics board in front of Marcus Rashford, Kobbie Mainoo and Harry Maguire. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
-              "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-              "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT",
-              "description": "Win over El Salvador would qualify US for Brazil 2027 Naomi Girma misses squad due to injury Sam Coffey returns after injury absence In the two years since the Paris Olympics, Emma Hayes has thoroughly tested fresh faces and new combinations, gathering a considerable amount of data about the US women’s national team. It’s been a thorough process, with 33 players earning their first caps since Hayes assumed the post, to bring her roster of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Continue reading...",
-              "bodyText": "er of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Hayes’s 23 selections for the tournament suggests what her preferred core may look like for the remainder of the cycle. Only four field players on her roster arrive with fewer than a dozen caps: midfielder Croix Bethune (seven), who sent the Kansas City Current to the NWSL championship last weekend with a brilliant curling free-kick, plus defenders Kennedy Wesley (nine), Kate Del Fava (one) and Evelyn Shores, who becomes only the second uncapped USWNT player selected for a World Cup qualifier (following Taylor Flint, née Kornieck, 2022). Eight players from Hayes’s Olympic gold medal squad remain in the fold, including the star attacking trio of Trinity Rodman, Mallory Swanson and Sophia Wilson. Sam Coffey returns after an injury prevented her from joining the team in the previous window, while Naomi Girma misses out due to persistent muscle issues. Claudia Dickey, Mandy McGlynn and Phallon Tullis-Joyce will continue to vie to start in goal, continuing their open competition following Alyssa Naeher’s retirement. The average age of this roster is 26.1, with only two players (Lindsey Heaps and Rose Lavelle) at least 30. The Concacaf W Championship doubles as qualifying for both the 2027 Women’s World Cup and the 2028 Los Angeles Olympics. All four semi-finalists will be guaranteed a spot in the World Cup field, and the top three finishers will also join the Olympic field. (The US have qualified for the Olympics automatically as hosts). The losing teams in the quarter-finals will compete against each other for Concacaf’s two spots in the inter-confederation playoffs, which are scheduled for February in Morocco. This story will be updated with remarks from Hayes’s presser on Wednesday morning. US women’s national team squad Goalkeepers: Claudia Dickey (Seattle Reign), Mandy McGlynn (Ut",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -33872,7 +33622,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -33899,10 +33649,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.97,
-      "away": 0.62
+      "home": 1.9,
+      "away": 0.6
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "bra-hai-16",
       "date": "2026-06-20",
@@ -34223,7 +33973,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-19",
       "rawTime": "20:00 UTC-7",
       "homeName": "Turkey",
@@ -34232,17 +33982,17 @@ window.MATCHES = [
     "modelVersion": "v3",
     "modelVersionLabel": "第三版模型",
     "probabilities": [
-      35,
-      44,
-      21
+      36,
+      42,
+      22
     ],
-    "confidence": 66,
+    "confidence": 65,
     "tag": "已完场",
     "summary": "外部数据源显示本场已完场，最终比分 0-1。模型保留赛前结构化判断，用于复盘双方实力、比赛动机、节奏和比分分布是否与结果接近。",
     "scoreOdds": [
       {
         "score": "1-1",
-        "chance": 20
+        "chance": 19
       },
       {
         "score": "0-0",
@@ -34250,7 +34000,7 @@ window.MATCHES = [
       },
       {
         "score": "1-0",
-        "chance": 10
+        "chance": 11
       },
       {
         "score": "2-0",
@@ -34260,7 +34010,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "低比分平局",
-        "chance": 38,
+        "chance": 37,
         "examples": [
           "1-1",
           "0-0"
@@ -34268,7 +34018,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 24,
+        "chance": 25,
         "examples": [
           "1-0",
           "2-0",
@@ -34277,7 +34027,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 16,
+        "chance": 17,
         "examples": [
           "0-1",
           "1-2",
@@ -34288,7 +34038,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 66,
+        "chance": 65,
         "examples": [
           "1-1",
           "0-0",
@@ -34297,7 +34047,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 56,
+        "chance": 55,
         "examples": [
           "1-1",
           "0-0",
@@ -34306,7 +34056,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 38,
+        "chance": 37,
         "examples": [
           "1-1",
           "0-0"
@@ -34316,28 +34066,28 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 33,
       "under25": 67,
-      "bttsYes": 47,
-      "bttsNo": 53,
+      "bttsYes": 46,
+      "bttsNo": 54,
       "homeWinBy2Plus": 17,
       "awayWinBy2Plus": 8,
-      "lowScoreDraw": 38,
-      "expectedTotalGoals": 2.19,
+      "lowScoreDraw": 37,
+      "expectedTotalGoals": 2.14,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
-      "upsetRisk": "低"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "no-match",
       "modelOnly": [
-        35,
-        44,
-        21
+        36,
+        42,
+        22
       ],
       "market": null,
       "blended": [
-        35,
-        44,
-        21
+        36,
+        42,
+        22
       ],
       "blendWeight": 0,
       "drawGuardApplied": false,
@@ -34815,9 +34565,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -34890,10 +34640,10 @@ window.MATCHES = [
       "已完场比赛可用于校验模型偏差，后续刷新会继续保留真实比分。"
     ],
     "expectedGoals": {
-      "home": 1.32,
-      "away": 0.88
+      "home": 1.27,
+      "away": 0.87
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "matchAutopsy": {
       "matchId": "tur-par-22",
       "date": "2026-06-20",
@@ -35225,7 +34975,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-20",
       "rawTime": "12:00 UTC-5",
       "homeName": "Netherlands",
@@ -35262,10 +35012,10 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 26,
+        "chance": 28,
         "examples": [
-          "2-1",
           "2-0",
+          "2-1",
           "1-0"
         ]
       },
@@ -35279,52 +35029,52 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 14,
+        "chance": 15,
         "examples": [
           "3-0",
-          "4-1",
-          "4-0"
+          "4-0",
+          "4-1"
         ]
       }
     ],
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 54,
+        "chance": 56,
         "examples": [
           "1-1",
-          "2-1",
-          "2-0"
+          "2-0",
+          "2-1"
         ]
       },
       {
         "label": "主队胜出覆盖",
-        "chance": 52,
+        "chance": 54,
         "examples": [
-          "2-1",
           "2-0",
+          "2-1",
           "1-0"
         ]
       },
       {
         "label": "主队优势胜",
-        "chance": 35,
+        "chance": 36,
         "examples": [
           "2-0",
-          "3-1",
-          "3-0"
+          "3-0",
+          "3-1"
         ]
       }
     ],
     "expandedMarkets": {
-      "over25": 54,
-      "under25": 46,
-      "bttsYes": 57,
-      "bttsNo": 43,
-      "homeWinBy2Plus": 31,
-      "awayWinBy2Plus": 8,
+      "over25": 53,
+      "under25": 47,
+      "bttsYes": 55,
+      "bttsNo": 45,
+      "homeWinBy2Plus": 32,
+      "awayWinBy2Plus": 6,
       "lowScoreDraw": 22,
-      "expectedTotalGoals": 2.91,
+      "expectedTotalGoals": 2.85,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -35938,9 +35688,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -36016,7 +35766,7 @@ window.MATCHES = [
       "home": 2.2,
       "away": 1.64
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -36345,7 +36095,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-20",
       "rawTime": "16:00 UTC-4",
       "homeName": "Germany",
@@ -36382,7 +36132,7 @@ window.MATCHES = [
     "scoreBands": [
       {
         "label": "主队小胜",
-        "chance": 22,
+        "chance": 23,
         "examples": [
           "2-1",
           "2-0",
@@ -36391,7 +36141,7 @@ window.MATCHES = [
       },
       {
         "label": "低比分平局",
-        "chance": 18,
+        "chance": 17,
         "examples": [
           "1-1",
           "0-0"
@@ -36399,7 +36149,7 @@ window.MATCHES = [
       },
       {
         "label": "主队大胜",
-        "chance": 16,
+        "chance": 17,
         "examples": [
           "3-0",
           "4-1",
@@ -36410,7 +36160,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 46,
+        "chance": 45,
         "examples": [
           "1-1",
           "2-1",
@@ -36418,33 +36168,33 @@ window.MATCHES = [
         ]
       },
       {
-        "label": "主队胜出覆盖",
-        "chance": 52,
-        "examples": [
-          "2-1",
-          "2-0",
-          "3-1"
-        ]
-      },
-      {
         "label": "主队优势胜",
-        "chance": 37,
+        "chance": 39,
         "examples": [
           "2-0",
           "3-1",
           "3-0"
         ]
+      },
+      {
+        "label": "主队胜出覆盖",
+        "chance": 54,
+        "examples": [
+          "2-1",
+          "2-0",
+          "3-1"
+        ]
       }
     ],
     "expandedMarkets": {
-      "over25": 63,
-      "under25": 37,
+      "over25": 64,
+      "under25": 36,
       "bttsYes": 64,
       "bttsNo": 36,
-      "homeWinBy2Plus": 32,
+      "homeWinBy2Plus": 34,
       "awayWinBy2Plus": 9,
-      "lowScoreDraw": 18,
-      "expectedTotalGoals": 3.31,
+      "lowScoreDraw": 17,
+      "expectedTotalGoals": 3.34,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -36963,9 +36713,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -37041,7 +36791,7 @@ window.MATCHES = [
       "home": 2.92,
       "away": 1.33
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -37370,7 +37120,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-20",
       "rawTime": "19:00 UTC-5",
       "homeName": "Ecuador",
@@ -37415,7 +37165,7 @@ window.MATCHES = [
       },
       {
         "label": "主队小胜",
-        "chance": 34,
+        "chance": 33,
         "examples": [
           "1-0",
           "2-0",
@@ -37424,7 +37174,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 8,
+        "chance": 10,
         "examples": [
           "0-1",
           "1-2",
@@ -37435,7 +37185,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "主队不败低比分",
-        "chance": 84,
+        "chance": 83,
         "examples": [
           "0-0",
           "1-0",
@@ -37444,7 +37194,7 @@ window.MATCHES = [
       },
       {
         "label": "客队不败低比分",
-        "chance": 54,
+        "chance": 56,
         "examples": [
           "0-0",
           "1-1",
@@ -37461,14 +37211,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 19,
-      "under25": 81,
-      "bttsYes": 28,
-      "bttsNo": 72,
-      "homeWinBy2Plus": 22,
+      "over25": 18,
+      "under25": 82,
+      "bttsYes": 27,
+      "bttsNo": 73,
+      "homeWinBy2Plus": 19,
       "awayWinBy2Plus": 2,
       "lowScoreDraw": 45,
-      "expectedTotalGoals": 1.68,
+      "expectedTotalGoals": 1.58,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -37589,7 +37339,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -37820,9 +37570,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -37853,10 +37603,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 1.13 / 平 9.14 / 客 21.85。市场倾向 厄瓜多尔。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Eight-year ban for player who threw rock that hit assistant referee",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cqlyk9yzkz2no?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 19 Nov 2026 10:20:58 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -37987,9 +37746,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -38065,7 +37824,7 @@ window.MATCHES = [
       "home": 1.75,
       "away": 0.55
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -38405,7 +38164,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-20",
       "rawTime": "22:00 UTC-6",
       "homeName": "Tunisia",
@@ -38450,7 +38209,7 @@ window.MATCHES = [
       },
       {
         "label": "客队小胜",
-        "chance": 29,
+        "chance": 30,
         "examples": [
           "0-1",
           "0-2",
@@ -38470,7 +38229,7 @@ window.MATCHES = [
     "scoreScenarios": [
       {
         "label": "客队不败低比分",
-        "chance": 77,
+        "chance": 79,
         "examples": [
           "0-0",
           "1-1",
@@ -38479,7 +38238,7 @@ window.MATCHES = [
       },
       {
         "label": "主队不败低比分",
-        "chance": 56,
+        "chance": 55,
         "examples": [
           "0-0",
           "1-1",
@@ -38496,14 +38255,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 24,
-      "under25": 76,
-      "bttsYes": 36,
-      "bttsNo": 64,
+      "over25": 23,
+      "under25": 77,
+      "bttsYes": 34,
+      "bttsNo": 66,
       "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 20,
+      "awayWinBy2Plus": 21,
       "lowScoreDraw": 44,
-      "expectedTotalGoals": 1.87,
+      "expectedTotalGoals": 1.82,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -39114,9 +38873,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -39192,7 +38951,7 @@ window.MATCHES = [
       "home": 0.59,
       "away": 1.87
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -39532,7 +39291,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-4",
       "homeName": "Spain",
@@ -39624,14 +39383,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 40,
-      "under25": 60,
-      "bttsYes": 37,
-      "bttsNo": 63,
-      "homeWinBy2Plus": 38,
+      "over25": 34,
+      "under25": 66,
+      "bttsYes": 34,
+      "bttsNo": 66,
+      "homeWinBy2Plus": 34,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 25,
-      "expectedTotalGoals": 2.31,
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.1,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -40023,10 +39782,10 @@ window.MATCHES = [
       "articleCount": 1,
       "articles": [
         {
-          "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
+          "title": "Inside women’s football’s difficult rise in Syria: ‘A joy that everyone in the country needed’",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-          "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/19/syria-womens-football",
+          "pubDate": "Thu, 19 Nov 2026 11:00:26 GMT"
         }
       ],
       "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -40255,9 +40014,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -40333,7 +40092,7 @@ window.MATCHES = [
       "home": 1.88,
       "away": 0.59
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -40673,7 +40432,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-21",
       "rawTime": "12:00 UTC-7",
       "homeName": "Belgium",
@@ -40765,16 +40524,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 56,
-      "under25": 44,
-      "bttsYes": 57,
-      "bttsNo": 43,
+      "over25": 53,
+      "under25": 47,
+      "bttsYes": 54,
+      "bttsNo": 46,
       "homeWinBy2Plus": 34,
-      "awayWinBy2Plus": 7,
-      "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.97,
-      "totalGoalsLean": "大于2.5球",
-      "bttsLean": "双方进球",
+      "awayWinBy2Plus": 6,
+      "lowScoreDraw": 22,
+      "expectedTotalGoals": 2.83,
+      "totalGoalsLean": "大小球均衡",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
     "marketCalibration": {
@@ -40893,7 +40652,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -41124,9 +40883,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -41158,19 +40917,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，49 家公司均值：主 1.49 / 平 4.53 / 客 7.66。市场倾向 比利时。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
-          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -41393,9 +41143,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -41471,7 +41221,7 @@ window.MATCHES = [
       "home": 2.01,
       "away": 1.39
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -41800,7 +41550,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-4",
       "homeName": "Uruguay",
@@ -41892,14 +41642,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 18,
-      "under25": 82,
-      "bttsYes": 30,
-      "bttsNo": 70,
-      "homeWinBy2Plus": 17,
+      "over25": 19,
+      "under25": 81,
+      "bttsYes": 31,
+      "bttsNo": 69,
+      "homeWinBy2Plus": 18,
       "awayWinBy2Plus": 3,
       "lowScoreDraw": 46,
-      "expectedTotalGoals": 1.59,
+      "expectedTotalGoals": 1.65,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -42020,7 +41770,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -42251,9 +42001,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -42285,19 +42035,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，49 家公司均值：主 1.51 / 平 4.1 / 客 8.36。市场倾向 乌拉圭。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Swing when you’re winning? Biggest leaps across Fifa’s football rankings | The Knowledge",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/biggest-leaps-across-fifa-football-rankings-the-knowledge",
-          "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -42425,9 +42166,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -42503,7 +42244,7 @@ window.MATCHES = [
       "home": 1.61,
       "away": 0.51
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -42843,7 +42584,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-21",
       "rawTime": "18:00 UTC-7",
       "homeName": "New Zealand",
@@ -42935,14 +42676,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 33,
-      "under25": 67,
-      "bttsYes": 34,
-      "bttsNo": 66,
+      "over25": 39,
+      "under25": 61,
+      "bttsYes": 37,
+      "bttsNo": 63,
       "homeWinBy2Plus": 2,
-      "awayWinBy2Plus": 33,
-      "lowScoreDraw": 30,
-      "expectedTotalGoals": 2.07,
+      "awayWinBy2Plus": 37,
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 2.28,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -43557,9 +43298,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -43635,7 +43376,7 @@ window.MATCHES = [
       "home": 0.62,
       "away": 1.95
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -43975,7 +43716,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-22",
       "rawTime": "12:00 UTC-5",
       "homeName": "Argentina",
@@ -44070,12 +43811,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 61,
       "under25": 39,
-      "bttsYes": 64,
-      "bttsNo": 36,
-      "homeWinBy2Plus": 28,
-      "awayWinBy2Plus": 11,
+      "bttsYes": 63,
+      "bttsNo": 37,
+      "homeWinBy2Plus": 30,
+      "awayWinBy2Plus": 10,
       "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.21,
+      "expectedTotalGoals": 3.19,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -44196,7 +43937,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -44427,9 +44168,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -44461,25 +44202,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 1.45 / 平 4.37 / 客 7.72。市场倾向 阿根廷。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 2,
-      "articles": [
-        {
-          "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
-          "pubDate": "Tue, 17 Nov 2026 15:00:16 GMT"
-        },
-        {
-          "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-          "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
-        }
-      ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -44702,9 +44428,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -44780,7 +44506,7 @@ window.MATCHES = [
       "home": 2.61,
       "away": 1.64
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -45121,7 +44847,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-22",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -45214,14 +44940,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 40,
-      "under25": 60,
+      "over25": 41,
+      "under25": 59,
       "bttsYes": 38,
       "bttsNo": 62,
-      "homeWinBy2Plus": 38,
+      "homeWinBy2Plus": 39,
       "awayWinBy2Plus": 2,
       "lowScoreDraw": 25,
-      "expectedTotalGoals": 2.34,
+      "expectedTotalGoals": 2.37,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -45836,9 +45562,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -45914,7 +45640,7 @@ window.MATCHES = [
       "home": 2.6,
       "away": 0.82
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -46254,7 +45980,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-4",
       "homeName": "Norway",
@@ -46346,17 +46072,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 48,
-      "under25": 52,
-      "bttsYes": 60,
-      "bttsNo": 40,
+      "over25": 52,
+      "under25": 48,
+      "bttsYes": 63,
+      "bttsNo": 37,
       "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 30,
-      "expectedTotalGoals": 2.77,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 28,
+      "expectedTotalGoals": 2.93,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -46463,10 +46189,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
+        "homeScore": 48,
         "awayScore": 50,
-        "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "contribution": -0.12,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
       },
       {
         "name": "赔率市场",
@@ -46474,7 +46200,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -46705,16 +46431,16 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
+        "homeScore": 48,
         "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "goalLift": -0.03,
+        "confidenceDelta": -1,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
       }
     },
     "marketSignals": {
@@ -46739,10 +46465,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 2.26 / 平 3.38 / 客 3.22。市场倾向 挪威。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Five return for Wales' World Cup play-off final",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 19 Nov 2026 13:40:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -46755,9 +46490,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-          "source": "squad-projection",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "挪威",
@@ -46950,14 +46685,34 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Five return for Wales' World Cup play-off final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Thu, 19 Nov 2026 13:40:43 GMT",
+              "description": "Ceri Holland is in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury.",
+              "bodyText": "Wales v Norway: Ceri Holland in squad for Women's World Cup play-off final - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs Women's Football Scores & Fixtures Table Top Scorers WSL Fan Chat Five return for Wales' World Cup play-off final Image source, FAW Image caption, Ceri Holland has not played for Liverpool since mid-September By Gareth Vincent BBC Sport Wales Published 19 November 2026, 10:00 GMT Updated 2 hours ago Ceri Holland has been named in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury. Olivia Clark, Hayley Ladd, Rhiannon Roberts and Ella Powell are also included after fitness issues, but Ffion Morgan, Laura Hughes and Scarlett Hill are among those who miss out with injuries. The versatile Holland, arguably Wales' most influential player, has been out with a muscle problem, though she is thought to be close to returning to act",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Five return for Wales' World Cup play-off final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Thu, 19 Nov 2026 13:40:43 GMT",
+              "description": "Ceri Holland is in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury.",
+              "bodyText": "Wales v Norway: Ceri Holland in squad for Women's World Cup play-off final - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs Women's Football Scores & Fixtures Table Top Scorers WSL Fan Chat Five return for Wales' World Cup play-off final Image source, FAW Image caption, Ceri Holland has not played for Liverpool since mid-September By Gareth Vincent BBC Sport Wales Published 19 November 2026, 10:00 GMT Updated 2 hours ago Ceri Holland has been named in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury. Olivia Clark, Hayley Ladd, Rhiannon Roberts and Ella Powell are also included after fitness issues, but Ffion Morgan, Laura Hughes and Scarlett Hill are among those who miss out with injuries. The versatile Holland, arguably Wales' most influential player, has been out with a muscle problem, though she is thought to be close to returning to act",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
@@ -46965,9 +46720,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -47013,7 +46768,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "squad-projection",
+            "source": "public-news-unparsed",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -47043,7 +46798,7 @@ window.MATCHES = [
       "home": 1.75,
       "away": 1.91
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -47384,7 +47139,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-22",
       "rawTime": "20:00 UTC-7",
       "homeName": "Jordan",
@@ -47476,14 +47231,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 27,
-      "under25": 73,
-      "bttsYes": 34,
-      "bttsNo": 66,
+      "over25": 34,
+      "under25": 66,
+      "bttsYes": 35,
+      "bttsNo": 65,
       "homeWinBy2Plus": 2,
-      "awayWinBy2Plus": 26,
-      "lowScoreDraw": 40,
-      "expectedTotalGoals": 1.98,
+      "awayWinBy2Plus": 34,
+      "lowScoreDraw": 28,
+      "expectedTotalGoals": 2.11,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -47875,10 +47630,10 @@ window.MATCHES = [
       "articleCount": 1,
       "articles": [
         {
-          "title": "Janine van Wyk: ‘Our rooms were empty … no mattresses, no lightbulbs and not a drop of water’",
+          "title": "Inside women’s football’s difficult rise in Syria: ‘A joy that everyone in the country needed’",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/janine-van-wyck-south-africa-wafcon-book-extract-moving-the-goalposts-newsletter",
-          "pubDate": "Tue, 17 Nov 2026 11:57:35 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/19/syria-womens-football",
+          "pubDate": "Thu, 19 Nov 2026 11:00:26 GMT"
         }
       ],
       "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -48104,9 +47859,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -48182,7 +47937,7 @@ window.MATCHES = [
       "home": 0.61,
       "away": 1.74
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -48522,7 +48277,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-23",
       "rawTime": "12:00 UTC-5",
       "homeName": "Portugal",
@@ -48614,14 +48369,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 27,
-      "under25": 73,
-      "bttsYes": 34,
-      "bttsNo": 66,
-      "homeWinBy2Plus": 26,
+      "over25": 38,
+      "under25": 62,
+      "bttsYes": 36,
+      "bttsNo": 64,
+      "homeWinBy2Plus": 37,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 40,
-      "expectedTotalGoals": 1.97,
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 2.25,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -48742,7 +48497,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -48973,9 +48728,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -49007,19 +48762,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，49 家公司均值：主 1.2 / 平 6.78 / 客 14.69。市场倾向 葡萄牙。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Portugal’s new No 7 Forbs channels Ronaldo for winner as Wales are denied",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/wales-portugal-nations-league-match-report",
-          "pubDate": "Tue, 17 Nov 2026 22:14:37 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -49245,9 +48991,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -49323,7 +49069,7 @@ window.MATCHES = [
       "home": 1.92,
       "away": 0.61
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -49663,7 +49409,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-23",
       "rawTime": "16:00 UTC-4",
       "homeName": "England",
@@ -49756,8 +49502,8 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 36,
-      "under25": 64,
+      "over25": 35,
+      "under25": 65,
       "bttsYes": 35,
       "bttsNo": 65,
       "homeWinBy2Plus": 35,
@@ -49873,10 +49619,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 46,
+        "homeScore": 48,
         "awayScore": 50,
-        "contribution": -0.24,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 0 条。"
+        "contribution": -0.12,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
       },
       {
         "name": "赔率市场",
@@ -49884,7 +49630,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -50120,11 +49866,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 46,
+        "homeScore": 48,
         "awayScore": 50,
-        "goalLift": -0.06,
+        "goalLift": -0.03,
         "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 0 条。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
       }
     },
     "marketSignals": {
@@ -50152,34 +49898,28 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
-          "title": "FA wants to host Nations League finals in England",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c5742x4xldmpo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 17 Nov 2026 15:51:30 GMT"
-        },
-        {
-          "title": "London City's Goodwin gets first England call-up",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT"
-        },
-        {
-          "title": "Swing when you’re winning? Biggest leaps across Fifa’s football rankings | The Knowledge",
+          "title": "Wayne Rooney says he contemplated taking own life during playing career",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/biggest-leaps-across-fifa-football-rankings-the-knowledge",
-          "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
+          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
         },
         {
           "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
           "source": "www.theguardian.com",
           "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
           "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT"
+        },
+        {
+          "title": "‘The game is in danger’: PFA head Maheta Molango on Fifa, Infantino and football’s future",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/pfa-maheta-molango-interview-fifa-gianni-infantino-interview",
+          "pubDate": "Tue, 17 Nov 2026 20:00:20 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -50389,30 +50129,12 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "London City's Goodwin gets first England call-up",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
-              "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 17 November 2026 London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the ga",
-              "bodyError": ""
-            },
-            {
               "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
               "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
               "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
-              "bodyText": "",
-              "bodyError": "403 Forbidden"
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
@@ -50429,16 +50151,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
               "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
               "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
-              "bodyText": "",
-              "bodyError": "403 Forbidden"
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
@@ -50448,29 +50161,20 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "London City's Goodwin gets first England call-up",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
-              "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 17 November 2026 London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the ga",
-              "bodyError": ""
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
+              "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
               "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
+              "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
+              "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -50546,7 +50250,7 @@ window.MATCHES = [
       "home": 2.52,
       "away": 0.8
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -50886,7 +50590,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-23",
       "rawTime": "19:00 UTC-4",
       "homeName": "Panama",
@@ -50977,14 +50681,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 24,
-      "under25": 76,
-      "bttsYes": 35,
-      "bttsNo": 65,
-      "homeWinBy2Plus": 5,
-      "awayWinBy2Plus": 18,
-      "lowScoreDraw": 39,
-      "expectedTotalGoals": 1.75,
+      "over25": 29,
+      "under25": 71,
+      "bttsYes": 43,
+      "bttsNo": 57,
+      "homeWinBy2Plus": 7,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 40,
+      "expectedTotalGoals": 2.04,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -51599,9 +51303,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -51677,7 +51381,7 @@ window.MATCHES = [
       "home": 1.07,
       "away": 1.47
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -52017,7 +51721,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-23",
       "rawTime": "20:00 UTC-6",
       "homeName": "Colombia",
@@ -52109,14 +51813,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 41,
-      "under25": 59,
-      "bttsYes": 51,
-      "bttsNo": 49,
-      "homeWinBy2Plus": 25,
+      "over25": 37,
+      "under25": 63,
+      "bttsYes": 50,
+      "bttsNo": 50,
+      "homeWinBy2Plus": 21,
       "awayWinBy2Plus": 6,
-      "lowScoreDraw": 34,
-      "expectedTotalGoals": 2.52,
+      "lowScoreDraw": 37,
+      "expectedTotalGoals": 2.37,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -52728,9 +52432,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -52806,7 +52510,7 @@ window.MATCHES = [
       "home": 2.52,
       "away": 0.98
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -53146,7 +52850,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Switzerland",
@@ -53240,12 +52944,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 48,
       "under25": 52,
-      "bttsYes": 60,
-      "bttsNo": 40,
+      "bttsYes": 59,
+      "bttsNo": 41,
       "homeWinBy2Plus": 17,
       "awayWinBy2Plus": 12,
       "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.76,
+      "expectedTotalGoals": 2.75,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -53366,7 +53070,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -53597,9 +53301,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -53631,25 +53335,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 2.43 / 平 3.08 / 客 3.19。市场倾向 瑞士。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 2,
-      "articles": [
-        {
-          "title": "Portugal’s new No 7 Forbs channels Ronaldo for winner as Wales are denied",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/wales-portugal-nations-league-match-report",
-          "pubDate": "Tue, 17 Nov 2026 22:14:37 GMT"
-        },
-        {
-          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
-          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
-        }
-      ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -53875,9 +53564,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -53953,7 +53642,7 @@ window.MATCHES = [
       "home": 2.03,
       "away": 1.65
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -54293,7 +53982,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-24",
       "rawTime": "12:00 UTC-7",
       "homeName": "Bosnia & Herzegovina",
@@ -54384,14 +54073,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 21,
-      "under25": 79,
-      "bttsYes": 35,
-      "bttsNo": 65,
-      "homeWinBy2Plus": 12,
-      "awayWinBy2Plus": 8,
-      "lowScoreDraw": 42,
-      "expectedTotalGoals": 1.66,
+      "over25": 19,
+      "under25": 81,
+      "bttsYes": 32,
+      "bttsNo": 68,
+      "homeWinBy2Plus": 11,
+      "awayWinBy2Plus": 7,
+      "lowScoreDraw": 45,
+      "expectedTotalGoals": 1.55,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "中"
@@ -55006,9 +54695,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -55084,7 +54773,7 @@ window.MATCHES = [
       "home": 1.1,
       "away": 1.01
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -55425,7 +55114,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Scotland",
@@ -55517,14 +55206,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 47,
-      "under25": 53,
+      "over25": 48,
+      "under25": 52,
       "bttsYes": 46,
       "bttsNo": 54,
       "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 38,
+      "awayWinBy2Plus": 39,
       "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.61,
+      "expectedTotalGoals": 2.64,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -55635,9 +55324,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 48,
-        "contribution": 0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 50,
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -55645,7 +55334,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -55882,10 +55571,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 48,
-        "goalLift": 0.11,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。 战术新闻偏主动，抬高比赛节奏。"
+        "awayScore": 50,
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -55913,28 +55602,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 3,
+      "articleCount": 1,
       "articles": [
         {
-          "title": "Swing when you’re winning? Biggest leaps across Fifa’s football rankings | The Knowledge",
+          "title": "Scotland smashed by the Swiss and Mauricio Pochettino takes charge | Football Weekly – video",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/biggest-leaps-across-fifa-football-rankings-the-knowledge",
-          "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT"
-        },
-        {
-          "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-          "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT"
-        },
-        {
-          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
-          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
+          "link": "https://www.theguardian.com/football/video/2026/nov/19/scotland-smashed-by-the-swiss-and-mauricio-pochettino-takes-charge-football-weekly-video",
+          "pubDate": "Thu, 19 Nov 2026 13:18:36 GMT"
         }
       ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -55947,9 +55624,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "苏格兰",
@@ -56142,54 +55819,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-              "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT",
-              "description": "Win over El Salvador would qualify US for Brazil 2027 Naomi Girma misses squad due to injury Sam Coffey returns after injury absence In the two years since the Paris Olympics, Emma Hayes has thoroughly tested fresh faces and new combinations, gathering a considerable amount of data about the US women’s national team. It’s been a thorough process, with 33 players earning their first caps since Hayes assumed the post, to bring her roster of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Continue reading...",
-              "bodyText": "er of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Hayes’s 23 selections for the tournament suggests what her preferred core may look like for the remainder of the cycle. Only four field players on her roster arrive with fewer than a dozen caps: midfielder Croix Bethune (seven), who sent the Kansas City Current to the NWSL championship last weekend with a brilliant curling free-kick, plus defenders Kennedy Wesley (nine), Kate Del Fava (one) and Evelyn Shores, who becomes only the second uncapped USWNT player selected for a World Cup qualifier (following Taylor Flint, née Kornieck, 2022). Eight players from Hayes’s Olympic gold medal squad remain in the fold, including the star attacking trio of Trinity Rodman, Mallory Swanson and Sophia Wilson. Sam Coffey returns after an injury prevented her from joining the team in the previous window, while Naomi Girma misses out due to persistent muscle issues. Claudia Dickey, Mandy McGlynn and Phallon Tullis-Joyce will continue to vie to start in goal, continuing their open competition following Alyssa Naeher’s retirement. The average age of this roster is 26.1, with only two players (Lindsey Heaps and Rose Lavelle) at least 30. The Concacaf W Championship doubles as qualifying for both the 2027 Women’s World Cup and the 2028 Los Angeles Olympics. All four semi-finalists will be guaranteed a spot in the World Cup field, and the top three finishers will also join the Olympic field. (The US have qualified for the Olympics automatically as hosts). The losing teams in the quarter-finals will compete against each other for Concacaf’s two spots in the inter-confederation playoffs, which are scheduled for February in Morocco. This story will be updated with remarks from Hayes’s presser on Wednesday morning. US women’s national team squad Goalkeepers: Claudia Dickey (Seattle Reign), Mandy McGlynn (Ut",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-              "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT",
-              "description": "Win over El Salvador would qualify US for Brazil 2027 Naomi Girma misses squad due to injury Sam Coffey returns after injury absence In the two years since the Paris Olympics, Emma Hayes has thoroughly tested fresh faces and new combinations, gathering a considerable amount of data about the US women’s national team. It’s been a thorough process, with 33 players earning their first caps since Hayes assumed the post, to bring her roster of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Continue reading...",
-              "bodyText": "er of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Hayes’s 23 selections for the tournament suggests what her preferred core may look like for the remainder of the cycle. Only four field players on her roster arrive with fewer than a dozen caps: midfielder Croix Bethune (seven), who sent the Kansas City Current to the NWSL championship last weekend with a brilliant curling free-kick, plus defenders Kennedy Wesley (nine), Kate Del Fava (one) and Evelyn Shores, who becomes only the second uncapped USWNT player selected for a World Cup qualifier (following Taylor Flint, née Kornieck, 2022). Eight players from Hayes’s Olympic gold medal squad remain in the fold, including the star attacking trio of Trinity Rodman, Mallory Swanson and Sophia Wilson. Sam Coffey returns after an injury prevented her from joining the team in the previous window, while Naomi Girma misses out due to persistent muscle issues. Claudia Dickey, Mandy McGlynn and Phallon Tullis-Joyce will continue to vie to start in goal, continuing their open competition following Alyssa Naeher’s retirement. The average age of this roster is 26.1, with only two players (Lindsey Heaps and Rose Lavelle) at least 30. The Concacaf W Championship doubles as qualifying for both the 2027 Women’s World Cup and the 2028 Los Angeles Olympics. All four semi-finalists will be guaranteed a spot in the World Cup field, and the top three finishers will also join the Olympic field. (The US have qualified for the Olympics automatically as hosts). The losing teams in the quarter-finals will compete against each other for Concacaf’s two spots in the inter-confederation playoffs, which are scheduled for February in Morocco. This story will be updated with remarks from Hayes’s presser on Wednesday morning. US women’s national team squad Goalkeepers: Claudia Dickey (Seattle Reign), Mandy McGlynn (Ut",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-              "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT",
-              "description": "Win over El Salvador would qualify US for Brazil 2027 Naomi Girma misses squad due to injury Sam Coffey returns after injury absence In the two years since the Paris Olympics, Emma Hayes has thoroughly tested fresh faces and new combinations, gathering a considerable amount of data about the US women’s national team. It’s been a thorough process, with 33 players earning their first caps since Hayes assumed the post, to bring her roster of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Continue reading...",
-              "bodyText": "er of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Hayes’s 23 selections for the tournament suggests what her preferred core may look like for the remainder of the cycle. Only four field players on her roster arrive with fewer than a dozen caps: midfielder Croix Bethune (seven), who sent the Kansas City Current to the NWSL championship last weekend with a brilliant curling free-kick, plus defenders Kennedy Wesley (nine), Kate Del Fava (one) and Evelyn Shores, who becomes only the second uncapped USWNT player selected for a World Cup qualifier (following Taylor Flint, née Kornieck, 2022). Eight players from Hayes’s Olympic gold medal squad remain in the fold, including the star attacking trio of Trinity Rodman, Mallory Swanson and Sophia Wilson. Sam Coffey returns after an injury prevented her from joining the team in the previous window, while Naomi Girma misses out due to persistent muscle issues. Claudia Dickey, Mandy McGlynn and Phallon Tullis-Joyce will continue to vie to start in goal, continuing their open competition following Alyssa Naeher’s retirement. The average age of this roster is 26.1, with only two players (Lindsey Heaps and Rose Lavelle) at least 30. The Concacaf W Championship doubles as qualifying for both the 2027 Women’s World Cup and the 2028 Los Angeles Olympics. All four semi-finalists will be guaranteed a spot in the World Cup field, and the top three finishers will also join the Olympic field. (The US have qualified for the Olympics automatically as hosts). The losing teams in the quarter-finals will compete against each other for Concacaf’s two spots in the inter-confederation playoffs, which are scheduled for February in Morocco. This story will be updated with remarks from Hayes’s presser on Wednesday morning. US women’s national team squad Goalkeepers: Claudia Dickey (Seattle Reign), Mandy McGlynn (Ut",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -56235,7 +55882,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -56265,7 +55912,7 @@ window.MATCHES = [
       "home": 1.06,
       "away": 2.09
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -56605,7 +56252,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-24",
       "rawTime": "18:00 UTC-4",
       "homeName": "Morocco",
@@ -56697,14 +56344,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 40,
-      "under25": 60,
-      "bttsYes": 38,
-      "bttsNo": 62,
-      "homeWinBy2Plus": 38,
+      "over25": 43,
+      "under25": 57,
+      "bttsYes": 39,
+      "bttsNo": 61,
+      "homeWinBy2Plus": 40,
       "awayWinBy2Plus": 2,
-      "lowScoreDraw": 25,
-      "expectedTotalGoals": 2.34,
+      "lowScoreDraw": 24,
+      "expectedTotalGoals": 2.43,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -56825,7 +56472,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -57056,9 +56703,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -57090,19 +56737,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 1.19 / 平 6.84 / 客 15.78。市场倾向 摩洛哥。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Football Daily | From Cincinnati to Manchester: Pochettino in a hurry to paint town red",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/cincinnati-manchester-united-pochettino-football-daily-newsletter",
-          "pubDate": "Wed, 18 Nov 2026 15:16:44 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -57325,22 +56963,12 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Football Daily | From Cincinnati to Manchester: Pochettino in a hurry to paint town red",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/18/cincinnati-manchester-united-pochettino-football-daily-newsletter",
-              "pubDate": "Wed, 18 Nov 2026 15:16:44 GMT",
-              "description": "Sign up now! Sign up now! Sign up now? Sign up now! With his team mired in the relegation zone and a massive match at Liverpool this weekend, Mauricio Pochettino has been understandably busy since being appointed head coach of Manchester United. Unfortunately for Old Trafford regulars, the small print of his contract meant the Argentinian was tied up masterminding victory for USA USA USA in the second leg of their Concacaf Nations League quarter-final against Haiti when he ought to have been in Carrington moving red magnets around a tactics board in front of Marcus Rashford, Kobbie Mainoo and Harry Maguire. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -57416,7 +57044,7 @@ window.MATCHES = [
       "home": 2.16,
       "away": 0.68
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -57756,7 +57384,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "Czech Republic",
@@ -57848,14 +57476,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 52,
-      "under25": 48,
-      "bttsYes": 51,
-      "bttsNo": 49,
+      "over25": 51,
+      "under25": 49,
+      "bttsYes": 50,
+      "bttsNo": 50,
       "homeWinBy2Plus": 4,
-      "awayWinBy2Plus": 39,
-      "lowScoreDraw": 21,
-      "expectedTotalGoals": 2.82,
+      "awayWinBy2Plus": 38,
+      "lowScoreDraw": 22,
+      "expectedTotalGoals": 2.77,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -57976,7 +57604,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -58207,9 +57835,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -58241,19 +57869,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 3.69 / 平 3.73 / 客 1.96。市场倾向 墨西哥。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-          "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -58479,9 +58098,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -58557,7 +58176,7 @@ window.MATCHES = [
       "home": 0.98,
       "away": 2.46
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -58886,7 +58505,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-24",
       "rawTime": "19:00 UTC-6",
       "homeName": "South Africa",
@@ -58978,14 +58597,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 27,
-      "under25": 73,
-      "bttsYes": 38,
-      "bttsNo": 62,
+      "over25": 23,
+      "under25": 77,
+      "bttsYes": 36,
+      "bttsNo": 64,
       "homeWinBy2Plus": 4,
-      "awayWinBy2Plus": 21,
-      "lowScoreDraw": 40,
-      "expectedTotalGoals": 1.94,
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 44,
+      "expectedTotalGoals": 1.81,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -59106,7 +58725,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -59337,9 +58956,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -59371,19 +58990,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 5.71 / 平 3.94 / 客 1.61。市场倾向 韩国。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Janine van Wyk: ‘Our rooms were empty … no mattresses, no lightbulbs and not a drop of water’",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/janine-van-wyck-south-africa-wafcon-book-extract-moving-the-goalposts-newsletter",
-          "pubDate": "Tue, 17 Nov 2026 11:57:35 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -59511,9 +59121,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -59589,7 +59199,7 @@ window.MATCHES = [
       "home": 0.78,
       "away": 1.84
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -59907,7 +59517,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Curaçao",
@@ -59999,14 +59609,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 41,
-      "under25": 59,
-      "bttsYes": 39,
-      "bttsNo": 61,
-      "homeWinBy2Plus": 2,
-      "awayWinBy2Plus": 39,
+      "over25": 39,
+      "under25": 61,
+      "bttsYes": 37,
+      "bttsNo": 63,
+      "homeWinBy2Plus": 3,
+      "awayWinBy2Plus": 37,
       "lowScoreDraw": 25,
-      "expectedTotalGoals": 2.38,
+      "expectedTotalGoals": 2.3,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -60426,9 +60036,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 1 项，缺口 4 项。",
         "counts": {
@@ -60505,7 +60115,7 @@ window.MATCHES = [
       "home": 0.64,
       "away": 2.03
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -60845,7 +60455,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-25",
       "rawTime": "16:00 UTC-4",
       "homeName": "Ecuador",
@@ -60938,16 +60548,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 46,
-      "under25": 54,
-      "bttsYes": 54,
-      "bttsNo": 46,
-      "homeWinBy2Plus": 5,
-      "awayWinBy2Plus": 29,
-      "lowScoreDraw": 30,
-      "expectedTotalGoals": 2.73,
+      "over25": 53,
+      "under25": 47,
+      "bttsYes": 55,
+      "bttsNo": 45,
+      "homeWinBy2Plus": 7,
+      "awayWinBy2Plus": 32,
+      "lowScoreDraw": 22,
+      "expectedTotalGoals": 2.85,
       "totalGoalsLean": "大小球均衡",
-      "bttsLean": "双方进球均衡",
+      "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
     "marketCalibration": {
@@ -61066,7 +60676,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -61297,9 +60907,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
@@ -61331,10 +60941,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，46 家公司均值：主 3.59 / 平 3.74 / 客 1.96。市场倾向 德国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Eight-year ban for player who threw rock that hit assistant referee",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cqlyk9yzkz2no?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 19 Nov 2026 10:20:58 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -61557,9 +61176,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -61635,7 +61254,7 @@ window.MATCHES = [
       "home": 1.45,
       "away": 2.42
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -61975,7 +61594,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Japan",
@@ -62071,11 +61690,11 @@ window.MATCHES = [
       "under25": 45,
       "bttsYes": 58,
       "bttsNo": 42,
-      "homeWinBy2Plus": 31,
+      "homeWinBy2Plus": 30,
       "awayWinBy2Plus": 8,
       "lowScoreDraw": 22,
-      "expectedTotalGoals": 2.94,
-      "totalGoalsLean": "大于2.5球",
+      "expectedTotalGoals": 2.92,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
@@ -62686,9 +62305,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -62764,7 +62383,7 @@ window.MATCHES = [
       "home": 2.45,
       "away": 1.61
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -63104,7 +62723,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-25",
       "rawTime": "18:00 UTC-5",
       "homeName": "Tunisia",
@@ -63196,14 +62815,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 25,
-      "under25": 75,
-      "bttsYes": 38,
-      "bttsNo": 62,
+      "over25": 27,
+      "under25": 73,
+      "bttsYes": 39,
+      "bttsNo": 61,
       "homeWinBy2Plus": 4,
-      "awayWinBy2Plus": 19,
-      "lowScoreDraw": 43,
-      "expectedTotalGoals": 1.91,
+      "awayWinBy2Plus": 21,
+      "lowScoreDraw": 42,
+      "expectedTotalGoals": 1.98,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -63818,9 +63437,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -63896,7 +63515,7 @@ window.MATCHES = [
       "home": 0.7,
       "away": 1.94
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -64225,7 +63844,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Turkey",
@@ -64317,17 +63936,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 44,
-      "under25": 56,
-      "bttsYes": 54,
-      "bttsNo": 46,
-      "homeWinBy2Plus": 13,
-      "awayWinBy2Plus": 17,
-      "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.51,
-      "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
-      "upsetRisk": "中"
+      "over25": 50,
+      "under25": 50,
+      "bttsYes": 60,
+      "bttsNo": 40,
+      "homeWinBy2Plus": 15,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 2.77,
+      "totalGoalsLean": "大小球均衡",
+      "bttsLean": "双方进球",
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "connected",
@@ -64445,7 +64064,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -64676,9 +64295,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -64710,19 +64329,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，44 家公司均值：主 3.25 / 平 4.02 / 客 2.01。市场倾向 美国。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Football Daily | From Cincinnati to Manchester: Pochettino in a hurry to paint town red",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/cincinnati-manchester-united-pochettino-football-daily-newsletter",
-          "pubDate": "Wed, 18 Nov 2026 15:16:44 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -64850,9 +64460,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -64928,7 +64538,7 @@ window.MATCHES = [
       "home": 2.14,
       "away": 1.1
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -65268,7 +64878,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-25",
       "rawTime": "19:00 UTC-7",
       "homeName": "Paraguay",
@@ -65360,14 +64970,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 37,
-      "under25": 63,
-      "bttsYes": 49,
-      "bttsNo": 51,
-      "homeWinBy2Plus": 10,
-      "awayWinBy2Plus": 17,
-      "lowScoreDraw": 32,
-      "expectedTotalGoals": 2.26,
+      "over25": 39,
+      "under25": 61,
+      "bttsYes": 50,
+      "bttsNo": 50,
+      "homeWinBy2Plus": 11,
+      "awayWinBy2Plus": 18,
+      "lowScoreDraw": 31,
+      "expectedTotalGoals": 2.31,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
@@ -66010,9 +65620,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -66088,7 +65698,7 @@ window.MATCHES = [
       "home": 1.32,
       "away": 1.74
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -66428,7 +66038,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Norway",
@@ -66521,14 +66131,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 60,
-      "under25": 40,
-      "bttsYes": 59,
-      "bttsNo": 41,
+      "over25": 65,
+      "under25": 35,
+      "bttsYes": 62,
+      "bttsNo": 38,
       "homeWinBy2Plus": 6,
-      "awayWinBy2Plus": 37,
-      "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.17,
+      "awayWinBy2Plus": 40,
+      "lowScoreDraw": 16,
+      "expectedTotalGoals": 3.39,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -66638,10 +66248,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
+        "homeScore": 48,
         "awayScore": 50,
-        "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "contribution": -0.12,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
       },
       {
         "name": "赔率市场",
@@ -66649,7 +66259,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -66880,16 +66490,16 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
+        "homeScore": 48,
         "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "goalLift": -0.03,
+        "confidenceDelta": -1,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
       }
     },
     "marketSignals": {
@@ -66914,10 +66524,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，43 家公司均值：主 4.26 / 平 3.75 / 客 1.8。市场倾向 法国。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Five return for Wales' World Cup play-off final",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 19 Nov 2026 13:40:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -66930,9 +66549,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-          "source": "squad-projection",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "挪威",
@@ -67125,14 +66744,34 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Five return for Wales' World Cup play-off final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Thu, 19 Nov 2026 13:40:43 GMT",
+              "description": "Ceri Holland is in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury.",
+              "bodyText": "Wales v Norway: Ceri Holland in squad for Women's World Cup play-off final - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs Women's Football Scores & Fixtures Table Top Scorers WSL Fan Chat Five return for Wales' World Cup play-off final Image source, FAW Image caption, Ceri Holland has not played for Liverpool since mid-September By Gareth Vincent BBC Sport Wales Published 19 November 2026, 10:00 GMT Updated 2 hours ago Ceri Holland has been named in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury. Olivia Clark, Hayley Ladd, Rhiannon Roberts and Ella Powell are also included after fitness issues, but Ffion Morgan, Laura Hughes and Scarlett Hill are among those who miss out with injuries. The versatile Holland, arguably Wales' most influential player, has been out with a muscle problem, though she is thought to be close to returning to act",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Five return for Wales' World Cup play-off final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Thu, 19 Nov 2026 13:40:43 GMT",
+              "description": "Ceri Holland is in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury.",
+              "bodyText": "Wales v Norway: Ceri Holland in squad for Women's World Cup play-off final - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs Women's Football Scores & Fixtures Table Top Scorers WSL Fan Chat Five return for Wales' World Cup play-off final Image source, FAW Image caption, Ceri Holland has not played for Liverpool since mid-September By Gareth Vincent BBC Sport Wales Published 19 November 2026, 10:00 GMT Updated 2 hours ago Ceri Holland has been named in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury. Olivia Clark, Hayley Ladd, Rhiannon Roberts and Ella Powell are also included after fitness issues, but Ffion Morgan, Laura Hughes and Scarlett Hill are among those who miss out with injuries. The versatile Holland, arguably Wales' most influential player, has been out with a muscle problem, though she is thought to be close to returning to act",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
@@ -67140,9 +66779,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -67188,7 +66827,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "squad-projection",
+            "source": "public-news-unparsed",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -67218,7 +66857,7 @@ window.MATCHES = [
       "home": 1.27,
       "away": 2.98
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -67558,7 +67197,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-26",
       "rawTime": "15:00 UTC-4",
       "homeName": "Senegal",
@@ -67650,14 +67289,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 30,
-      "under25": 70,
-      "bttsYes": 41,
-      "bttsNo": 59,
-      "homeWinBy2Plus": 23,
+      "over25": 29,
+      "under25": 71,
+      "bttsYes": 42,
+      "bttsNo": 58,
+      "homeWinBy2Plus": 21,
       "awayWinBy2Plus": 4,
-      "lowScoreDraw": 40,
-      "expectedTotalGoals": 2.1,
+      "lowScoreDraw": 41,
+      "expectedTotalGoals": 2.08,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -68272,9 +67911,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -68350,7 +67989,7 @@ window.MATCHES = [
       "home": 1.59,
       "away": 0.77
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -68679,7 +68318,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-26",
       "rawTime": "19:00 UTC-5",
       "homeName": "Cape Verde",
@@ -68770,14 +68409,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 22,
-      "under25": 78,
-      "bttsYes": 35,
-      "bttsNo": 65,
-      "homeWinBy2Plus": 11,
-      "awayWinBy2Plus": 9,
-      "lowScoreDraw": 42,
-      "expectedTotalGoals": 1.67,
+      "over25": 26,
+      "under25": 74,
+      "bttsYes": 39,
+      "bttsNo": 61,
+      "homeWinBy2Plus": 12,
+      "awayWinBy2Plus": 10,
+      "lowScoreDraw": 39,
+      "expectedTotalGoals": 1.83,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "中"
@@ -69169,10 +68808,10 @@ window.MATCHES = [
       "articleCount": 1,
       "articles": [
         {
-          "title": "Swing when you’re winning? Biggest leaps across Fifa’s football rankings | The Knowledge",
+          "title": "Inside women’s football’s difficult rise in Syria: ‘A joy that everyone in the country needed’",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/biggest-leaps-across-fifa-football-rankings-the-knowledge",
-          "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/19/syria-womens-football",
+          "pubDate": "Thu, 19 Nov 2026 11:00:26 GMT"
         }
       ],
       "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -69306,9 +68945,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -69384,7 +69023,7 @@ window.MATCHES = [
       "home": 0.99,
       "away": 1.09
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -69724,7 +69363,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-26",
       "rawTime": "18:00 UTC-6",
       "homeName": "Uruguay",
@@ -69815,14 +69454,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 27,
-      "under25": 73,
-      "bttsYes": 40,
-      "bttsNo": 60,
+      "over25": 31,
+      "under25": 69,
+      "bttsYes": 44,
+      "bttsNo": 56,
       "homeWinBy2Plus": 6,
-      "awayWinBy2Plus": 18,
+      "awayWinBy2Plus": 19,
       "lowScoreDraw": 39,
-      "expectedTotalGoals": 1.92,
+      "expectedTotalGoals": 2.09,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -69943,7 +69582,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -70174,9 +69813,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -70208,19 +69847,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，43 家公司均值：主 5.98 / 平 4.15 / 客 1.54。市场倾向 西班牙。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-          "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -70443,9 +70073,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -70521,7 +70151,7 @@ window.MATCHES = [
       "home": 0.74,
       "away": 1.52
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -70861,7 +70491,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "Egypt",
@@ -70960,7 +70590,7 @@ window.MATCHES = [
       "homeWinBy2Plus": 13,
       "awayWinBy2Plus": 15,
       "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.35,
+      "expectedTotalGoals": 2.37,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "高"
@@ -71575,9 +71205,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -71653,7 +71283,7 @@ window.MATCHES = [
       "home": 1.21,
       "away": 1.77
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -71993,7 +71623,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-26",
       "rawTime": "20:00 UTC-7",
       "homeName": "New Zealand",
@@ -72087,8 +71717,8 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 45,
       "under25": 55,
-      "bttsYes": 40,
-      "bttsNo": 60,
+      "bttsYes": 41,
+      "bttsNo": 59,
       "homeWinBy2Plus": 2,
       "awayWinBy2Plus": 41,
       "lowScoreDraw": 23,
@@ -72213,7 +71843,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -72444,9 +72074,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -72478,19 +72108,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，42 家公司均值：主 12.31 / 平 6.19 / 客 1.22。市场倾向 比利时。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
-          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -72716,9 +72337,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -72794,7 +72415,7 @@ window.MATCHES = [
       "home": 0.75,
       "away": 2.37
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -73134,7 +72755,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Panama",
@@ -73227,14 +72848,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 30,
-      "under25": 70,
-      "bttsYes": 37,
-      "bttsNo": 63,
+      "over25": 42,
+      "under25": 58,
+      "bttsYes": 40,
+      "bttsNo": 60,
       "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 27,
-      "lowScoreDraw": 39,
-      "expectedTotalGoals": 2.09,
+      "awayWinBy2Plus": 38,
+      "lowScoreDraw": 25,
+      "expectedTotalGoals": 2.41,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -73345,9 +72966,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 48,
-        "awayScore": 46,
-        "contribution": 0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 2 条。"
+        "awayScore": 48,
+        "contribution": 0,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
       },
       {
         "name": "赔率市场",
@@ -73355,7 +72976,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -73592,10 +73213,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 48,
-        "awayScore": 46,
-        "goalLift": -0.09,
+        "awayScore": 48,
+        "goalLift": -0.06,
         "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 2 条。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 1 条。"
       }
     },
     "marketSignals": {
@@ -73623,19 +73244,13 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
-          "title": "FA wants to host Nations League finals in England",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c5742x4xldmpo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 17 Nov 2026 15:51:30 GMT"
-        },
-        {
-          "title": "London City's Goodwin gets first England call-up",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT"
+          "title": "Wayne Rooney says he contemplated taking own life during playing career",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
+          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
         },
         {
           "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
@@ -73644,13 +73259,13 @@ window.MATCHES = [
           "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT"
         },
         {
-          "title": "Wayne Rooney says he contemplated taking own life during playing career",
+          "title": "‘The game is in danger’: PFA head Maheta Molango on Fifa, Infantino and football’s future",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
-          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/17/pfa-maheta-molango-interview-fifa-gianni-infantino-interview",
+          "pubDate": "Tue, 17 Nov 2026 20:00:20 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -73860,30 +73475,12 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "London City's Goodwin gets first England call-up",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
-              "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 17 November 2026 London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the ga",
-              "bodyError": ""
-            },
-            {
               "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
               "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
               "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
-              "bodyText": "",
-              "bodyError": "403 Forbidden"
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
@@ -73900,16 +73497,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
               "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
               "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
-              "bodyText": "",
-              "bodyError": "403 Forbidden"
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
@@ -73919,29 +73507,20 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "London City's Goodwin gets first England call-up",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
-              "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 17 November 2026 London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the ga",
-              "bodyError": ""
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
+              "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
               "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
+              "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
+              "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -74017,7 +73596,7 @@ window.MATCHES = [
       "home": 1.08,
       "away": 2.21
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -74357,7 +73936,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-27",
       "rawTime": "17:00 UTC-4",
       "homeName": "Croatia",
@@ -74451,12 +74030,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 26,
       "under25": 74,
-      "bttsYes": 36,
-      "bttsNo": 64,
-      "homeWinBy2Plus": 23,
-      "awayWinBy2Plus": 3,
-      "lowScoreDraw": 42,
-      "expectedTotalGoals": 1.95,
+      "bttsYes": 34,
+      "bttsNo": 66,
+      "homeWinBy2Plus": 25,
+      "awayWinBy2Plus": 2,
+      "lowScoreDraw": 41,
+      "expectedTotalGoals": 1.93,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -74577,7 +74156,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -74808,9 +74387,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -74842,19 +74421,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，42 家公司均值：主 1.62 / 平 3.76 / 客 5.75。市场倾向 克罗地亚。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Swing when you’re winning? Biggest leaps across Fifa’s football rankings | The Knowledge",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/biggest-leaps-across-fifa-football-rankings-the-knowledge",
-          "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -75080,9 +74650,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -75158,7 +74728,7 @@ window.MATCHES = [
       "home": 1.82,
       "away": 0.57
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -75498,7 +75068,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "Colombia",
@@ -75590,15 +75160,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 47,
-      "under25": 53,
-      "bttsYes": 59,
-      "bttsNo": 41,
+      "over25": 42,
+      "under25": 58,
+      "bttsYes": 56,
+      "bttsNo": 44,
       "homeWinBy2Plus": 11,
-      "awayWinBy2Plus": 19,
-      "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.72,
-      "totalGoalsLean": "大小球均衡",
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 34,
+      "expectedTotalGoals": 2.54,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
@@ -75718,7 +75288,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -75949,9 +75519,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -75983,19 +75553,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，42 家公司均值：主 3.57 / 平 3.44 / 客 2.05。市场倾向 葡萄牙。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Portugal’s new No 7 Forbs channels Ronaldo for winner as Wales are denied",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/wales-portugal-nations-league-match-report",
-          "pubDate": "Tue, 17 Nov 2026 22:14:37 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -76218,9 +75779,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -76296,7 +75857,7 @@ window.MATCHES = [
       "home": 1.47,
       "away": 1.83
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -76636,7 +76197,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-27",
       "rawTime": "19:30 UTC-4",
       "homeName": "DR Congo",
@@ -76731,10 +76292,10 @@ window.MATCHES = [
       "under25": 70,
       "bttsYes": 42,
       "bttsNo": 58,
-      "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 9,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 8,
       "lowScoreDraw": 37,
-      "expectedTotalGoals": 1.96,
+      "expectedTotalGoals": 1.97,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "中"
@@ -77349,9 +76910,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -77427,7 +76988,7 @@ window.MATCHES = [
       "home": 1.41,
       "away": 1.17
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -77767,7 +77328,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Algeria",
@@ -77859,14 +77420,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 42,
-      "under25": 58,
-      "bttsYes": 55,
-      "bttsNo": 45,
-      "homeWinBy2Plus": 10,
+      "over25": 45,
+      "under25": 55,
+      "bttsYes": 57,
+      "bttsNo": 43,
+      "homeWinBy2Plus": 11,
       "awayWinBy2Plus": 17,
-      "lowScoreDraw": 34,
-      "expectedTotalGoals": 2.53,
+      "lowScoreDraw": 32,
+      "expectedTotalGoals": 2.63,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -77987,7 +77548,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -78218,9 +77779,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -78252,19 +77813,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，42 家公司均值：主 3.04 / 平 3.04 / 客 2.47。市场倾向 奥地利。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Janine van Wyk: ‘Our rooms were empty … no mattresses, no lightbulbs and not a drop of water’",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/janine-van-wyck-south-africa-wafcon-book-extract-moving-the-goalposts-newsletter",
-          "pubDate": "Tue, 17 Nov 2026 11:57:35 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -78490,9 +78042,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -78568,7 +78120,7 @@ window.MATCHES = [
       "home": 1.46,
       "away": 1.89
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -78908,7 +78460,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-27",
       "rawTime": "21:00 UTC-5",
       "homeName": "Jordan",
@@ -79001,14 +78553,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 44,
-      "under25": 56,
+      "over25": 43,
+      "under25": 57,
       "bttsYes": 40,
       "bttsNo": 60,
-      "homeWinBy2Plus": 3,
+      "homeWinBy2Plus": 2,
       "awayWinBy2Plus": 40,
-      "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.47,
+      "lowScoreDraw": 24,
+      "expectedTotalGoals": 2.44,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -79129,7 +78681,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -79397,22 +78949,16 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 2,
+      "articleCount": 1,
       "articles": [
         {
-          "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
+          "title": "Inside women’s football’s difficult rise in Syria: ‘A joy that everyone in the country needed’",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
-          "pubDate": "Tue, 17 Nov 2026 15:00:16 GMT"
-        },
-        {
-          "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-          "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/19/syria-womens-football",
+          "pubDate": "Thu, 19 Nov 2026 11:00:26 GMT"
         }
       ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -79635,9 +79181,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -79713,7 +79259,7 @@ window.MATCHES = [
       "home": 0.83,
       "away": 2.64
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -80053,7 +79599,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-28",
       "rawTime": "12:00 UTC-7",
       "homeName": "South Africa",
@@ -80145,14 +79691,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 28,
-      "under25": 72,
-      "bttsYes": 40,
-      "bttsNo": 60,
+      "over25": 30,
+      "under25": 70,
+      "bttsYes": 42,
+      "bttsNo": 58,
       "homeWinBy2Plus": 5,
       "awayWinBy2Plus": 20,
       "lowScoreDraw": 40,
-      "expectedTotalGoals": 1.99,
+      "expectedTotalGoals": 2.07,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -80273,7 +79819,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -80504,9 +80050,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -80538,19 +80084,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，45 家公司均值：主 5.43 / 平 3.6 / 客 1.7。市场倾向 加拿大。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Janine van Wyk: ‘Our rooms were empty … no mattresses, no lightbulbs and not a drop of water’",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/janine-van-wyck-south-africa-wafcon-book-extract-moving-the-goalposts-newsletter",
-          "pubDate": "Tue, 17 Nov 2026 11:57:35 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -80773,9 +80310,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -80851,7 +80388,7 @@ window.MATCHES = [
       "home": 1.08,
       "away": 1.99
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -81191,7 +80728,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-29",
       "rawTime": "12:00 UTC-5",
       "homeName": "Brazil",
@@ -81284,15 +80821,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 59,
-      "under25": 41,
-      "bttsYes": 64,
-      "bttsNo": 36,
-      "homeWinBy2Plus": 24,
-      "awayWinBy2Plus": 13,
-      "lowScoreDraw": 21,
-      "expectedTotalGoals": 3.14,
-      "totalGoalsLean": "大于2.5球",
+      "over25": 52,
+      "under25": 48,
+      "bttsYes": 62,
+      "bttsNo": 38,
+      "homeWinBy2Plus": 19,
+      "awayWinBy2Plus": 12,
+      "lowScoreDraw": 28,
+      "expectedTotalGoals": 2.93,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
@@ -81401,10 +80938,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "contribution": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -81412,7 +80949,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -81643,16 +81180,16 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
-        "homeScore": 48,
+        "homeScore": 50,
         "awayScore": 50,
-        "goalLift": 0.11,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -81677,19 +81214,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，45 家公司均值：主 1.72 / 平 3.72 / 客 5.04。市场倾向 巴西。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-          "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -81705,9 +81233,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "巴西",
@@ -81900,54 +81428,24 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-              "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT",
-              "description": "Win over El Salvador would qualify US for Brazil 2027 Naomi Girma misses squad due to injury Sam Coffey returns after injury absence In the two years since the Paris Olympics, Emma Hayes has thoroughly tested fresh faces and new combinations, gathering a considerable amount of data about the US women’s national team. It’s been a thorough process, with 33 players earning their first caps since Hayes assumed the post, to bring her roster of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Continue reading...",
-              "bodyText": "er of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Hayes’s 23 selections for the tournament suggests what her preferred core may look like for the remainder of the cycle. Only four field players on her roster arrive with fewer than a dozen caps: midfielder Croix Bethune (seven), who sent the Kansas City Current to the NWSL championship last weekend with a brilliant curling free-kick, plus defenders Kennedy Wesley (nine), Kate Del Fava (one) and Evelyn Shores, who becomes only the second uncapped USWNT player selected for a World Cup qualifier (following Taylor Flint, née Kornieck, 2022). Eight players from Hayes’s Olympic gold medal squad remain in the fold, including the star attacking trio of Trinity Rodman, Mallory Swanson and Sophia Wilson. Sam Coffey returns after an injury prevented her from joining the team in the previous window, while Naomi Girma misses out due to persistent muscle issues. Claudia Dickey, Mandy McGlynn and Phallon Tullis-Joyce will continue to vie to start in goal, continuing their open competition following Alyssa Naeher’s retirement. The average age of this roster is 26.1, with only two players (Lindsey Heaps and Rose Lavelle) at least 30. The Concacaf W Championship doubles as qualifying for both the 2027 Women’s World Cup and the 2028 Los Angeles Olympics. All four semi-finalists will be guaranteed a spot in the World Cup field, and the top three finishers will also join the Olympic field. (The US have qualified for the Olympics automatically as hosts). The losing teams in the quarter-finals will compete against each other for Concacaf’s two spots in the inter-confederation playoffs, which are scheduled for February in Morocco. This story will be updated with remarks from Hayes’s presser on Wednesday morning. US women’s national team squad Goalkeepers: Claudia Dickey (Seattle Reign), Mandy McGlynn (Ut",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": [
-            {
-              "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-              "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT",
-              "description": "Win over El Salvador would qualify US for Brazil 2027 Naomi Girma misses squad due to injury Sam Coffey returns after injury absence In the two years since the Paris Olympics, Emma Hayes has thoroughly tested fresh faces and new combinations, gathering a considerable amount of data about the US women’s national team. It’s been a thorough process, with 33 players earning their first caps since Hayes assumed the post, to bring her roster of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Continue reading...",
-              "bodyText": "er of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Hayes’s 23 selections for the tournament suggests what her preferred core may look like for the remainder of the cycle. Only four field players on her roster arrive with fewer than a dozen caps: midfielder Croix Bethune (seven), who sent the Kansas City Current to the NWSL championship last weekend with a brilliant curling free-kick, plus defenders Kennedy Wesley (nine), Kate Del Fava (one) and Evelyn Shores, who becomes only the second uncapped USWNT player selected for a World Cup qualifier (following Taylor Flint, née Kornieck, 2022). Eight players from Hayes’s Olympic gold medal squad remain in the fold, including the star attacking trio of Trinity Rodman, Mallory Swanson and Sophia Wilson. Sam Coffey returns after an injury prevented her from joining the team in the previous window, while Naomi Girma misses out due to persistent muscle issues. Claudia Dickey, Mandy McGlynn and Phallon Tullis-Joyce will continue to vie to start in goal, continuing their open competition following Alyssa Naeher’s retirement. The average age of this roster is 26.1, with only two players (Lindsey Heaps and Rose Lavelle) at least 30. The Concacaf W Championship doubles as qualifying for both the 2027 Women’s World Cup and the 2028 Los Angeles Olympics. All four semi-finalists will be guaranteed a spot in the World Cup field, and the top three finishers will also join the Olympic field. (The US have qualified for the Olympics automatically as hosts). The losing teams in the quarter-finals will compete against each other for Concacaf’s two spots in the inter-confederation playoffs, which are scheduled for February in Morocco. This story will be updated with remarks from Hayes’s presser on Wednesday morning. US women’s national team squad Goalkeepers: Claudia Dickey (Seattle Reign), Mandy McGlynn (Ut",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-              "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT",
-              "description": "Win over El Salvador would qualify US for Brazil 2027 Naomi Girma misses squad due to injury Sam Coffey returns after injury absence In the two years since the Paris Olympics, Emma Hayes has thoroughly tested fresh faces and new combinations, gathering a considerable amount of data about the US women’s national team. It’s been a thorough process, with 33 players earning their first caps since Hayes assumed the post, to bring her roster of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Continue reading...",
-              "bodyText": "er of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Hayes’s 23 selections for the tournament suggests what her preferred core may look like for the remainder of the cycle. Only four field players on her roster arrive with fewer than a dozen caps: midfielder Croix Bethune (seven), who sent the Kansas City Current to the NWSL championship last weekend with a brilliant curling free-kick, plus defenders Kennedy Wesley (nine), Kate Del Fava (one) and Evelyn Shores, who becomes only the second uncapped USWNT player selected for a World Cup qualifier (following Taylor Flint, née Kornieck, 2022). Eight players from Hayes’s Olympic gold medal squad remain in the fold, including the star attacking trio of Trinity Rodman, Mallory Swanson and Sophia Wilson. Sam Coffey returns after an injury prevented her from joining the team in the previous window, while Naomi Girma misses out due to persistent muscle issues. Claudia Dickey, Mandy McGlynn and Phallon Tullis-Joyce will continue to vie to start in goal, continuing their open competition following Alyssa Naeher’s retirement. The average age of this roster is 26.1, with only two players (Lindsey Heaps and Rose Lavelle) at least 30. The Concacaf W Championship doubles as qualifying for both the 2027 Women’s World Cup and the 2028 Los Angeles Olympics. All four semi-finalists will be guaranteed a spot in the World Cup field, and the top three finishers will also join the Olympic field. (The US have qualified for the Olympics automatically as hosts). The losing teams in the quarter-finals will compete against each other for Concacaf’s two spots in the inter-confederation playoffs, which are scheduled for February in Morocco. This story will be updated with remarks from Hayes’s presser on Wednesday morning. US women’s national team squad Goalkeepers: Claudia Dickey (Seattle Reign), Mandy McGlynn (Ut",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -81993,7 +81491,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -82023,7 +81521,7 @@ window.MATCHES = [
       "home": 2.15,
       "away": 1.73
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -82363,7 +81861,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-29",
       "rawTime": "16:30 UTC-4",
       "homeName": "Germany",
@@ -82456,14 +81954,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 53,
-      "under25": 47,
-      "bttsYes": 49,
-      "bttsNo": 51,
-      "homeWinBy2Plus": 41,
+      "over25": 50,
+      "under25": 50,
+      "bttsYes": 48,
+      "bttsNo": 52,
+      "homeWinBy2Plus": 40,
       "awayWinBy2Plus": 4,
-      "lowScoreDraw": 20,
-      "expectedTotalGoals": 2.83,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 2.73,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -83075,9 +82573,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -83153,7 +82651,7 @@ window.MATCHES = [
       "home": 2.83,
       "away": 0.97
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -83493,7 +82991,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-29",
       "rawTime": "19:00 UTC-6",
       "homeName": "Netherlands",
@@ -83586,15 +83084,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 56,
-      "under25": 44,
-      "bttsYes": 66,
-      "bttsNo": 34,
-      "homeWinBy2Plus": 15,
+      "over25": 51,
+      "under25": 49,
+      "bttsYes": 62,
+      "bttsNo": 38,
+      "homeWinBy2Plus": 14,
       "awayWinBy2Plus": 16,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 3.12,
-      "totalGoalsLean": "大于2.5球",
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.9,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
     },
@@ -84205,9 +83703,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -84283,7 +83781,7 @@ window.MATCHES = [
       "home": 1.94,
       "away": 2.09
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -84612,7 +84110,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-30",
       "rawTime": "12:00 UTC-5",
       "homeName": "Ivory Coast",
@@ -84704,17 +84202,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 53,
-      "under25": 47,
-      "bttsYes": 64,
-      "bttsNo": 36,
+      "over25": 46,
+      "under25": 54,
+      "bttsYes": 59,
+      "bttsNo": 41,
       "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 27,
-      "expectedTotalGoals": 2.98,
+      "awayWinBy2Plus": 13,
+      "lowScoreDraw": 32,
+      "expectedTotalGoals": 2.71,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -84822,9 +84320,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 50,
-        "contribution": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "awayScore": 48,
+        "contribution": 0.12,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
       },
       {
         "name": "赔率市场",
@@ -84832,7 +84330,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "暂无可用赔率或专业球评信号。"
+        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -85063,16 +84561,16 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "no-match",
+        "expertStatus": "connected",
         "marketWeight": 0,
-        "expertWeight": 0
+        "expertWeight": 0.08
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 50,
-        "goalLift": 0,
-        "confidenceDelta": 0,
-        "evidence": "预计首发身价差折算 0 分。"
+        "awayScore": 48,
+        "goalLift": -0.03,
+        "confidenceDelta": -1,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
       }
     },
     "marketSignals": {
@@ -85097,10 +84595,19 @@ window.MATCHES = [
       "note": "已接入赔率市场，48 家公司均值：主 3.67 / 平 3.48 / 客 2.04。市场倾向 挪威。"
     },
     "expertSignals": {
-      "status": "no-match",
+      "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0,
-      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
+      "weight": 0.08,
+      "articleCount": 1,
+      "articles": [
+        {
+          "title": "Five return for Wales' World Cup play-off final",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 19 Nov 2026 13:40:43 GMT"
+        }
+      ],
+      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -85113,9 +84620,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "projected",
-          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
-          "source": "squad-projection",
+          "status": "news-unparsed",
+          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
+          "source": "public-news-unparsed",
           "teams": [
             {
               "team": "挪威",
@@ -85213,14 +84720,34 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": []
+          "articles": [
+            {
+              "title": "Five return for Wales' World Cup play-off final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Thu, 19 Nov 2026 13:40:43 GMT",
+              "description": "Ceri Holland is in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury.",
+              "bodyText": "Wales v Norway: Ceri Holland in squad for Women's World Cup play-off final - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs Women's Football Scores & Fixtures Table Top Scorers WSL Fan Chat Five return for Wales' World Cup play-off final Image source, FAW Image caption, Ceri Holland has not played for Liverpool since mid-September By Gareth Vincent BBC Sport Wales Published 19 November 2026, 10:00 GMT Updated 2 hours ago Ceri Holland has been named in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury. Olivia Clark, Hayley Ladd, Rhiannon Roberts and Ella Powell are also included after fitness issues, but Ffion Morgan, Laura Hughes and Scarlett Hill are among those who miss out with injuries. The versatile Holland, arguably Wales' most influential player, has been out with a muscle problem, though she is thought to be close to returning to act",
+              "bodyError": ""
+            }
+          ]
         },
         "injuries": {
           "status": "missing",
           "text": "未采集到可核验伤停数据；本场伤停信息作为缺口上报。",
           "source": "API-Football",
           "players": [],
-          "articles": []
+          "articles": [
+            {
+              "title": "Five return for Wales' World Cup play-off final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Thu, 19 Nov 2026 13:40:43 GMT",
+              "description": "Ceri Holland is in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury.",
+              "bodyText": "Wales v Norway: Ceri Holland in squad for Women's World Cup play-off final - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs Women's Football Scores & Fixtures Table Top Scorers WSL Fan Chat Five return for Wales' World Cup play-off final Image source, FAW Image caption, Ceri Holland has not played for Liverpool since mid-September By Gareth Vincent BBC Sport Wales Published 19 November 2026, 10:00 GMT Updated 2 hours ago Ceri Holland has been named in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury. Olivia Clark, Hayley Ladd, Rhiannon Roberts and Ella Powell are also included after fitness issues, but Ffion Morgan, Laura Hughes and Scarlett Hill are among those who miss out with injuries. The versatile Holland, arguably Wales' most influential player, has been out with a muscle problem, though she is thought to be close to returning to act",
+              "bodyError": ""
+            }
+          ]
         },
         "tactical": {
           "status": "projection-derived",
@@ -85228,9 +84755,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -85276,7 +84803,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "squad-projection",
+            "source": "public-news-unparsed",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -85306,7 +84833,7 @@ window.MATCHES = [
       "home": 2.03,
       "away": 1.7
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -85646,7 +85173,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-30",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -85741,12 +85268,12 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 63,
       "under25": 37,
-      "bttsYes": 53,
-      "bttsNo": 47,
+      "bttsYes": 52,
+      "bttsNo": 48,
       "homeWinBy2Plus": 51,
       "awayWinBy2Plus": 3,
       "lowScoreDraw": 15,
-      "expectedTotalGoals": 3.3,
+      "expectedTotalGoals": 3.29,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -86358,9 +85885,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -86436,7 +85963,7 @@ window.MATCHES = [
       "home": 3.04,
       "away": 1.21
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -86776,7 +86303,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-06-30",
       "rawTime": "19:00 UTC-6",
       "homeName": "Mexico",
@@ -86868,14 +86395,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 34,
-      "under25": 66,
-      "bttsYes": 46,
-      "bttsNo": 54,
-      "homeWinBy2Plus": 22,
-      "awayWinBy2Plus": 5,
-      "lowScoreDraw": 38,
-      "expectedTotalGoals": 2.25,
+      "over25": 41,
+      "under25": 59,
+      "bttsYes": 53,
+      "bttsNo": 47,
+      "homeWinBy2Plus": 23,
+      "awayWinBy2Plus": 7,
+      "lowScoreDraw": 35,
+      "expectedTotalGoals": 2.55,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
@@ -87267,10 +86794,10 @@ window.MATCHES = [
       "articleCount": 1,
       "articles": [
         {
-          "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-          "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
+          "title": "Eight-year ban for player who threw rock that hit assistant referee",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/cqlyk9yzkz2no?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 19 Nov 2026 10:20:58 GMT"
         }
       ],
       "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -87499,9 +87026,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -87577,7 +87104,7 @@ window.MATCHES = [
       "home": 2.1,
       "away": 1.31
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -87917,7 +87444,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-01",
       "rawTime": "12:00 UTC-4",
       "homeName": "England",
@@ -88009,15 +87536,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 46,
-      "under25": 54,
-      "bttsYes": 42,
-      "bttsNo": 58,
-      "homeWinBy2Plus": 41,
-      "awayWinBy2Plus": 3,
-      "lowScoreDraw": 22,
-      "expectedTotalGoals": 2.56,
-      "totalGoalsLean": "大小球均衡",
+      "over25": 43,
+      "under25": 57,
+      "bttsYes": 40,
+      "bttsNo": 60,
+      "homeWinBy2Plus": 40,
+      "awayWinBy2Plus": 2,
+      "lowScoreDraw": 24,
+      "expectedTotalGoals": 2.44,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
@@ -88126,10 +87653,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 46,
+        "homeScore": 48,
         "awayScore": 50,
-        "contribution": -0.24,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 0 条。"
+        "contribution": -0.12,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
       },
       {
         "name": "赔率市场",
@@ -88137,7 +87664,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -88373,11 +87900,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 46,
+        "homeScore": 48,
         "awayScore": 50,
-        "goalLift": -0.06,
+        "goalLift": -0.03,
         "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 0 条。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
       }
     },
     "marketSignals": {
@@ -88405,19 +87932,13 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
-          "title": "FA wants to host Nations League finals in England",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c5742x4xldmpo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 17 Nov 2026 15:51:30 GMT"
-        },
-        {
-          "title": "London City's Goodwin gets first England call-up",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT"
+          "title": "Wayne Rooney says he contemplated taking own life during playing career",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
+          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
         },
         {
           "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
@@ -88426,13 +87947,13 @@ window.MATCHES = [
           "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT"
         },
         {
-          "title": "Wayne Rooney says he contemplated taking own life during playing career",
+          "title": "‘The game is in danger’: PFA head Maheta Molango on Fifa, Infantino and football’s future",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
-          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/17/pfa-maheta-molango-interview-fifa-gianni-infantino-interview",
+          "pubDate": "Tue, 17 Nov 2026 20:00:20 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -88645,30 +88166,12 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "London City's Goodwin gets first England call-up",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
-              "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 17 November 2026 London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the ga",
-              "bodyError": ""
-            },
-            {
               "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
               "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
               "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
-              "bodyText": "",
-              "bodyError": "403 Forbidden"
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
@@ -88685,16 +88188,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
               "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
               "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
-              "bodyText": "",
-              "bodyError": "403 Forbidden"
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
@@ -88704,29 +88198,20 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "London City's Goodwin gets first England call-up",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
-              "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 17 November 2026 London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the ga",
-              "bodyError": ""
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
+              "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
               "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
+              "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
+              "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -88802,7 +88287,7 @@ window.MATCHES = [
       "home": 2.49,
       "away": 0.78
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -89142,7 +88627,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-01",
       "rawTime": "13:00 UTC-7",
       "homeName": "Belgium",
@@ -89237,15 +88722,15 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 58,
       "under25": 42,
-      "bttsYes": 60,
-      "bttsNo": 40,
-      "homeWinBy2Plus": 31,
-      "awayWinBy2Plus": 8,
-      "lowScoreDraw": 20,
-      "expectedTotalGoals": 3.04,
+      "bttsYes": 62,
+      "bttsNo": 38,
+      "homeWinBy2Plus": 28,
+      "awayWinBy2Plus": 10,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 3.06,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
-      "upsetRisk": "低"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -89363,7 +88848,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -89594,9 +89079,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -89628,19 +89113,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，46 家公司均值：主 2.14 / 平 3.21 / 客 3.68。市场倾向 比利时。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
-          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -89866,9 +89342,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -89944,7 +89420,7 @@ window.MATCHES = [
       "home": 2.55,
       "away": 1.67
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -90284,7 +89760,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-01",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -90377,15 +89853,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 47,
-      "under25": 53,
-      "bttsYes": 46,
-      "bttsNo": 54,
-      "homeWinBy2Plus": 38,
-      "awayWinBy2Plus": 3,
-      "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.61,
-      "totalGoalsLean": "大小球均衡",
+      "over25": 39,
+      "under25": 61,
+      "bttsYes": 47,
+      "bttsNo": 53,
+      "homeWinBy2Plus": 28,
+      "awayWinBy2Plus": 4,
+      "lowScoreDraw": 34,
+      "expectedTotalGoals": 2.46,
+      "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
@@ -90505,7 +89981,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -90736,9 +90212,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -90770,19 +90246,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，47 家公司均值：主 1.36 / 平 4.94 / 客 9.04。市场倾向 美国。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Football Daily | From Cincinnati to Manchester: Pochettino in a hurry to paint town red",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/cincinnati-manchester-united-pochettino-football-daily-newsletter",
-          "pubDate": "Wed, 18 Nov 2026 15:16:44 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -91005,9 +90472,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -91083,7 +90550,7 @@ window.MATCHES = [
       "home": 2.54,
       "away": 0.89
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -91423,7 +90890,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-02",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -91516,14 +90983,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 49,
-      "under25": 51,
-      "bttsYes": 60,
-      "bttsNo": 40,
-      "homeWinBy2Plus": 19,
+      "over25": 47,
+      "under25": 53,
+      "bttsYes": 59,
+      "bttsNo": 41,
+      "homeWinBy2Plus": 17,
       "awayWinBy2Plus": 12,
-      "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.83,
+      "lowScoreDraw": 31,
+      "expectedTotalGoals": 2.71,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -91644,7 +91111,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -91875,9 +91342,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -91909,19 +91376,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，44 家公司均值：主 1.27 / 平 5.37 / 客 13.28。市场倾向 西班牙。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-          "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -92144,9 +91602,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -92222,7 +91680,7 @@ window.MATCHES = [
       "home": 2.02,
       "away": 1.44
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -92563,7 +92021,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-02",
       "rawTime": "19:00 UTC-4",
       "homeName": "Portugal",
@@ -92655,14 +92113,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 38,
-      "under25": 62,
-      "bttsYes": 52,
-      "bttsNo": 48,
+      "over25": 41,
+      "under25": 59,
+      "bttsYes": 54,
+      "bttsNo": 46,
       "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 10,
-      "lowScoreDraw": 36,
-      "expectedTotalGoals": 2.4,
+      "awayWinBy2Plus": 11,
+      "lowScoreDraw": 34,
+      "expectedTotalGoals": 2.47,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
       "upsetRisk": "中"
@@ -92783,7 +92241,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -93014,9 +92472,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -93048,19 +92506,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，43 家公司均值：主 1.83 / 平 3.46 / 客 4.67。市场倾向 葡萄牙。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Portugal’s new No 7 Forbs channels Ronaldo for winner as Wales are denied",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/wales-portugal-nations-league-match-report",
-          "pubDate": "Tue, 17 Nov 2026 22:14:37 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -93286,9 +92735,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -93364,7 +92813,7 @@ window.MATCHES = [
       "home": 1.85,
       "away": 1.39
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -93704,7 +93153,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-02",
       "rawTime": "20:00 UTC-7",
       "homeName": "Switzerland",
@@ -93796,17 +93245,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 41,
-      "under25": 59,
-      "bttsYes": 52,
-      "bttsNo": 48,
-      "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 12,
+      "over25": 40,
+      "under25": 60,
+      "bttsYes": 51,
+      "bttsNo": 49,
+      "homeWinBy2Plus": 15,
+      "awayWinBy2Plus": 13,
       "lowScoreDraw": 31,
-      "expectedTotalGoals": 2.42,
+      "expectedTotalGoals": 2.36,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
-      "upsetRisk": "中"
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "connected",
@@ -93924,7 +93373,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -94155,9 +93604,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -94189,31 +93638,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，43 家公司均值：主 1.88 / 平 3.56 / 客 4.18。市场倾向 瑞士。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 3,
-      "articles": [
-        {
-          "title": "Janine van Wyk: ‘Our rooms were empty … no mattresses, no lightbulbs and not a drop of water’",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/janine-van-wyck-south-africa-wafcon-book-extract-moving-the-goalposts-newsletter",
-          "pubDate": "Tue, 17 Nov 2026 11:57:35 GMT"
-        },
-        {
-          "title": "Portugal’s new No 7 Forbs channels Ronaldo for winner as Wales are denied",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/wales-portugal-nations-league-match-report",
-          "pubDate": "Tue, 17 Nov 2026 22:14:37 GMT"
-        },
-        {
-          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
-          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
-        }
-      ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -94439,9 +93867,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -94517,7 +93945,7 @@ window.MATCHES = [
       "home": 1.93,
       "away": 1.77
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -94857,7 +94285,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-03",
       "rawTime": "13:00 UTC-5",
       "homeName": "Australia",
@@ -94950,17 +94378,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 39,
-      "under25": 61,
-      "bttsYes": 50,
-      "bttsNo": 50,
-      "homeWinBy2Plus": 14,
+      "over25": 42,
+      "under25": 58,
+      "bttsYes": 52,
+      "bttsNo": 48,
+      "homeWinBy2Plus": 17,
       "awayWinBy2Plus": 13,
-      "lowScoreDraw": 32,
-      "expectedTotalGoals": 2.31,
+      "lowScoreDraw": 30,
+      "expectedTotalGoals": 2.42,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "双方进球均衡",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -95600,9 +95028,9 @@ window.MATCHES = [
           ]
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -95678,7 +95106,7 @@ window.MATCHES = [
       "home": 1.84,
       "away": 1.66
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -96007,7 +95435,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-03",
       "rawTime": "18:00 UTC-4",
       "homeName": "Argentina",
@@ -96100,15 +95528,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 45,
-      "under25": 55,
-      "bttsYes": 41,
-      "bttsNo": 59,
-      "homeWinBy2Plus": 41,
+      "over25": 47,
+      "under25": 53,
+      "bttsYes": 42,
+      "bttsNo": 58,
+      "homeWinBy2Plus": 42,
       "awayWinBy2Plus": 3,
-      "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.52,
-      "totalGoalsLean": "小于2.5球",
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 2.61,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
     },
@@ -96228,7 +95656,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -96459,9 +95887,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -96493,31 +95921,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，45 家公司均值：主 1.14 / 平 8.27 / 客 20.6。市场倾向 阿根廷。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 3,
-      "articles": [
-        {
-          "title": "Swing when you’re winning? Biggest leaps across Fifa’s football rankings | The Knowledge",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/biggest-leaps-across-fifa-football-rankings-the-knowledge",
-          "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT"
-        },
-        {
-          "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
-          "pubDate": "Tue, 17 Nov 2026 15:00:16 GMT"
-        },
-        {
-          "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-          "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
-        }
-      ],
-      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -96645,9 +96052,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -96723,7 +96130,7 @@ window.MATCHES = [
       "home": 2.93,
       "away": 0.93
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -97063,7 +96470,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-03",
       "rawTime": "20:30 UTC-5",
       "homeName": "Colombia",
@@ -97155,14 +96562,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 29,
-      "under25": 71,
-      "bttsYes": 37,
-      "bttsNo": 63,
-      "homeWinBy2Plus": 27,
-      "awayWinBy2Plus": 3,
-      "lowScoreDraw": 39,
-      "expectedTotalGoals": 2.06,
+      "over25": 26,
+      "under25": 74,
+      "bttsYes": 34,
+      "bttsNo": 66,
+      "homeWinBy2Plus": 25,
+      "awayWinBy2Plus": 2,
+      "lowScoreDraw": 41,
+      "expectedTotalGoals": 1.94,
       "totalGoalsLean": "小于2.5球",
       "bttsLean": "至少一方零封",
       "upsetRisk": "低"
@@ -97283,7 +96690,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -97514,9 +96921,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -97548,19 +96955,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，43 家公司均值：主 1.6 / 平 3.7 / 客 6.39。市场倾向 哥伦比亚。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Swing when you’re winning? Biggest leaps across Fifa’s football rankings | The Knowledge",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/biggest-leaps-across-fifa-football-rankings-the-knowledge",
-          "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -97786,9 +97184,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -97864,7 +97262,7 @@ window.MATCHES = [
       "home": 2.36,
       "away": 0.74
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -98204,7 +97602,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-04",
       "rawTime": "12:00 UTC-5",
       "homeName": "Canada",
@@ -98297,14 +97695,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 54,
-      "under25": 46,
-      "bttsYes": 57,
-      "bttsNo": 43,
+      "over25": 52,
+      "under25": 48,
+      "bttsYes": 56,
+      "bttsNo": 44,
       "homeWinBy2Plus": 7,
-      "awayWinBy2Plus": 31,
-      "lowScoreDraw": 22,
-      "expectedTotalGoals": 2.87,
+      "awayWinBy2Plus": 30,
+      "lowScoreDraw": 23,
+      "expectedTotalGoals": 2.8,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -98919,9 +98317,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -98997,7 +98395,7 @@ window.MATCHES = [
       "home": 1.3,
       "away": 2.56
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -99337,7 +98735,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-04",
       "rawTime": "17:00 UTC-4",
       "homeName": "Paraguay",
@@ -99432,10 +98830,10 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 55,
       "under25": 45,
-      "bttsYes": 47,
-      "bttsNo": 53,
-      "homeWinBy2Plus": 3,
-      "awayWinBy2Plus": 47,
+      "bttsYes": 49,
+      "bttsNo": 51,
+      "homeWinBy2Plus": 4,
+      "awayWinBy2Plus": 44,
       "lowScoreDraw": 18,
       "expectedTotalGoals": 2.91,
       "totalGoalsLean": "大小球均衡",
@@ -100052,9 +99450,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -100130,7 +99528,7 @@ window.MATCHES = [
       "home": 0.95,
       "away": 3.02
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -100470,7 +99868,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-05",
       "rawTime": "16:00 UTC-4",
       "homeName": "Brazil",
@@ -100563,17 +99961,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 60,
-      "under25": 40,
-      "bttsYes": 61,
-      "bttsNo": 39,
-      "homeWinBy2Plus": 33,
-      "awayWinBy2Plus": 8,
-      "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.13,
+      "over25": 58,
+      "under25": 42,
+      "bttsYes": 62,
+      "bttsNo": 38,
+      "homeWinBy2Plus": 29,
+      "awayWinBy2Plus": 10,
+      "lowScoreDraw": 21,
+      "expectedTotalGoals": 3.07,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
-      "upsetRisk": "低"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -100680,10 +100078,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 48,
-        "awayScore": 50,
-        "contribution": -0.12,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "homeScore": 50,
+        "awayScore": 48,
+        "contribution": 0.12,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
       },
       {
         "name": "赔率市场",
@@ -100927,11 +100325,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 48,
-        "awayScore": 50,
-        "goalLift": 0.11,
+        "homeScore": 50,
+        "awayScore": 48,
+        "goalLift": -0.03,
         "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。 战术新闻偏主动，抬高比赛节奏。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
       }
     },
     "marketSignals": {
@@ -100962,10 +100360,10 @@ window.MATCHES = [
       "articleCount": 1,
       "articles": [
         {
-          "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-          "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT"
+          "title": "Five return for Wales' World Cup play-off final",
+          "source": "feeds.bbci.co.uk",
+          "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 19 Nov 2026 13:40:43 GMT"
         }
       ],
       "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -101178,12 +100576,12 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-              "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT",
-              "description": "Win over El Salvador would qualify US for Brazil 2027 Naomi Girma misses squad due to injury Sam Coffey returns after injury absence In the two years since the Paris Olympics, Emma Hayes has thoroughly tested fresh faces and new combinations, gathering a considerable amount of data about the US women’s national team. It’s been a thorough process, with 33 players earning their first caps since Hayes assumed the post, to bring her roster of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Continue reading...",
-              "bodyText": "er of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Hayes’s 23 selections for the tournament suggests what her preferred core may look like for the remainder of the cycle. Only four field players on her roster arrive with fewer than a dozen caps: midfielder Croix Bethune (seven), who sent the Kansas City Current to the NWSL championship last weekend with a brilliant curling free-kick, plus defenders Kennedy Wesley (nine), Kate Del Fava (one) and Evelyn Shores, who becomes only the second uncapped USWNT player selected for a World Cup qualifier (following Taylor Flint, née Kornieck, 2022). Eight players from Hayes’s Olympic gold medal squad remain in the fold, including the star attacking trio of Trinity Rodman, Mallory Swanson and Sophia Wilson. Sam Coffey returns after an injury prevented her from joining the team in the previous window, while Naomi Girma misses out due to persistent muscle issues. Claudia Dickey, Mandy McGlynn and Phallon Tullis-Joyce will continue to vie to start in goal, continuing their open competition following Alyssa Naeher’s retirement. The average age of this roster is 26.1, with only two players (Lindsey Heaps and Rose Lavelle) at least 30. The Concacaf W Championship doubles as qualifying for both the 2027 Women’s World Cup and the 2028 Los Angeles Olympics. All four semi-finalists will be guaranteed a spot in the World Cup field, and the top three finishers will also join the Olympic field. (The US have qualified for the Olympics automatically as hosts). The losing teams in the quarter-finals will compete against each other for Concacaf’s two spots in the inter-confederation playoffs, which are scheduled for February in Morocco. This story will be updated with remarks from Hayes’s presser on Wednesday morning. US women’s national team squad Goalkeepers: Claudia Dickey (Seattle Reign), Mandy McGlynn (Ut",
+              "title": "Five return for Wales' World Cup play-off final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Thu, 19 Nov 2026 13:40:43 GMT",
+              "description": "Ceri Holland is in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury.",
+              "bodyText": "Wales v Norway: Ceri Holland in squad for Women's World Cup play-off final - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs Women's Football Scores & Fixtures Table Top Scorers WSL Fan Chat Five return for Wales' World Cup play-off final Image source, FAW Image caption, Ceri Holland has not played for Liverpool since mid-September By Gareth Vincent BBC Sport Wales Published 19 November 2026, 10:00 GMT Updated 2 hours ago Ceri Holland has been named in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury. Olivia Clark, Hayley Ladd, Rhiannon Roberts and Ella Powell are also included after fitness issues, but Ffion Morgan, Laura Hughes and Scarlett Hill are among those who miss out with injuries. The versatile Holland, arguably Wales' most influential player, has been out with a muscle problem, though she is thought to be close to returning to act",
               "bodyError": ""
             }
           ]
@@ -101195,12 +100593,12 @@ window.MATCHES = [
           "players": [],
           "articles": [
             {
-              "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-              "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT",
-              "description": "Win over El Salvador would qualify US for Brazil 2027 Naomi Girma misses squad due to injury Sam Coffey returns after injury absence In the two years since the Paris Olympics, Emma Hayes has thoroughly tested fresh faces and new combinations, gathering a considerable amount of data about the US women’s national team. It’s been a thorough process, with 33 players earning their first caps since Hayes assumed the post, to bring her roster of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Continue reading...",
-              "bodyText": "er of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Hayes’s 23 selections for the tournament suggests what her preferred core may look like for the remainder of the cycle. Only four field players on her roster arrive with fewer than a dozen caps: midfielder Croix Bethune (seven), who sent the Kansas City Current to the NWSL championship last weekend with a brilliant curling free-kick, plus defenders Kennedy Wesley (nine), Kate Del Fava (one) and Evelyn Shores, who becomes only the second uncapped USWNT player selected for a World Cup qualifier (following Taylor Flint, née Kornieck, 2022). Eight players from Hayes’s Olympic gold medal squad remain in the fold, including the star attacking trio of Trinity Rodman, Mallory Swanson and Sophia Wilson. Sam Coffey returns after an injury prevented her from joining the team in the previous window, while Naomi Girma misses out due to persistent muscle issues. Claudia Dickey, Mandy McGlynn and Phallon Tullis-Joyce will continue to vie to start in goal, continuing their open competition following Alyssa Naeher’s retirement. The average age of this roster is 26.1, with only two players (Lindsey Heaps and Rose Lavelle) at least 30. The Concacaf W Championship doubles as qualifying for both the 2027 Women’s World Cup and the 2028 Los Angeles Olympics. All four semi-finalists will be guaranteed a spot in the World Cup field, and the top three finishers will also join the Olympic field. (The US have qualified for the Olympics automatically as hosts). The losing teams in the quarter-finals will compete against each other for Concacaf’s two spots in the inter-confederation playoffs, which are scheduled for February in Morocco. This story will be updated with remarks from Hayes’s presser on Wednesday morning. US women’s national team squad Goalkeepers: Claudia Dickey (Seattle Reign), Mandy McGlynn (Ut",
+              "title": "Five return for Wales' World Cup play-off final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Thu, 19 Nov 2026 13:40:43 GMT",
+              "description": "Ceri Holland is in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury.",
+              "bodyText": "Wales v Norway: Ceri Holland in squad for Women's World Cup play-off final - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs Women's Football Scores & Fixtures Table Top Scorers WSL Fan Chat Five return for Wales' World Cup play-off final Image source, FAW Image caption, Ceri Holland has not played for Liverpool since mid-September By Gareth Vincent BBC Sport Wales Published 19 November 2026, 10:00 GMT Updated 2 hours ago Ceri Holland has been named in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury. Olivia Clark, Hayley Ladd, Rhiannon Roberts and Ella Powell are also included after fitness issues, but Ffion Morgan, Laura Hughes and Scarlett Hill are among those who miss out with injuries. The versatile Holland, arguably Wales' most influential player, has been out with a muscle problem, though she is thought to be close to returning to act",
               "bodyError": ""
             }
           ]
@@ -101208,22 +100606,12 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "USWNT squad: Emma Hayes names veteran group for Concacaf championship and World Cup qualifier",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/18/uswnt-squad-concacaf-w-championship-world-cup-qualifier",
-              "pubDate": "Wed, 18 Nov 2026 16:00:05 GMT",
-              "description": "Win over El Salvador would qualify US for Brazil 2027 Naomi Girma misses squad due to injury Sam Coffey returns after injury absence In the two years since the Paris Olympics, Emma Hayes has thoroughly tested fresh faces and new combinations, gathering a considerable amount of data about the US women’s national team. It’s been a thorough process, with 33 players earning their first caps since Hayes assumed the post, to bring her roster of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Continue reading...",
-              "bodyText": "er of options to 61 players. At last, the main event is nearing. On Black Friday, the United States will enter the Concacaf W Championship with a clear objective: beat El Salvador. Winning the whole thing is nice, of course, and the USWNT have done so in nine of its 11 installments to date. But by far the most important game on that journey is the first one, a 27 November quarter-final date with clear stakes: overcome El Salvador or rely on a playoff to reach next summer’s World Cup. Hayes’s 23 selections for the tournament suggests what her preferred core may look like for the remainder of the cycle. Only four field players on her roster arrive with fewer than a dozen caps: midfielder Croix Bethune (seven), who sent the Kansas City Current to the NWSL championship last weekend with a brilliant curling free-kick, plus defenders Kennedy Wesley (nine), Kate Del Fava (one) and Evelyn Shores, who becomes only the second uncapped USWNT player selected for a World Cup qualifier (following Taylor Flint, née Kornieck, 2022). Eight players from Hayes’s Olympic gold medal squad remain in the fold, including the star attacking trio of Trinity Rodman, Mallory Swanson and Sophia Wilson. Sam Coffey returns after an injury prevented her from joining the team in the previous window, while Naomi Girma misses out due to persistent muscle issues. Claudia Dickey, Mandy McGlynn and Phallon Tullis-Joyce will continue to vie to start in goal, continuing their open competition following Alyssa Naeher’s retirement. The average age of this roster is 26.1, with only two players (Lindsey Heaps and Rose Lavelle) at least 30. The Concacaf W Championship doubles as qualifying for both the 2027 Women’s World Cup and the 2028 Los Angeles Olympics. All four semi-finalists will be guaranteed a spot in the World Cup field, and the top three finishers will also join the Olympic field. (The US have qualified for the Olympics automatically as hosts). The losing teams in the quarter-finals will compete against each other for Concacaf’s two spots in the inter-confederation playoffs, which are scheduled for February in Morocco. This story will be updated with remarks from Hayes’s presser on Wednesday morning. US women’s national team squad Goalkeepers: Claudia Dickey (Seattle Reign), Mandy McGlynn (Ut",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -101299,7 +100687,7 @@ window.MATCHES = [
       "home": 2.73,
       "away": 1.41
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -101639,7 +101027,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-05",
       "rawTime": "18:00 UTC-6",
       "homeName": "Mexico",
@@ -101732,14 +101120,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 53,
-      "under25": 47,
-      "bttsYes": 63,
-      "bttsNo": 37,
-      "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 15,
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 64,
+      "bttsNo": 36,
+      "homeWinBy2Plus": 15,
+      "awayWinBy2Plus": 16,
       "lowScoreDraw": 27,
-      "expectedTotalGoals": 2.95,
+      "expectedTotalGoals": 3.02,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -101850,9 +101238,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 46,
-        "contribution": 0.24,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 2 条。 战术新闻偏保守，降低总进球预期。"
+        "awayScore": 48,
+        "contribution": 0.12,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
       },
       {
         "name": "赔率市场",
@@ -101860,7 +101248,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -102097,10 +101485,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 46,
-        "goalLift": -0.24,
+        "awayScore": 48,
+        "goalLift": -0.03,
         "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 2 条。 战术新闻偏保守，降低总进球预期。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
       }
     },
     "marketSignals": {
@@ -102128,19 +101516,13 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
-          "title": "FA wants to host Nations League finals in England",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c5742x4xldmpo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 17 Nov 2026 15:51:30 GMT"
-        },
-        {
-          "title": "London City's Goodwin gets first England call-up",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT"
+          "title": "Wayne Rooney says he contemplated taking own life during playing career",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
+          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
         },
         {
           "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
@@ -102149,13 +101531,13 @@ window.MATCHES = [
           "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT"
         },
         {
-          "title": "Wayne Rooney says he contemplated taking own life during playing career",
+          "title": "‘The game is in danger’: PFA head Maheta Molango on Fifa, Infantino and football’s future",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
-          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/17/pfa-maheta-molango-interview-fifa-gianni-infantino-interview",
+          "pubDate": "Tue, 17 Nov 2026 20:00:20 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -102368,39 +101750,12 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "London City's Goodwin gets first England call-up",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
-              "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 17 November 2026 London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the ga",
-              "bodyError": ""
-            },
-            {
               "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
               "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
               "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
-              "bodyText": "",
-              "bodyError": "403 Forbidden"
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
-              "bodyError": ""
-            },
-            {
-              "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-              "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT",
-              "description": "‘We will not go back on this way of playing,’ says Thomas Tuchel after he delivered response to World Cup critics Thomas Tuchel made defensive substitutions as England protected a lead. He finished with three centre-backs on the pitch. His team could not get out of their half in the final part of the game. So close your eyes and imagine an alternate universe in which James Trafford did not make his stunning double save in stoppage time on Sunday and England had drawn 3-3 with Spain at the Metropolitano Stadium rather than won 3-2 . The reaction would not have been kind because Tuchel has been here before. The head coach wanted to push one particular comparison from the World Cup over the summer. “It was Mexico reloaded,” he said, with a nod towards the 3-2 last-16 win at the Azteca Stadium and it fitted like a glove – down to the detail of Jarell Quansah and red cards. Continue reading...",
-              "bodyText": "",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
@@ -102417,16 +101772,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
               "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
               "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
-              "bodyText": "",
-              "bodyError": "403 Forbidden"
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
@@ -102436,38 +101782,20 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "London City's Goodwin gets first England call-up",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
-              "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 17 November 2026 London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the ga",
-              "bodyError": ""
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
+              "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
               "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
-              "bodyError": ""
-            },
-            {
-              "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-              "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT",
-              "description": "‘We will not go back on this way of playing,’ says Thomas Tuchel after he delivered response to World Cup critics Thomas Tuchel made defensive substitutions as England protected a lead. He finished with three centre-backs on the pitch. His team could not get out of their half in the final part of the game. So close your eyes and imagine an alternate universe in which James Trafford did not make his stunning double save in stoppage time on Sunday and England had drawn 3-3 with Spain at the Metropolitano Stadium rather than won 3-2 . The reaction would not have been kind because Tuchel has been here before. The head coach wanted to push one particular comparison from the World Cup over the summer. “It was Mexico reloaded,” he said, with a nod towards the 3-2 last-16 win at the Azteca Stadium and it fitted like a glove – down to the detail of Jarell Quansah and red cards. Continue reading...",
-              "bodyText": "",
+              "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
+              "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
+              "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -102543,7 +101871,7 @@ window.MATCHES = [
       "home": 1.9,
       "away": 2.12
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -102884,7 +102212,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-06",
       "rawTime": "14:00 UTC-5",
       "homeName": "Portugal",
@@ -102976,17 +102304,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 42,
-      "under25": 58,
-      "bttsYes": 52,
-      "bttsNo": 48,
-      "homeWinBy2Plus": 13,
-      "awayWinBy2Plus": 17,
-      "lowScoreDraw": 30,
-      "expectedTotalGoals": 2.43,
-      "totalGoalsLean": "小于2.5球",
-      "bttsLean": "双方进球均衡",
-      "upsetRisk": "中"
+      "over25": 46,
+      "under25": 54,
+      "bttsYes": 55,
+      "bttsNo": 45,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 15,
+      "lowScoreDraw": 28,
+      "expectedTotalGoals": 2.57,
+      "totalGoalsLean": "大小球均衡",
+      "bttsLean": "双方进球",
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "connected",
@@ -103104,7 +102432,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -103335,9 +102663,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -103369,25 +102697,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，47 家公司均值：主 4.04 / 平 3.6 / 客 1.91。市场倾向 西班牙。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 2,
-      "articles": [
-        {
-          "title": "Portugal’s new No 7 Forbs channels Ronaldo for winner as Wales are denied",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/wales-portugal-nations-league-match-report",
-          "pubDate": "Tue, 17 Nov 2026 22:14:37 GMT"
-        },
-        {
-          "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-          "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
-        }
-      ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -103610,9 +102923,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -103688,7 +103001,7 @@ window.MATCHES = [
       "home": 1.76,
       "away": 1.88
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -104029,7 +103342,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-06",
       "rawTime": "17:00 UTC-7",
       "homeName": "USA",
@@ -104122,15 +103435,15 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 54,
-      "under25": 46,
-      "bttsYes": 64,
-      "bttsNo": 36,
-      "homeWinBy2Plus": 12,
-      "awayWinBy2Plus": 19,
-      "lowScoreDraw": 27,
-      "expectedTotalGoals": 3.02,
-      "totalGoalsLean": "大小球均衡",
+      "over25": 62,
+      "under25": 38,
+      "bttsYes": 66,
+      "bttsNo": 34,
+      "homeWinBy2Plus": 14,
+      "awayWinBy2Plus": 24,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 3.25,
+      "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
     },
@@ -104250,7 +103563,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -104481,9 +103794,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -104515,25 +103828,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，43 家公司均值：主 2.53 / 平 3.45 / 客 2.73。市场倾向 美国。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 2,
-      "articles": [
-        {
-          "title": "Football Daily | From Cincinnati to Manchester: Pochettino in a hurry to paint town red",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/18/cincinnati-manchester-united-pochettino-football-daily-newsletter",
-          "pubDate": "Wed, 18 Nov 2026 15:16:44 GMT"
-        },
-        {
-          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
-          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
-        }
-      ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -104759,9 +104057,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -104837,7 +104135,7 @@ window.MATCHES = [
       "home": 1.66,
       "away": 2.09
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -105177,7 +104475,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-07",
       "rawTime": "12:00 UTC-4",
       "homeName": "Argentina",
@@ -105272,14 +104570,14 @@ window.MATCHES = [
     "expandedMarkets": {
       "over25": 58,
       "under25": 42,
-      "bttsYes": 54,
-      "bttsNo": 46,
-      "homeWinBy2Plus": 41,
+      "bttsYes": 56,
+      "bttsNo": 44,
+      "homeWinBy2Plus": 39,
       "awayWinBy2Plus": 5,
-      "lowScoreDraw": 18,
+      "lowScoreDraw": 19,
       "expectedTotalGoals": 3.05,
       "totalGoalsLean": "大于2.5球",
-      "bttsLean": "双方进球均衡",
+      "bttsLean": "双方进球",
       "upsetRisk": "低"
     },
     "marketCalibration": {
@@ -105398,7 +104696,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -105629,9 +104927,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -105663,25 +104961,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，45 家公司均值：主 1.37 / 平 4.74 / 客 9.25。市场倾向 阿根廷。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 2,
-      "articles": [
-        {
-          "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
-          "pubDate": "Tue, 17 Nov 2026 15:00:16 GMT"
-        },
-        {
-          "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-          "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
-        }
-      ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -105907,9 +105190,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -105985,7 +105268,7 @@ window.MATCHES = [
       "home": 2.75,
       "away": 1.19
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -106325,7 +105608,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-07",
       "rawTime": "13:00 UTC-7",
       "homeName": "Switzerland",
@@ -106417,14 +105700,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 51,
-      "under25": 49,
-      "bttsYes": 63,
-      "bttsNo": 37,
+      "over25": 50,
+      "under25": 50,
+      "bttsYes": 62,
+      "bttsNo": 38,
       "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 16,
-      "lowScoreDraw": 28,
-      "expectedTotalGoals": 2.91,
+      "awayWinBy2Plus": 15,
+      "lowScoreDraw": 29,
+      "expectedTotalGoals": 2.85,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "高"
@@ -106545,7 +105828,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -106776,9 +106059,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -106810,25 +106093,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，45 家公司均值：主 3.52 / 平 3.09 / 客 2.26。市场倾向 哥伦比亚。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 2,
-      "articles": [
-        {
-          "title": "Portugal’s new No 7 Forbs channels Ronaldo for winner as Wales are denied",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/wales-portugal-nations-league-match-report",
-          "pubDate": "Tue, 17 Nov 2026 22:14:37 GMT"
-        },
-        {
-          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
-          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
-        }
-      ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -107054,9 +106322,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -107132,7 +106400,7 @@ window.MATCHES = [
       "home": 1.81,
       "away": 2.06
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -107472,7 +106740,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-09",
       "rawTime": "16:00 UTC-4",
       "homeName": "France",
@@ -107565,14 +106833,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 65,
-      "under25": 35,
-      "bttsYes": 68,
-      "bttsNo": 32,
-      "homeWinBy2Plus": 27,
-      "awayWinBy2Plus": 12,
-      "lowScoreDraw": 18,
-      "expectedTotalGoals": 3.42,
+      "over25": 63,
+      "under25": 37,
+      "bttsYes": 67,
+      "bttsNo": 33,
+      "homeWinBy2Plus": 24,
+      "awayWinBy2Plus": 14,
+      "lowScoreDraw": 19,
+      "expectedTotalGoals": 3.33,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -108184,9 +107452,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -108262,7 +107530,7 @@ window.MATCHES = [
       "home": 2.3,
       "away": 1.65
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -108602,7 +107870,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-10",
       "rawTime": "12:00 UTC-7",
       "homeName": "Spain",
@@ -108694,17 +107962,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 50,
-      "under25": 50,
-      "bttsYes": 61,
-      "bttsNo": 39,
-      "homeWinBy2Plus": 15,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.84,
-      "totalGoalsLean": "大小球均衡",
+      "over25": 55,
+      "under25": 45,
+      "bttsYes": 66,
+      "bttsNo": 34,
+      "homeWinBy2Plus": 14,
+      "awayWinBy2Plus": 17,
+      "lowScoreDraw": 26,
+      "expectedTotalGoals": 3.09,
+      "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
-      "upsetRisk": "高"
+      "upsetRisk": "中"
     },
     "marketCalibration": {
       "status": "connected",
@@ -108822,7 +108090,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -109053,9 +108321,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -109087,25 +108355,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，45 家公司均值：主 1.62 / 平 3.93 / 客 5.57。市场倾向 西班牙。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 2,
-      "articles": [
-        {
-          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
-          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
-        },
-        {
-          "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-          "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
-        }
-      ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -109328,9 +108581,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -109406,7 +108659,7 @@ window.MATCHES = [
       "home": 2,
       "away": 1.92
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -109747,7 +109000,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-11",
       "rawTime": "17:00 UTC-4",
       "homeName": "Norway",
@@ -109840,16 +109093,16 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 53,
-      "under25": 47,
-      "bttsYes": 56,
-      "bttsNo": 44,
-      "homeWinBy2Plus": 8,
-      "awayWinBy2Plus": 30,
-      "lowScoreDraw": 23,
-      "expectedTotalGoals": 2.84,
+      "over25": 52,
+      "under25": 48,
+      "bttsYes": 54,
+      "bttsNo": 46,
+      "homeWinBy2Plus": 6,
+      "awayWinBy2Plus": 34,
+      "lowScoreDraw": 22,
+      "expectedTotalGoals": 2.8,
       "totalGoalsLean": "大小球均衡",
-      "bttsLean": "双方进球",
+      "bttsLean": "双方进球均衡",
       "upsetRisk": "低"
     },
     "marketCalibration": {
@@ -109957,10 +109210,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 50,
+        "homeScore": 48,
         "awayScore": 46,
-        "contribution": 0.24,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 2 条。"
+        "contribution": 0.12,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 2 条。"
       },
       {
         "name": "赔率市场",
@@ -110204,11 +109457,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 50,
+        "homeScore": 48,
         "awayScore": 46,
-        "goalLift": -0.06,
+        "goalLift": -0.09,
         "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 2 条。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 2 条。"
       }
     },
     "marketSignals": {
@@ -110239,16 +109492,16 @@ window.MATCHES = [
       "articleCount": 4,
       "articles": [
         {
-          "title": "FA wants to host Nations League finals in England",
+          "title": "Five return for Wales' World Cup play-off final",
           "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c5742x4xldmpo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 17 Nov 2026 15:51:30 GMT"
+          "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+          "pubDate": "Thu, 19 Nov 2026 13:40:43 GMT"
         },
         {
-          "title": "London City's Goodwin gets first England call-up",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT"
+          "title": "Wayne Rooney says he contemplated taking own life during playing career",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
+          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
         },
         {
           "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
@@ -110257,10 +109510,10 @@ window.MATCHES = [
           "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT"
         },
         {
-          "title": "Wayne Rooney says he contemplated taking own life during playing career",
+          "title": "‘The game is in danger’: PFA head Maheta Molango on Fifa, Infantino and football’s future",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
-          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/17/pfa-maheta-molango-interview-fifa-gianni-infantino-interview",
+          "pubDate": "Tue, 17 Nov 2026 20:00:20 GMT"
         }
       ],
       "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
@@ -110473,12 +109726,12 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "London City's Goodwin gets first England call-up",
+              "title": "Five return for Wales' World Cup play-off final",
               "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
-              "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 17 November 2026 London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the ga",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Thu, 19 Nov 2026 13:40:43 GMT",
+              "description": "Ceri Holland is in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury.",
+              "bodyText": "Wales v Norway: Ceri Holland in squad for Women's World Cup play-off final - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs Women's Football Scores & Fixtures Table Top Scorers WSL Fan Chat Five return for Wales' World Cup play-off final Image source, FAW Image caption, Ceri Holland has not played for Liverpool since mid-September By Gareth Vincent BBC Sport Wales Published 19 November 2026, 10:00 GMT Updated 2 hours ago Ceri Holland has been named in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury. Olivia Clark, Hayley Ladd, Rhiannon Roberts and Ella Powell are also included after fitness issues, but Ffion Morgan, Laura Hughes and Scarlett Hill are among those who miss out with injuries. The versatile Holland, arguably Wales' most influential player, has been out with a muscle problem, though she is thought to be close to returning to act",
               "bodyError": ""
             },
             {
@@ -110487,16 +109740,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
               "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
               "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
-              "bodyText": "",
-              "bodyError": "403 Forbidden"
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
@@ -110508,21 +109752,21 @@ window.MATCHES = [
           "players": [],
           "articles": [
             {
+              "title": "Five return for Wales' World Cup play-off final",
+              "source": "feeds.bbci.co.uk",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c620535y8zpjo?at_medium=RSS&at_campaign=rss",
+              "pubDate": "Thu, 19 Nov 2026 13:40:43 GMT",
+              "description": "Ceri Holland is in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury.",
+              "bodyText": "Wales v Norway: Ceri Holland in squad for Women's World Cup play-off final - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs Women's Football Scores & Fixtures Table Top Scorers WSL Fan Chat Five return for Wales' World Cup play-off final Image source, FAW Image caption, Ceri Holland has not played for Liverpool since mid-September By Gareth Vincent BBC Sport Wales Published 19 November 2026, 10:00 GMT Updated 2 hours ago Ceri Holland has been named in the Wales squad for next month's Women's World Cup play-off final against Norway despite being out since September through injury. Olivia Clark, Hayley Ladd, Rhiannon Roberts and Ella Powell are also included after fitness issues, but Ffion Morgan, Laura Hughes and Scarlett Hill are among those who miss out with injuries. The versatile Holland, arguably Wales' most influential player, has been out with a muscle problem, though she is thought to be close to returning to act",
+              "bodyError": ""
+            },
+            {
               "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
               "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
               "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
-              "bodyText": "",
-              "bodyError": "403 Forbidden"
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
@@ -110532,29 +109776,20 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "London City's Goodwin gets first England call-up",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
-              "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 17 November 2026 London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the ga",
-              "bodyError": ""
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
+              "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
               "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
+              "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
+              "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -110630,7 +109865,7 @@ window.MATCHES = [
       "home": 1.33,
       "away": 2.3
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -110970,7 +110205,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-11",
       "rawTime": "20:00 UTC-5",
       "homeName": "Argentina",
@@ -111064,14 +110299,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 60,
-      "under25": 40,
-      "bttsYes": 60,
-      "bttsNo": 40,
-      "homeWinBy2Plus": 34,
+      "over25": 57,
+      "under25": 43,
+      "bttsYes": 59,
+      "bttsNo": 41,
+      "homeWinBy2Plus": 33,
       "awayWinBy2Plus": 7,
-      "lowScoreDraw": 19,
-      "expectedTotalGoals": 3.15,
+      "lowScoreDraw": 20,
+      "expectedTotalGoals": 3.03,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
       "upsetRisk": "低"
@@ -111192,7 +110427,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -111423,9 +110658,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -111457,37 +110692,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，47 家公司均值：主 1.7 / 平 3.57 / 客 5.58。市场倾向 阿根廷。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 4,
-      "articles": [
-        {
-          "title": "Portugal’s new No 7 Forbs channels Ronaldo for winner as Wales are denied",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/wales-portugal-nations-league-match-report",
-          "pubDate": "Tue, 17 Nov 2026 22:14:37 GMT"
-        },
-        {
-          "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
-          "pubDate": "Tue, 17 Nov 2026 15:00:16 GMT"
-        },
-        {
-          "title": "Pocognoli’s aspiration for how Scotland must play is in danger of becoming unworkable",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/sebastien-pocognoli-scotland-nations-league-switzerland",
-          "pubDate": "Tue, 17 Nov 2026 16:59:54 GMT"
-        },
-        {
-          "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-          "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
-        }
-      ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -111713,9 +110921,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -111791,7 +110999,7 @@ window.MATCHES = [
       "home": 2.73,
       "away": 1.42
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -112131,7 +111339,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-14",
       "rawTime": "14:00 UTC-5",
       "homeName": "France",
@@ -112223,17 +111431,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 57,
-      "under25": 43,
-      "bttsYes": 62,
-      "bttsNo": 38,
-      "homeWinBy2Plus": 24,
-      "awayWinBy2Plus": 12,
-      "lowScoreDraw": 21,
-      "expectedTotalGoals": 3.01,
-      "totalGoalsLean": "大于2.5球",
+      "over25": 54,
+      "under25": 46,
+      "bttsYes": 65,
+      "bttsNo": 35,
+      "homeWinBy2Plus": 16,
+      "awayWinBy2Plus": 15,
+      "lowScoreDraw": 27,
+      "expectedTotalGoals": 3.04,
+      "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "connected",
@@ -112351,7 +111559,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -112582,9 +111790,9 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
@@ -112616,19 +111824,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，49 家公司均值：主 2.31 / 平 3.24 / 客 3.26。市场倾向 法国。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 1,
-      "articles": [
-        {
-          "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-          "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
-        }
-      ],
-      "note": "已匹配 1 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -112851,9 +112050,9 @@ window.MATCHES = [
           "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -112929,7 +112128,7 @@ window.MATCHES = [
       "home": 2.28,
       "away": 1.73
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -113269,7 +112468,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-15",
       "rawTime": "15:00 UTC-4",
       "homeName": "England",
@@ -113362,17 +112561,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 51,
-      "under25": 49,
-      "bttsYes": 63,
-      "bttsNo": 37,
-      "homeWinBy2Plus": 16,
-      "awayWinBy2Plus": 15,
-      "lowScoreDraw": 28,
-      "expectedTotalGoals": 2.91,
-      "totalGoalsLean": "大小球均衡",
+      "over25": 58,
+      "under25": 42,
+      "bttsYes": 68,
+      "bttsNo": 32,
+      "homeWinBy2Plus": 17,
+      "awayWinBy2Plus": 16,
+      "lowScoreDraw": 25,
+      "expectedTotalGoals": 3.22,
+      "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "connected",
@@ -113479,10 +112678,10 @@ window.MATCHES = [
       {
         "name": "临场新闻",
         "weight": 6,
-        "homeScore": 46,
+        "homeScore": 48,
         "awayScore": 50,
-        "contribution": -0.24,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 0 条。 战术新闻偏保守，降低总进球预期。"
+        "contribution": -0.12,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
       },
       {
         "name": "赔率市场",
@@ -113490,7 +112689,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -113726,11 +112925,11 @@ window.MATCHES = [
         "expertWeight": 0.08
       },
       "newsImpact": {
-        "homeScore": 46,
+        "homeScore": 48,
         "awayScore": 50,
-        "goalLift": -0.24,
+        "goalLift": -0.03,
         "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 2 条，客队 0 条。 战术新闻偏保守，降低总进球预期。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 1 条，客队 0 条。"
       }
     },
     "marketSignals": {
@@ -113758,19 +112957,13 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
-          "title": "FA wants to host Nations League finals in England",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c5742x4xldmpo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 17 Nov 2026 15:51:30 GMT"
-        },
-        {
-          "title": "London City's Goodwin gets first England call-up",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT"
+          "title": "Wayne Rooney says he contemplated taking own life during playing career",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
+          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
         },
         {
           "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
@@ -113779,13 +112972,13 @@ window.MATCHES = [
           "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT"
         },
         {
-          "title": "Wayne Rooney says he contemplated taking own life during playing career",
+          "title": "‘The game is in danger’: PFA head Maheta Molango on Fifa, Infantino and football’s future",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
-          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/17/pfa-maheta-molango-interview-fifa-gianni-infantino-interview",
+          "pubDate": "Tue, 17 Nov 2026 20:00:20 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -113998,39 +113191,12 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "London City's Goodwin gets first England call-up",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
-              "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 17 November 2026 London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the ga",
-              "bodyError": ""
-            },
-            {
               "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
               "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
               "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
-              "bodyText": "",
-              "bodyError": "403 Forbidden"
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
-              "bodyError": ""
-            },
-            {
-              "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-              "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT",
-              "description": "‘We will not go back on this way of playing,’ says Thomas Tuchel after he delivered response to World Cup critics Thomas Tuchel made defensive substitutions as England protected a lead. He finished with three centre-backs on the pitch. His team could not get out of their half in the final part of the game. So close your eyes and imagine an alternate universe in which James Trafford did not make his stunning double save in stoppage time on Sunday and England had drawn 3-3 with Spain at the Metropolitano Stadium rather than won 3-2 . The reaction would not have been kind because Tuchel has been here before. The head coach wanted to push one particular comparison from the World Cup over the summer. “It was Mexico reloaded,” he said, with a nod towards the 3-2 last-16 win at the Azteca Stadium and it fitted like a glove – down to the detail of Jarell Quansah and red cards. Continue reading...",
-              "bodyText": "",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
@@ -114047,16 +113213,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
               "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
               "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
-              "bodyText": "",
-              "bodyError": "403 Forbidden"
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
@@ -114066,47 +113223,20 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "London City's Goodwin gets first England call-up",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
-              "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 17 November 2026 London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the ga",
-              "bodyError": ""
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
+              "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
               "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
-              "bodyError": ""
-            },
-            {
-              "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
-              "pubDate": "Tue, 17 Nov 2026 15:00:16 GMT",
-              "description": "A new film about the historic World Cup quarter-final clash finds new angles for a new generation “Is there anything new to say about it?” Gary Lineker asked the producer Flora Fernandez-Marengo when she first approached him to take part in The Match, a documentary about the 1986 World Cup quarter-final between England and Argentina. Flora told an audience at the London film festival premiere of the film that she played her best card then and showed Lineker an image of Maradona with Queen in 1981, during the band’s tour of Argentina. Maradona wearing a union jack T-shirt and Freddie Mercury an Argentina strip. It worked. Lineker said yes. The rock’n’roll angle, with Brian May as a talking head, is one of the very few details the film-makers added to Andrés Burgo’s book, The Match, on which the documentary is based. The directors Juan Cabral and Santiago Franco play with the timeline, hopping between past and present across 91 minutes, the exact duration of the match itself. Anecdotes that now form part of Argentina’s football folklore are spliced with excellent archive material. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
-            },
-            {
-              "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-              "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT",
-              "description": "‘We will not go back on this way of playing,’ says Thomas Tuchel after he delivered response to World Cup critics Thomas Tuchel made defensive substitutions as England protected a lead. He finished with three centre-backs on the pitch. His team could not get out of their half in the final part of the game. So close your eyes and imagine an alternate universe in which James Trafford did not make his stunning double save in stoppage time on Sunday and England had drawn 3-3 with Spain at the Metropolitano Stadium rather than won 3-2 . The reaction would not have been kind because Tuchel has been here before. The head coach wanted to push one particular comparison from the World Cup over the summer. “It was Mexico reloaded,” he said, with a nod towards the 3-2 last-16 win at the Azteca Stadium and it fitted like a glove – down to the detail of Jarell Quansah and red cards. Continue reading...",
-              "bodyText": "",
+              "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
+              "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
+              "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -114182,7 +113312,7 @@ window.MATCHES = [
       "home": 1.75,
       "away": 2.13
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -114523,7 +113653,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-18",
       "rawTime": "17:00 UTC-4",
       "homeName": "France",
@@ -114615,17 +113745,17 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 56,
-      "under25": 44,
-      "bttsYes": 66,
-      "bttsNo": 34,
-      "homeWinBy2Plus": 14,
-      "awayWinBy2Plus": 17,
-      "lowScoreDraw": 26,
-      "expectedTotalGoals": 3.11,
+      "over25": 58,
+      "under25": 42,
+      "bttsYes": 67,
+      "bttsNo": 33,
+      "homeWinBy2Plus": 18,
+      "awayWinBy2Plus": 15,
+      "lowScoreDraw": 25,
+      "expectedTotalGoals": 3.19,
       "totalGoalsLean": "大于2.5球",
       "bttsLean": "双方进球",
-      "upsetRisk": "中"
+      "upsetRisk": "高"
     },
     "marketCalibration": {
       "status": "connected",
@@ -114733,9 +113863,9 @@ window.MATCHES = [
         "name": "临场新闻",
         "weight": 6,
         "homeScore": 50,
-        "awayScore": 46,
-        "contribution": 0.24,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 2 条。"
+        "awayScore": 48,
+        "contribution": 0.12,
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
       },
       {
         "name": "赔率市场",
@@ -114743,7 +113873,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
       }
     ],
     "modelInputs": {
@@ -114980,10 +114110,10 @@ window.MATCHES = [
       },
       "newsImpact": {
         "homeScore": 50,
-        "awayScore": 46,
-        "goalLift": -0.06,
+        "awayScore": 48,
+        "goalLift": -0.03,
         "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 2 条。"
+        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 公开新闻伤停线索：主队 0 条，客队 1 条。"
       }
     },
     "marketSignals": {
@@ -115011,19 +114141,13 @@ window.MATCHES = [
       "status": "connected",
       "provider": "public-rss+gdelt-doc+google-news-rss",
       "weight": 0.08,
-      "articleCount": 4,
+      "articleCount": 3,
       "articles": [
         {
-          "title": "FA wants to host Nations League finals in England",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/c5742x4xldmpo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 17 Nov 2026 15:51:30 GMT"
-        },
-        {
-          "title": "London City's Goodwin gets first England call-up",
-          "source": "feeds.bbci.co.uk",
-          "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT"
+          "title": "Wayne Rooney says he contemplated taking own life during playing career",
+          "source": "www.theguardian.com",
+          "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
+          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
         },
         {
           "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
@@ -115032,13 +114156,13 @@ window.MATCHES = [
           "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT"
         },
         {
-          "title": "Wayne Rooney says he contemplated taking own life during playing career",
+          "title": "‘The game is in danger’: PFA head Maheta Molango on Fifa, Infantino and football’s future",
           "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
-          "pubDate": "Tue, 17 Nov 2026 17:13:23 GMT"
+          "link": "https://www.theguardian.com/football/2026/nov/17/pfa-maheta-molango-interview-fifa-gianni-infantino-interview",
+          "pubDate": "Tue, 17 Nov 2026 20:00:20 GMT"
         }
       ],
-      "note": "已匹配 4 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "note": "已匹配 3 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
     },
     "matchIntelligence": {
       "weather": {
@@ -115248,30 +114372,12 @@ window.MATCHES = [
           ],
           "articles": [
             {
-              "title": "London City's Goodwin gets first England call-up",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
-              "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 17 November 2026 London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the ga",
-              "bodyError": ""
-            },
-            {
               "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
               "source": "www.theguardian.com",
               "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
               "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
               "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
-              "bodyText": "",
-              "bodyError": "403 Forbidden"
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
@@ -115288,16 +114394,7 @@ window.MATCHES = [
               "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
               "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
               "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
-              "bodyText": "",
-              "bodyError": "403 Forbidden"
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
@@ -115307,29 +114404,20 @@ window.MATCHES = [
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
           "articles": [
             {
-              "title": "London City's Goodwin gets first England call-up",
-              "source": "feeds.bbci.co.uk",
-              "link": "https://www.bbc.co.uk/sport/football/articles/cr9d7pw90x14o?at_medium=RSS&at_campaign=rss",
-              "pubDate": "Tue, 17 Nov 2026 11:06:33 GMT",
-              "description": "London City Lionesses forward Izzy Goodwin is named in the England squad for the first time for the World Cup qualifying play-off against Ukraine.",
-              "bodyText": "London City forward Izzy Goodwin receives first England call-up - BBC Sport BBC Homepage Skip to content Accessibility Help Your account Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds More menu More menu Search BBC Home News Sport Earth Reel Worklife Travel Culture Future Music TV Weather Sounds Close menu BBC Sport Menu Home Football Cricket Formula 1 Rugby U Tennis Golf Cycling Athletics More A-Z Sports American Football Athletics Basketball Boxing Cricket Cycling Darts Disability Sport Football Formula 1 Gaelic Games Golf Gymnastics Horse Racing Mixed Martial Arts Motorsport Netball Rugby League Rugby Union Snooker Swimming Tennis Full Sports A-Z More from Sport England Scotland Wales Northern Ireland Quizzes News Feeds Help & FAQs England Men's Scores & Fixtures Nations League Table Women's Scores & Fixtures World Cup Qualifying Tables London City's Goodwin gets first England call-up Image source, Getty Images Image caption, Izzy Goodwin has scored three goals in five WSL appearances for London City By Emma Sanders BBC Sport women’s football news reporter Published 17 November 2026 London City Lionesses forward Izzy Goodwin has been named in the England squad for the first time for the World Cup qualifying play-off against Ukraine. The 23-year-old has been in great form this month and scored in front of England manager Sarina Wiegman at Emirates Stadium on Sunday in a 1-1 draw with Arsenal. \"We have always seen her as a huge talent with potential,\" Wiegman told BBC Radio 5 Live. \"I think London City are developing really well in the ga",
-              "bodyError": ""
-            },
-            {
-              "title": "Wiegman cites young talent as key to new England deal after calling up Goodwin",
+              "title": "Jack Grealish recalls a golden age of mavericks – but football has moved on",
               "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/sarina-wiegman-england-young-talent-contract-isobel-goodwin-squad",
-              "pubDate": "Tue, 17 Nov 2026 13:09:09 GMT",
-              "description": "Head coach excited by ‘high potential’ of players Striker Goodwin and keeper Cox in squad for first time Sarina Wiegman says the potential in England’s emerging young players helped convince her to extend her contract until the end of 2029’s European Championship. The Lionesses head coach, whose previous deal was due to expire next year, gave first senior call-ups to the striker Isobel Goodwin and goalkeeper Katie Cox on Tuesday as she named her squad for December’s two-leg World Cup qualifying playoff against Ukraine. Continue reading...",
-              "bodyText": "Wiegman cites young talent as key to new England deal after calling up Goodwin | England women's football team | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 1 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Isobel Goodwin, celebrating here after scoring for London City Lionesses at Arsenal, has received her first England senior call-up. Photo",
+              "link": "https://www.theguardian.com/football/2026/nov/18/jack-grealish-recalls-a-golden-age-of-mavericks-but-football-has-moved-on",
+              "pubDate": "Wed, 18 Nov 2026 08:00:36 GMT",
+              "description": "Everton forward has magical talent and popularity to burn, but has come up against hard reality of the modern game Thomas Tuchel has never called up the player he once claimed to love “everything about”. The reason for Jack Grealish’s omission from Tuchel’s first England squad in March 2025 was given as “he simply has no rhythm”. Catch a falling star? Last month Grealish was suspended by Everton for three matches after “a breach of club discipline”. Suggestions his loan from Manchester City might be cancelled were calmed by David Moyes. Last week, Grealish played in a behind-closed-doors friendly against Derby before issuing an Instagram statement: “I want to apologise to the fans and everyone at the club for not being able to help the team the last few weeks.” Amid tabloid tales of karaoke nights and extended socialising, how close is the former boy wonder, now 31, to blowing it? Continue reading...",
+              "bodyText": "Jack Grealish recalls a golden age of mavericks – but football has moved on | Everton | The Guardian Skip to main content Skip to navigation Close dialogue 1 / 3 Next image Previous image Toggle caption Print subscriptions Newsletters Sign in US US edition UK edition Australia edition Europe edition International edition The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more Hide expanded menu News View all News US news US politics Midterms 2026 World news Climate crisis Middle East Ukraine US immigration Soccer Business Environment Tech Science Newsletters The Filter Wellness Opinion View all Opinion The Guardian view Columnists Letters Opinion videos Cartoons Sport View all Sport Soccer NFL Tennis MLB MLS NBA WNBA NHL F1 Golf Culture View all Culture Film Books Music Art & design TV & radio Stage Classical Games Design a better world Lifestyle View all Lifestyle The Filter Wellness Fashion Food Recipes Love & sex Home & garden Health & fitness Family Travel Money Search input google-search Search Support us Print subscriptions Newsletters Download the app Digital Archive Guardian Licensing Live events About Us The Guardian app Video Podcasts Pictures Inside the Guardian Guardian Weekly Crosswords Puzzles & games Corrections Tips Search input google-search Search Digital Archive Guardian Licensing Live events About Us Football Live scores Tables Fixtures Results Competitions Clubs Jack Grealish is on rocky ground at Everton after being suspended for disciplinary reasons. Photograph: Peter Byrne/PA View image in fullscreen Jack Grealish is o",
               "bodyError": ""
             }
           ]
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -115405,7 +114493,7 @@ window.MATCHES = [
       "home": 1.98,
       "away": 1.58
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -115746,7 +114834,7 @@ window.MATCHES = [
     ],
     "sourceInfo": {
       "provider": "openfootball/worldcup.json",
-      "fetchedAt": "2026-11-18T17:09:05.912Z",
+      "fetchedAt": "2026-11-19T16:28:55.577Z",
       "rawDate": "2026-07-19",
       "rawTime": "15:00 UTC-4",
       "homeName": "Spain",
@@ -115839,14 +114927,14 @@ window.MATCHES = [
       }
     ],
     "expandedMarkets": {
-      "over25": 50,
-      "under25": 50,
+      "over25": 51,
+      "under25": 49,
       "bttsYes": 62,
       "bttsNo": 38,
-      "homeWinBy2Plus": 14,
-      "awayWinBy2Plus": 17,
+      "homeWinBy2Plus": 12,
+      "awayWinBy2Plus": 18,
       "lowScoreDraw": 29,
-      "expectedTotalGoals": 2.86,
+      "expectedTotalGoals": 2.89,
       "totalGoalsLean": "大小球均衡",
       "bttsLean": "双方进球",
       "upsetRisk": "中"
@@ -115959,7 +115047,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 战术新闻偏保守，降低总进球预期。"
+        "evidence": "预计首发身价差折算 0 分。"
       },
       {
         "name": "赔率市场",
@@ -115967,7 +115055,7 @@ window.MATCHES = [
         "homeScore": 50,
         "awayScore": 50,
         "contribution": 0,
-        "evidence": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+        "evidence": "暂无可用赔率或专业球评信号。"
       }
     ],
     "modelInputs": {
@@ -116198,16 +115286,16 @@ window.MATCHES = [
       },
       "externalSignals": {
         "marketStatus": "no-match",
-        "expertStatus": "connected",
+        "expertStatus": "no-match",
         "marketWeight": 0,
-        "expertWeight": 0.08
+        "expertWeight": 0
       },
       "newsImpact": {
         "homeScore": 50,
         "awayScore": 50,
-        "goalLift": -0.18,
-        "confidenceDelta": -1,
-        "evidence": "已匹配阵容新闻但无法结构化解析，保守降低置信度。 预计首发身价差折算 0 分。 战术新闻偏保守，降低总进球预期。"
+        "goalLift": 0,
+        "confidenceDelta": 0,
+        "evidence": "预计首发身价差折算 0 分。"
       }
     },
     "marketSignals": {
@@ -116232,25 +115320,10 @@ window.MATCHES = [
       "note": "已接入赔率市场，47 家公司均值：主 2.3 / 平 2.99 / 客 3.58。市场倾向 西班牙。"
     },
     "expertSignals": {
-      "status": "connected",
+      "status": "no-match",
       "provider": "public-rss+gdelt-doc+google-news-rss",
-      "weight": 0.08,
-      "articleCount": 2,
-      "articles": [
-        {
-          "title": "Reliving the drama: England and Argentina stars watch 1986 classic with fresh eyes",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/reliving-the-drama-england-and-argentina-stars-watch-1986-classic-with-fresh-eyes",
-          "pubDate": "Tue, 17 Nov 2026 15:00:16 GMT"
-        },
-        {
-          "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-          "source": "www.theguardian.com",
-          "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-          "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT"
-        }
-      ],
-      "note": "已匹配 2 条公开球评/新闻信号，作为赛前信息面参考，不直接替代模型概率。"
+      "weight": 0,
+      "note": "已连接公开球评/新闻源，但本场暂未匹配到相关文章。"
     },
     "matchIntelligence": {
       "weather": {
@@ -116263,9 +115336,9 @@ window.MATCHES = [
         "provider": "API-Football",
         "fixtureDate": null,
         "lineup": {
-          "status": "news-unparsed",
-          "text": "已匹配到预计首发/阵容新闻，但正文抓取或 11 人名单解析未通过；当前暂用大名单预计首发，并保留新闻来源供复核。",
-          "source": "public-news-unparsed",
+          "status": "projected",
+          "text": "未匹配到上一场首发记录或可解析的新闻预计首发；当前根据球队大名单、位置结构和球员估值生成预计首发，非官方确认。",
+          "source": "squad-projection",
           "teams": [
             {
               "team": "西班牙",
@@ -116458,17 +115531,7 @@ window.MATCHES = [
               ]
             }
           ],
-          "articles": [
-            {
-              "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-              "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT",
-              "description": "‘We will not go back on this way of playing,’ says Thomas Tuchel after he delivered response to World Cup critics Thomas Tuchel made defensive substitutions as England protected a lead. He finished with three centre-backs on the pitch. His team could not get out of their half in the final part of the game. So close your eyes and imagine an alternate universe in which James Trafford did not make his stunning double save in stoppage time on Sunday and England had drawn 3-3 with Spain at the Metropolitano Stadium rather than won 3-2 . The reaction would not have been kind because Tuchel has been here before. The head coach wanted to push one particular comparison from the World Cup over the summer. “It was Mexico reloaded,” he said, with a nod towards the 3-2 last-16 win at the Azteca Stadium and it fitted like a glove – down to the detail of Jarell Quansah and red cards. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         },
         "injuries": {
           "status": "missing",
@@ -116480,22 +115543,12 @@ window.MATCHES = [
         "tactical": {
           "status": "projection-derived",
           "text": "当前以预计首发的阵型、位置结构和球队攻防风格推断战术倾向。",
-          "articles": [
-            {
-              "title": "Echoes of Azteca but not like Argentina: fearless England start afresh in Madrid",
-              "source": "www.theguardian.com",
-              "link": "https://www.theguardian.com/football/2026/nov/17/azteca-argentina-fearless-england-start-afresh-spain",
-              "pubDate": "Tue, 17 Nov 2026 08:00:08 GMT",
-              "description": "‘We will not go back on this way of playing,’ says Thomas Tuchel after he delivered response to World Cup critics Thomas Tuchel made defensive substitutions as England protected a lead. He finished with three centre-backs on the pitch. His team could not get out of their half in the final part of the game. So close your eyes and imagine an alternate universe in which James Trafford did not make his stunning double save in stoppage time on Sunday and England had drawn 3-3 with Spain at the Metropolitano Stadium rather than won 3-2 . The reaction would not have been kind because Tuchel has been here before. The head coach wanted to push one particular comparison from the World Cup over the summer. “It was Mexico reloaded,” he said, with a nod towards the 3-2 last-16 win at the Azteca Stadium and it fitted like a glove – down to the detail of Jarell Quansah and red cards. Continue reading...",
-              "bodyText": "",
-              "bodyError": ""
-            }
-          ]
+          "articles": []
         }
       },
-      "updatedAt": "2026-11-18T17:09:05.912Z",
+      "updatedAt": "2026-11-19T16:28:55.577Z",
       "dataQuality": {
-        "updatedAt": "2026-11-18T17:09:05.912Z",
+        "updatedAt": "2026-11-19T16:28:55.577Z",
         "policy": "daily-verified-or-report-gap",
         "summary": "真实采集 2 项，模型推断 2 项，缺口 3 项。",
         "counts": {
@@ -116541,7 +115594,7 @@ window.MATCHES = [
             "key": "lineup",
             "label": "预计首发",
             "status": "inferred",
-            "source": "public-news-unparsed",
+            "source": "squad-projection",
             "text": "未采集到上一场首发记录，当前为大名单、位置结构和球员估值推断。"
           },
           {
@@ -116571,7 +115624,7 @@ window.MATCHES = [
       "home": 1.71,
       "away": 2.06
     },
-    "analysisUpdated": "2026-11-18",
+    "analysisUpdated": "2026-11-19",
     "predictionLock": {
       "status": "locked-pre-match",
       "source": "snapshots/prediction-locks.json",
@@ -116616,16 +115669,16 @@ window.MATCHES = [
 ];
 
 window.ANALYSIS_BACKTEST = {
-  "updatedAt": "2026-11-18T17:09:05.912Z",
+  "updatedAt": "2026-11-19T16:28:55.577Z",
   "completedCount": 104,
   "outcomeHitRate": 57,
   "highConfidenceCount": 1,
   "highConfidenceHitRate": 0,
   "topScoreCoverage": 41,
-  "scoreBandCoverage": 68,
-  "scoreScenarioCoverage": 85,
-  "averageBrier": 0.5248,
-  "averageLogLoss": 0.8762,
+  "scoreBandCoverage": 67,
+  "scoreScenarioCoverage": 83,
+  "averageBrier": 0.5282,
+  "averageLogLoss": 0.8803,
   "drawRecall": 21,
   "lockedPredictionCount": 72,
   "versionBreakdown": [
@@ -122970,7 +122023,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 29,
+              "chance": 30,
               "examples": [
                 "0-1",
                 "0-2",
@@ -122990,7 +122043,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "客队不败低比分",
-              "chance": 77,
+              "chance": 79,
               "examples": [
                 "0-0",
                 "1-1",
@@ -122999,7 +122052,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队不败低比分",
-              "chance": 56,
+              "chance": 55,
               "examples": [
                 "0-0",
                 "1-1",
@@ -123061,7 +122114,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 34,
+              "chance": 33,
               "examples": [
                 "1-0",
                 "2-0",
@@ -123070,7 +122123,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 8,
+              "chance": 10,
               "examples": [
                 "0-1",
                 "1-2",
@@ -123081,7 +122134,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 84,
+              "chance": 83,
               "examples": [
                 "0-0",
                 "1-0",
@@ -123090,7 +122143,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 54,
+              "chance": 56,
               "examples": [
                 "0-0",
                 "1-1",
@@ -123144,7 +122197,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 22,
+              "chance": 23,
               "examples": [
                 "2-1",
                 "2-0",
@@ -123153,7 +122206,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 18,
+              "chance": 17,
               "examples": [
                 "1-1",
                 "0-0"
@@ -123161,7 +122214,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 16,
+              "chance": 17,
               "examples": [
                 "3-0",
                 "4-1",
@@ -123172,7 +122225,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 46,
+              "chance": 45,
               "examples": [
                 "1-1",
                 "2-1",
@@ -123180,21 +122233,21 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "主队胜出覆盖",
-              "chance": 52,
-              "examples": [
-                "2-1",
-                "2-0",
-                "3-1"
-              ]
-            },
-            {
               "label": "主队优势胜",
-              "chance": 37,
+              "chance": 39,
               "examples": [
                 "2-0",
                 "3-1",
                 "3-0"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 54,
+              "examples": [
+                "2-1",
+                "2-0",
+                "3-1"
               ]
             }
           ],
@@ -123236,10 +122289,10 @@ window.ANALYSIS_BACKTEST = {
           "scoreBands": [
             {
               "label": "主队小胜",
-              "chance": 26,
+              "chance": 28,
               "examples": [
-                "2-1",
                 "2-0",
+                "2-1",
                 "1-0"
               ]
             },
@@ -123253,40 +122306,40 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 14,
+              "chance": 15,
               "examples": [
                 "3-0",
-                "4-1",
-                "4-0"
+                "4-0",
+                "4-1"
               ]
             }
           ],
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 54,
+              "chance": 56,
               "examples": [
                 "1-1",
-                "2-1",
-                "2-0"
+                "2-0",
+                "2-1"
               ]
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 52,
+              "chance": 54,
               "examples": [
-                "2-1",
                 "2-0",
+                "2-1",
                 "1-0"
               ]
             },
             {
               "label": "主队优势胜",
-              "chance": 35,
+              "chance": 36,
               "examples": [
                 "2-0",
-                "3-1",
-                "3-0"
+                "3-0",
+                "3-1"
               ]
             }
           ],
@@ -123305,10 +122358,10 @@ window.ANALYSIS_BACKTEST = {
       "sampleCount": 32,
       "outcomeHitRate": 41,
       "topScoreCoverage": 50,
-      "scoreBandCoverage": 72,
-      "scoreScenarioCoverage": 81,
-      "averageBrier": 0.5626,
-      "averageLogLoss": 0.9134,
+      "scoreBandCoverage": 69,
+      "scoreScenarioCoverage": 75,
+      "averageBrier": 0.5737,
+      "averageLogLoss": 0.927,
       "lockedCount": 0,
       "rows": [
         {
@@ -123330,20 +122383,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 66,
-          "brier": 0.9402,
-          "logLoss": 1.5606,
+          "confidence": 65,
+          "brier": 0.9144,
+          "logLoss": 1.5141,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            35,
-            44,
-            21
+            36,
+            42,
+            22
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 38,
+              "chance": 37,
               "examples": [
                 "1-1",
                 "0-0"
@@ -123351,7 +122404,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 24,
+              "chance": 25,
               "examples": [
                 "1-0",
                 "2-0",
@@ -123360,7 +122413,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 16,
+              "chance": 17,
               "examples": [
                 "0-1",
                 "1-2",
@@ -123371,7 +122424,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 66,
+              "chance": 65,
               "examples": [
                 "1-1",
                 "0-0",
@@ -123380,7 +122433,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 56,
+              "chance": 55,
               "examples": [
                 "1-1",
                 "0-0",
@@ -123389,7 +122442,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 38,
+              "chance": 37,
               "examples": [
                 "1-1",
                 "0-0"
@@ -123417,7 +122470,1933 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 75,
+          "confidence": 76,
+          "brier": 0.1982,
+          "logLoss": 0.4308,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            65,
+            26,
+            9
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 37,
+              "examples": [
+                "2-0",
+                "1-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 23,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 20,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 68,
+              "examples": [
+                "2-0",
+                "1-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 65,
+              "examples": [
+                "2-0",
+                "1-0",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 43,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "sco-mar-15",
+          "match": "苏格兰 vs 摩洛哥",
+          "date": "2026-06-20",
+          "kickoffTime": "06:00",
+          "kickoff": "2026-06-19T22:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "客胜",
+          "predictedOutcome": "客胜",
+          "outcomeHit": true,
+          "actualScore": "0-1",
+          "actualScoreBand": "客队小胜",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 70,
+          "brier": 0.4344,
+          "logLoss": 0.734,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            14,
+            38,
+            48
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 31,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 26,
+              "examples": [
+                "0-2",
+                "0-1",
+                "1-2"
+              ]
+            },
+            {
+              "label": "客队大胜",
+              "chance": 14,
+              "examples": [
+                "0-3",
+                "0-4",
+                "1-4"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 64,
+              "examples": [
+                "1-1",
+                "0-0",
+                "0-2"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 42,
+              "examples": [
+                "1-1",
+                "0-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队胜出覆盖",
+              "chance": 48,
+              "examples": [
+                "0-2",
+                "0-1",
+                "1-2"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "usa-aus-21",
+          "match": "美国 vs 澳大利亚",
+          "date": "2026-06-20",
+          "kickoffTime": "03:00",
+          "kickoff": "2026-06-19T19:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "2-0",
+          "actualScoreBand": "主队小胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 64,
+          "brier": 0.6632,
+          "logLoss": 1.0788,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            34,
+            40,
+            26
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 33,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 22,
+              "examples": [
+                "1-0",
+                "2-1",
+                "2-0"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 18,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 58,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 53,
+              "examples": [
+                "1-1",
+                "0-0",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 33,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "mex-kor-4",
+          "match": "墨西哥 vs 韩国",
+          "date": "2026-06-19",
+          "kickoffTime": "09:00",
+          "kickoff": "2026-06-19T01:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "1-0",
+          "actualScoreBand": "主队小胜",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 65,
+          "brier": 0.6344,
+          "logLoss": 1.0217,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            36,
+            42,
+            22
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 35,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 23,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 16,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 62,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 53,
+              "examples": [
+                "1-1",
+                "0-0",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 35,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "can-qat-10",
+          "match": "加拿大 vs 卡塔尔",
+          "date": "2026-06-19",
+          "kickoffTime": "06:00",
+          "kickoff": "2026-06-18T22:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "6-0",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": false,
+          "confidence": 63,
+          "brier": 0.515,
+          "logLoss": 0.7985,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            45,
+            45,
+            10
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 42,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 32,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 9,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 80,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 51,
+              "examples": [
+                "0-0",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 42,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "sui-bih-9",
+          "match": "瑞士 vs 波黑",
+          "date": "2026-06-19",
+          "kickoffTime": "03:00",
+          "kickoff": "2026-06-18T19:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "4-1",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": false,
+          "confidence": 66,
+          "brier": 0.4824,
+          "logLoss": 0.7765,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            46,
+            42,
+            12
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 37,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 29,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 11,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 73,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 48,
+              "examples": [
+                "1-1",
+                "0-0",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 37,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "cze-rsa-3",
+          "match": "捷克 vs 南非",
+          "date": "2026-06-19",
+          "kickoffTime": "00:00",
+          "kickoff": "2026-06-18T16:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "平局",
+          "outcomeHit": true,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 65,
+          "brier": 0.5144,
+          "logLoss": 0.8675,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            36,
+            42,
+            22
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 38,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 28,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 18,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 69,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 58,
+              "examples": [
+                "0-0",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 38,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "uzb-col-62",
+          "match": "乌兹别克斯坦 vs 哥伦比亚",
+          "date": "2026-06-18",
+          "kickoffTime": "10:00",
+          "kickoff": "2026-06-18T02:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "客胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "1-3",
+          "actualScoreBand": "客队对攻胜",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": false,
+          "confidence": 67,
+          "brier": 0.5912,
+          "logLoss": 0.9163,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            14,
+            46,
+            40
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 42,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 28,
+              "examples": [
+                "0-1",
+                "0-2",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 12,
+              "examples": [
+                "1-0",
+                "2-1",
+                "2-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 75,
+              "examples": [
+                "0-0",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 55,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 42,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "gha-pan-68",
+          "match": "加纳 vs 巴拿马",
+          "date": "2026-06-18",
+          "kickoffTime": "07:00",
+          "kickoff": "2026-06-17T23:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "1-0",
+          "actualScoreBand": "主队小胜",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 68,
+          "brier": 0.9882,
+          "logLoss": 1.6607,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            19,
+            45,
+            36
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 43,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 30,
+              "examples": [
+                "0-1",
+                "0-2",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 17,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 75,
+              "examples": [
+                "0-0",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 60,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 43,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "eng-cro-67",
+          "match": "英格兰 vs 克罗地亚",
+          "date": "2026-06-18",
+          "kickoffTime": "04:00",
+          "kickoff": "2026-06-17T20:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "4-2",
+          "actualScoreBand": "主队对攻胜",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": true,
+          "confidence": 63,
+          "brier": 0.6008,
+          "logLoss": 0.9676,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            38,
+            42,
+            20
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 34,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 22,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 14,
+              "examples": [
+                "1-2",
+                "0-1",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 59,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 49,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 38,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "por-cod-61",
+          "match": "葡萄牙 vs 刚果（金）",
+          "date": "2026-06-18",
+          "kickoffTime": "01:00",
+          "kickoff": "2026-06-17T17:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "主胜",
+          "outcomeHit": false,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.8862,
+          "logLoss": 1.2379,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            61,
+            29,
+            10
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 37,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 26,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 17,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 71,
+              "examples": [
+                "1-0",
+                "2-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 61,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 38,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "aut-jor-56",
+          "match": "奥地利 vs 约旦",
+          "date": "2026-06-17",
+          "kickoffTime": "12:00",
+          "kickoff": "2026-06-17T04:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "3-1",
+          "actualScoreBand": "主队对攻胜",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.2502,
+          "logLoss": 0.4943,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            61,
+            30,
+            9
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 39,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 27,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 16,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 75,
+              "examples": [
+                "1-0",
+                "2-0",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 61,
+              "examples": [
+                "1-0",
+                "2-0",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 37,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "arg-alg-55",
+          "match": "阿根廷 vs 阿尔及利亚",
+          "date": "2026-06-17",
+          "kickoffTime": "09:00",
+          "kickoff": "2026-06-17T01:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "3-0",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 74,
+          "brier": 0.3224,
+          "logLoss": 0.6162,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            54,
+            28,
+            18
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 27,
+              "examples": [
+                "2-1",
+                "2-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 21,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 15,
+              "examples": [
+                "3-0",
+                "4-1",
+                "4-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 54,
+              "examples": [
+                "1-1",
+                "2-1",
+                "2-0"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 54,
+              "examples": [
+                "2-1",
+                "2-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 36,
+              "examples": [
+                "2-0",
+                "3-1",
+                "3-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "irq-nor-50",
+          "match": "伊拉克 vs 挪威",
+          "date": "2026-06-17",
+          "kickoffTime": "06:00",
+          "kickoff": "2026-06-16T22:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "客胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "1-4",
+          "actualScoreBand": "客队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": false,
+          "confidence": 63,
+          "brier": 0.5418,
+          "logLoss": 0.844,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            12,
+            45,
+            43
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 41,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 30,
+              "examples": [
+                "0-1",
+                "0-2",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 10,
+              "examples": [
+                "1-0",
+                "2-1",
+                "2-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 76,
+              "examples": [
+                "0-0",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 52,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 41,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "fra-sen-49",
+          "match": "法国 vs 塞内加尔",
+          "date": "2026-06-17",
+          "kickoffTime": "03:00",
+          "kickoff": "2026-06-16T19:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "3-1",
+          "actualScoreBand": "主队对攻胜",
+          "topScoreHit": true,
+          "scoreBandHit": false,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.2562,
+          "logLoss": 0.5276,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            59,
+            25,
+            16
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 26,
+              "examples": [
+                "2-1",
+                "2-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 20,
+              "examples": [
+                "3-0",
+                "4-1",
+                "4-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 18,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 50,
+              "examples": [
+                "1-1",
+                "2-1",
+                "2-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 43,
+              "examples": [
+                "2-0",
+                "3-1",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 59,
+              "examples": [
+                "2-1",
+                "2-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "irn-nzl-38",
+          "match": "伊朗 vs 新西兰",
+          "date": "2026-06-16",
+          "kickoffTime": "09:00",
+          "kickoff": "2026-06-16T01:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "主胜",
+          "outcomeHit": false,
+          "actualScore": "2-2",
+          "actualScoreBand": "高比分平局",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": false,
+          "confidence": 76,
+          "brier": 0.8966,
+          "logLoss": 1.2379,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            62,
+            29,
+            9
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 38,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 26,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 17,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 73,
+              "examples": [
+                "1-0",
+                "2-0",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 62,
+              "examples": [
+                "1-0",
+                "2-0",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 38,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "ksa-uru-44",
+          "match": "沙特阿拉伯 vs 乌拉圭",
+          "date": "2026-06-16",
+          "kickoffTime": "06:00",
+          "kickoff": "2026-06-15T22:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "平局",
+          "outcomeHit": true,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 69,
+          "brier": 0.4394,
+          "logLoss": 0.734,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            13,
+            48,
+            39
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 46,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 30,
+              "examples": [
+                "0-1",
+                "0-2",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 12,
+              "examples": [
+                "1-0",
+                "2-1",
+                "2-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "客队不败低比分",
+              "chance": 80,
+              "examples": [
+                "0-0",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队不败低比分",
+              "chance": 58,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 46,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "bel-egy-37",
+          "match": "比利时 vs 埃及",
+          "date": "2026-06-16",
+          "kickoffTime": "03:00",
+          "kickoff": "2026-06-15T19:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "主胜",
+          "outcomeHit": false,
+          "actualScore": "1-1",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.8834,
+          "logLoss": 1.3093,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            57,
+            27,
+            16
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 28,
+              "examples": [
+                "2-0",
+                "2-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 20,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 17,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 55,
+              "examples": [
+                "1-1",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 57,
+              "examples": [
+                "2-0",
+                "2-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 39,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "esp-cpv-43",
+          "match": "西班牙 vs 佛得角",
+          "date": "2026-06-16",
+          "kickoffTime": "00:00",
+          "kickoff": "2026-06-15T16:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "主胜",
+          "outcomeHit": false,
+          "actualScore": "0-0",
+          "actualScoreBand": "低比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
+          "brier": 0.8442,
+          "logLoss": 1.1712,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            60,
+            31,
+            9
+          ],
+          "scoreBands": [
+            {
+              "label": "主队小胜",
+              "chance": 39,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 29,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队大胜",
+              "chance": 15,
+              "examples": [
+                "3-0",
+                "4-0",
+                "4-1"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 76,
+              "examples": [
+                "1-0",
+                "0-0",
+                "2-0"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 60,
+              "examples": [
+                "1-0",
+                "2-0",
+                "3-0"
+              ]
+            },
+            {
+              "label": "主队优势胜",
+              "chance": 36,
+              "examples": [
+                "2-0",
+                "3-0",
+                "3-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "swe-tun-32",
+          "match": "瑞典 vs 突尼斯",
+          "date": "2026-06-15",
+          "kickoffTime": "10:00",
+          "kickoff": "2026-06-15T02:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "5-1",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": false,
+          "scoreScenarioHit": false,
+          "confidence": 62,
+          "brier": 0.5928,
+          "logLoss": 0.9676,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            38,
+            40,
+            22
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 36,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 28,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 18,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 68,
+              "examples": [
+                "0-0",
+                "1-1",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 55,
+              "examples": [
+                "0-0",
+                "1-1",
+                "0-1"
+              ]
+            },
+            {
+              "label": "低比分平局",
+              "chance": 36,
+              "examples": [
+                "0-0",
+                "1-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "civ-ecu-26",
+          "match": "科特迪瓦 vs 厄瓜多尔",
+          "date": "2026-06-15",
+          "kickoffTime": "07:00",
+          "kickoff": "2026-06-14T23:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "平局",
+          "outcomeHit": false,
+          "actualScore": "1-0",
+          "actualScoreBand": "主队小胜",
+          "topScoreHit": true,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 61,
+          "brier": 0.5894,
+          "logLoss": 0.9676,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            38,
+            39,
+            23
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 34,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 27,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 18,
+              "examples": [
+                "0-1",
+                "1-2",
+                "0-2"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 65,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-0"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 54,
+              "examples": [
+                "1-1",
+                "0-0",
+                "0-1"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 38,
+              "examples": [
+                "1-0",
+                "2-0",
+                "2-1"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "ned-jpn-31",
+          "match": "荷兰 vs 日本",
+          "date": "2026-06-15",
+          "kickoffTime": "04:00",
+          "kickoff": "2026-06-14T20:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "平局",
+          "predictedOutcome": "平局",
+          "outcomeHit": true,
+          "actualScore": "2-2",
+          "actualScoreBand": "高比分平局",
+          "topScoreHit": true,
+          "scoreBandHit": false,
+          "scoreScenarioHit": false,
+          "confidence": 65,
+          "brier": 0.5582,
+          "logLoss": 0.9416,
+          "marketOutcome": "",
+          "marketHit": null,
+          "probabilities": [
+            31,
+            39,
+            30
+          ],
+          "scoreBands": [
+            {
+              "label": "低比分平局",
+              "chance": 29,
+              "examples": [
+                "1-1",
+                "0-0"
+              ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 18,
+              "examples": [
+                "1-2",
+                "0-1",
+                "0-2"
+              ]
+            },
+            {
+              "label": "主队小胜",
+              "chance": 17,
+              "examples": [
+                "2-1",
+                "1-0",
+                "2-0"
+              ]
+            }
+          ],
+          "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 49,
+              "examples": [
+                "1-1",
+                "0-0",
+                "2-1"
+              ]
+            },
+            {
+              "label": "客队不败低比分",
+              "chance": 49,
+              "examples": [
+                "1-1",
+                "0-0",
+                "1-2"
+              ]
+            },
+            {
+              "label": "主队胜出覆盖",
+              "chance": 31,
+              "examples": [
+                "2-1",
+                "1-0",
+                "2-0"
+              ]
+            }
+          ],
+          "marketProbabilities": null
+        },
+        {
+          "id": "ger-cuw-25",
+          "match": "德国 vs 库拉索",
+          "date": "2026-06-15",
+          "kickoffTime": "01:00",
+          "kickoff": "2026-06-14T17:00:00.000Z",
+          "predictionSource": "current-model",
+          "lockedAt": null,
+          "modelVersion": "retro",
+          "modelVersionLabel": "历史回放基准",
+          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
+          "actualOutcome": "主胜",
+          "predictedOutcome": "主胜",
+          "outcomeHit": true,
+          "actualScore": "7-1",
+          "actualScoreBand": "主队大胜",
+          "topScoreHit": false,
+          "scoreBandHit": true,
+          "scoreScenarioHit": true,
+          "confidence": 76,
           "brier": 0.1862,
           "logLoss": 0.4155,
           "marketOutcome": "",
@@ -123487,1934 +124466,6 @@ window.ANALYSIS_BACKTEST = {
           "marketProbabilities": null
         },
         {
-          "id": "sco-mar-15",
-          "match": "苏格兰 vs 摩洛哥",
-          "date": "2026-06-20",
-          "kickoffTime": "06:00",
-          "kickoff": "2026-06-19T22:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "客胜",
-          "predictedOutcome": "客胜",
-          "outcomeHit": true,
-          "actualScore": "0-1",
-          "actualScoreBand": "客队小胜",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 68,
-          "brier": 0.4578,
-          "logLoss": 0.755,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            13,
-            40,
-            47
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 35,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 28,
-              "examples": [
-                "0-1",
-                "0-2",
-                "1-2"
-              ]
-            },
-            {
-              "label": "客队大胜",
-              "chance": 12,
-              "examples": [
-                "0-3",
-                "0-4",
-                "1-4"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "客队不败低比分",
-              "chance": 69,
-              "examples": [
-                "1-1",
-                "0-0",
-                "0-1"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 45,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队胜出覆盖",
-              "chance": 47,
-              "examples": [
-                "0-1",
-                "0-2",
-                "1-2"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "usa-aus-21",
-          "match": "美国 vs 澳大利亚",
-          "date": "2026-06-20",
-          "kickoffTime": "03:00",
-          "kickoff": "2026-06-19T19:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "2-0",
-          "actualScoreBand": "主队小胜",
-          "topScoreHit": false,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 64,
-          "brier": 0.6306,
-          "logLoss": 1.0217,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            36,
-            41,
-            23
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 33,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 22,
-              "examples": [
-                "1-0",
-                "2-1",
-                "2-0"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 16,
-              "examples": [
-                "1-2",
-                "0-1",
-                "0-2"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 58,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 50,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-2"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 36,
-              "examples": [
-                "1-0",
-                "2-1",
-                "2-0"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "mex-kor-4",
-          "match": "墨西哥 vs 韩国",
-          "date": "2026-06-19",
-          "kickoffTime": "09:00",
-          "kickoff": "2026-06-19T01:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "1-0",
-          "actualScoreBand": "主队小胜",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 66,
-          "brier": 0.6266,
-          "logLoss": 0.9943,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            37,
-            44,
-            19
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 37,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 23,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 14,
-              "examples": [
-                "0-1",
-                "1-2",
-                "0-2"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 64,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 52,
-              "examples": [
-                "1-1",
-                "0-0",
-                "0-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 37,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "can-qat-10",
-          "match": "加拿大 vs 卡塔尔",
-          "date": "2026-06-19",
-          "kickoffTime": "06:00",
-          "kickoff": "2026-06-18T22:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "主胜",
-          "outcomeHit": true,
-          "actualScore": "6-0",
-          "actualScoreBand": "主队大胜",
-          "topScoreHit": false,
-          "scoreBandHit": true,
-          "scoreScenarioHit": false,
-          "confidence": 64,
-          "brier": 0.4952,
-          "logLoss": 0.7765,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            46,
-            44,
-            10
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 41,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 32,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 10,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 79,
-              "examples": [
-                "0-0",
-                "1-1",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 50,
-              "examples": [
-                "0-0",
-                "1-1",
-                "0-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 41,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "sui-bih-9",
-          "match": "瑞士 vs 波黑",
-          "date": "2026-06-19",
-          "kickoffTime": "03:00",
-          "kickoff": "2026-06-18T19:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "主胜",
-          "outcomeHit": true,
-          "actualScore": "4-1",
-          "actualScoreBand": "主队大胜",
-          "topScoreHit": false,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 76,
-          "brier": 0.2528,
-          "logLoss": 0.5108,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            60,
-            28,
-            12
-          ],
-          "scoreBands": [
-            {
-              "label": "主队小胜",
-              "chance": 34,
-              "examples": [
-                "2-0",
-                "1-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 24,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 18,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 65,
-              "examples": [
-                "1-1",
-                "2-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 60,
-              "examples": [
-                "2-0",
-                "1-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "主队优势胜",
-              "chance": 39,
-              "examples": [
-                "2-0",
-                "3-0",
-                "3-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "cze-rsa-3",
-          "match": "捷克 vs 南非",
-          "date": "2026-06-19",
-          "kickoffTime": "00:00",
-          "kickoff": "2026-06-18T16:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "平局",
-          "predictedOutcome": "平局",
-          "outcomeHit": true,
-          "actualScore": "1-1",
-          "actualScoreBand": "低比分平局",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 62,
-          "brier": 0.5442,
-          "logLoss": 0.8916,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            40,
-            41,
-            19
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 38,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 31,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 16,
-              "examples": [
-                "0-1",
-                "1-2",
-                "0-2"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 72,
-              "examples": [
-                "0-0",
-                "1-1",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 55,
-              "examples": [
-                "0-0",
-                "1-1",
-                "0-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 38,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "uzb-col-62",
-          "match": "乌兹别克斯坦 vs 哥伦比亚",
-          "date": "2026-06-18",
-          "kickoffTime": "10:00",
-          "kickoff": "2026-06-18T02:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "客胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "1-3",
-          "actualScoreBand": "客队对攻胜",
-          "topScoreHit": false,
-          "scoreBandHit": false,
-          "scoreScenarioHit": false,
-          "confidence": 65,
-          "brier": 0.5702,
-          "logLoss": 0.8916,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            14,
-            45,
-            41
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 41,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 28,
-              "examples": [
-                "0-1",
-                "0-2",
-                "1-2"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 12,
-              "examples": [
-                "1-0",
-                "2-1",
-                "2-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "客队不败低比分",
-              "chance": 74,
-              "examples": [
-                "0-0",
-                "1-1",
-                "0-1"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 53,
-              "examples": [
-                "0-0",
-                "1-1",
-                "1-0"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 41,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "gha-pan-68",
-          "match": "加纳 vs 巴拿马",
-          "date": "2026-06-18",
-          "kickoffTime": "07:00",
-          "kickoff": "2026-06-17T23:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "1-0",
-          "actualScoreBand": "主队小胜",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 66,
-          "brier": 0.9866,
-          "logLoss": 1.6607,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            19,
-            44,
-            37
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 42,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 30,
-              "examples": [
-                "0-1",
-                "0-2",
-                "1-2"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 17,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "客队不败低比分",
-              "chance": 74,
-              "examples": [
-                "0-0",
-                "1-1",
-                "0-1"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 59,
-              "examples": [
-                "0-0",
-                "1-1",
-                "1-0"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 42,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "eng-cro-67",
-          "match": "英格兰 vs 克罗地亚",
-          "date": "2026-06-18",
-          "kickoffTime": "04:00",
-          "kickoff": "2026-06-17T20:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "4-2",
-          "actualScoreBand": "主队对攻胜",
-          "topScoreHit": false,
-          "scoreBandHit": false,
-          "scoreScenarioHit": false,
-          "confidence": 65,
-          "brier": 0.6432,
-          "logLoss": 1.0217,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            36,
-            44,
-            20
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 37,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 22,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 15,
-              "examples": [
-                "0-1",
-                "1-2",
-                "0-2"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 63,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 53,
-              "examples": [
-                "1-1",
-                "0-0",
-                "0-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 37,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "por-cod-61",
-          "match": "葡萄牙 vs 刚果（金）",
-          "date": "2026-06-18",
-          "kickoffTime": "01:00",
-          "kickoff": "2026-06-17T17:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "平局",
-          "predictedOutcome": "主胜",
-          "outcomeHit": false,
-          "actualScore": "1-1",
-          "actualScoreBand": "低比分平局",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 67,
-          "brier": 0.5834,
-          "logLoss": 0.8916,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            47,
-            41,
-            12
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 36,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 29,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 12,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 71,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 46,
-              "examples": [
-                "1-1",
-                "0-0",
-                "0-1"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 47,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "aut-jor-56",
-          "match": "奥地利 vs 约旦",
-          "date": "2026-06-17",
-          "kickoffTime": "12:00",
-          "kickoff": "2026-06-17T04:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "主胜",
-          "outcomeHit": true,
-          "actualScore": "3-1",
-          "actualScoreBand": "主队对攻胜",
-          "topScoreHit": false,
-          "scoreBandHit": false,
-          "scoreScenarioHit": true,
-          "confidence": 76,
-          "brier": 0.2366,
-          "logLoss": 0.478,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            62,
-            29,
-            9
-          ],
-          "scoreBands": [
-            {
-              "label": "主队小胜",
-              "chance": 38,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 26,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 17,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 73,
-              "examples": [
-                "1-0",
-                "2-0",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 62,
-              "examples": [
-                "1-0",
-                "2-0",
-                "3-0"
-              ]
-            },
-            {
-              "label": "主队优势胜",
-              "chance": 39,
-              "examples": [
-                "2-0",
-                "3-0",
-                "3-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "arg-alg-55",
-          "match": "阿根廷 vs 阿尔及利亚",
-          "date": "2026-06-17",
-          "kickoffTime": "09:00",
-          "kickoff": "2026-06-17T01:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "主胜",
-          "outcomeHit": true,
-          "actualScore": "3-0",
-          "actualScoreBand": "主队大胜",
-          "topScoreHit": false,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 76,
-          "brier": 0.3098,
-          "logLoss": 0.5978,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            55,
-            28,
-            17
-          ],
-          "scoreBands": [
-            {
-              "label": "主队小胜",
-              "chance": 27,
-              "examples": [
-                "2-1",
-                "2-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 21,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 16,
-              "examples": [
-                "3-0",
-                "4-1",
-                "4-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 55,
-              "examples": [
-                "1-1",
-                "2-1",
-                "2-0"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 55,
-              "examples": [
-                "2-1",
-                "2-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "主队优势胜",
-              "chance": 37,
-              "examples": [
-                "2-0",
-                "3-1",
-                "3-0"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "irq-nor-50",
-          "match": "伊拉克 vs 挪威",
-          "date": "2026-06-17",
-          "kickoffTime": "06:00",
-          "kickoff": "2026-06-16T22:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "客胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "1-4",
-          "actualScoreBand": "客队大胜",
-          "topScoreHit": false,
-          "scoreBandHit": false,
-          "scoreScenarioHit": true,
-          "confidence": 64,
-          "brier": 0.5496,
-          "logLoss": 0.8675,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            14,
-            44,
-            42
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 39,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 27,
-              "examples": [
-                "0-1",
-                "0-2",
-                "1-2"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 11,
-              "examples": [
-                "1-0",
-                "2-1",
-                "2-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "客队不败低比分",
-              "chance": 71,
-              "examples": [
-                "1-1",
-                "0-0",
-                "0-1"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 51,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队胜出覆盖",
-              "chance": 42,
-              "examples": [
-                "0-1",
-                "0-2",
-                "1-2"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "fra-sen-49",
-          "match": "法国 vs 塞内加尔",
-          "date": "2026-06-17",
-          "kickoffTime": "03:00",
-          "kickoff": "2026-06-16T19:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "主胜",
-          "outcomeHit": true,
-          "actualScore": "3-1",
-          "actualScoreBand": "主队对攻胜",
-          "topScoreHit": true,
-          "scoreBandHit": false,
-          "scoreScenarioHit": true,
-          "confidence": 76,
-          "brier": 0.2582,
-          "logLoss": 0.5276,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            59,
-            26,
-            15
-          ],
-          "scoreBands": [
-            {
-              "label": "主队小胜",
-              "chance": 28,
-              "examples": [
-                "2-0",
-                "2-1",
-                "1-0"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 19,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 19,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 54,
-              "examples": [
-                "1-1",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 59,
-              "examples": [
-                "2-0",
-                "2-1",
-                "1-0"
-              ]
-            },
-            {
-              "label": "主队优势胜",
-              "chance": 41,
-              "examples": [
-                "2-0",
-                "3-0",
-                "3-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "irn-nzl-38",
-          "match": "伊朗 vs 新西兰",
-          "date": "2026-06-16",
-          "kickoffTime": "09:00",
-          "kickoff": "2026-06-16T01:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "平局",
-          "predictedOutcome": "主胜",
-          "outcomeHit": false,
-          "actualScore": "2-2",
-          "actualScoreBand": "高比分平局",
-          "topScoreHit": false,
-          "scoreBandHit": false,
-          "scoreScenarioHit": false,
-          "confidence": 76,
-          "brier": 0.8702,
-          "logLoss": 1.204,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            61,
-            30,
-            9
-          ],
-          "scoreBands": [
-            {
-              "label": "主队小胜",
-              "chance": 39,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 27,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 16,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 74,
-              "examples": [
-                "1-0",
-                "2-0",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 61,
-              "examples": [
-                "1-0",
-                "2-0",
-                "3-0"
-              ]
-            },
-            {
-              "label": "主队优势胜",
-              "chance": 37,
-              "examples": [
-                "2-0",
-                "3-0",
-                "3-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "ksa-uru-44",
-          "match": "沙特阿拉伯 vs 乌拉圭",
-          "date": "2026-06-16",
-          "kickoffTime": "06:00",
-          "kickoff": "2026-06-15T22:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "平局",
-          "predictedOutcome": "平局",
-          "outcomeHit": true,
-          "actualScore": "1-1",
-          "actualScoreBand": "低比分平局",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 63,
-          "brier": 0.5238,
-          "logLoss": 0.844,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            15,
-            43,
-            42
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 41,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 34,
-              "examples": [
-                "0-1",
-                "0-2",
-                "1-2"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 14,
-              "examples": [
-                "1-0",
-                "2-1",
-                "2-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "客队不败低比分",
-              "chance": 79,
-              "examples": [
-                "0-0",
-                "0-1",
-                "1-1"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 55,
-              "examples": [
-                "0-0",
-                "1-1",
-                "1-0"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 41,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "bel-egy-37",
-          "match": "比利时 vs 埃及",
-          "date": "2026-06-16",
-          "kickoffTime": "03:00",
-          "kickoff": "2026-06-15T19:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "平局",
-          "predictedOutcome": "主胜",
-          "outcomeHit": false,
-          "actualScore": "1-1",
-          "actualScoreBand": "低比分平局",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 76,
-          "brier": 0.8918,
-          "logLoss": 1.3093,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            58,
-            27,
-            15
-          ],
-          "scoreBands": [
-            {
-              "label": "主队小胜",
-              "chance": 29,
-              "examples": [
-                "2-0",
-                "2-1",
-                "1-0"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 21,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 17,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 57,
-              "examples": [
-                "1-1",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 58,
-              "examples": [
-                "2-0",
-                "2-1",
-                "1-0"
-              ]
-            },
-            {
-              "label": "主队优势胜",
-              "chance": 39,
-              "examples": [
-                "2-0",
-                "3-0",
-                "3-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "esp-cpv-43",
-          "match": "西班牙 vs 佛得角",
-          "date": "2026-06-16",
-          "kickoffTime": "00:00",
-          "kickoff": "2026-06-15T16:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "平局",
-          "predictedOutcome": "主胜",
-          "outcomeHit": false,
-          "actualScore": "0-0",
-          "actualScoreBand": "低比分平局",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 76,
-          "brier": 0.9234,
-          "logLoss": 1.273,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            63,
-            28,
-            9
-          ],
-          "scoreBands": [
-            {
-              "label": "主队小胜",
-              "chance": 38,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 25,
-              "examples": [
-                "0-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 18,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 72,
-              "examples": [
-                "1-0",
-                "2-0",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 63,
-              "examples": [
-                "1-0",
-                "2-0",
-                "3-0"
-              ]
-            },
-            {
-              "label": "主队优势胜",
-              "chance": 39,
-              "examples": [
-                "2-0",
-                "3-0",
-                "3-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "swe-tun-32",
-          "match": "瑞典 vs 突尼斯",
-          "date": "2026-06-15",
-          "kickoffTime": "10:00",
-          "kickoff": "2026-06-15T02:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "5-1",
-          "actualScoreBand": "主队大胜",
-          "topScoreHit": false,
-          "scoreBandHit": false,
-          "scoreScenarioHit": true,
-          "confidence": 61,
-          "brier": 0.6066,
-          "logLoss": 0.9943,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            37,
-            39,
-            24
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 34,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 26,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 18,
-              "examples": [
-                "0-1",
-                "1-2",
-                "0-2"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 64,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 54,
-              "examples": [
-                "1-1",
-                "0-0",
-                "0-1"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 37,
-              "examples": [
-                "1-0",
-                "2-0",
-                "2-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "civ-ecu-26",
-          "match": "科特迪瓦 vs 厄瓜多尔",
-          "date": "2026-06-15",
-          "kickoffTime": "07:00",
-          "kickoff": "2026-06-14T23:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "平局",
-          "outcomeHit": false,
-          "actualScore": "1-0",
-          "actualScoreBand": "主队小胜",
-          "topScoreHit": true,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 66,
-          "brier": 0.6878,
-          "logLoss": 1.1087,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            33,
-            42,
-            25
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 35,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 22,
-              "examples": [
-                "1-0",
-                "2-1",
-                "2-0"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 18,
-              "examples": [
-                "0-1",
-                "1-2",
-                "0-2"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 60,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-0"
-              ]
-            },
-            {
-              "label": "客队不败低比分",
-              "chance": 55,
-              "examples": [
-                "1-1",
-                "0-0",
-                "0-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 35,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "ned-jpn-31",
-          "match": "荷兰 vs 日本",
-          "date": "2026-06-15",
-          "kickoffTime": "04:00",
-          "kickoff": "2026-06-14T20:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "平局",
-          "predictedOutcome": "平局",
-          "outcomeHit": true,
-          "actualScore": "2-2",
-          "actualScoreBand": "高比分平局",
-          "topScoreHit": true,
-          "scoreBandHit": false,
-          "scoreScenarioHit": false,
-          "confidence": 64,
-          "brier": 0.5586,
-          "logLoss": 0.9416,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            29,
-            39,
-            32
-          ],
-          "scoreBands": [
-            {
-              "label": "低比分平局",
-              "chance": 29,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            },
-            {
-              "label": "客队小胜",
-              "chance": 18,
-              "examples": [
-                "1-2",
-                "0-1",
-                "0-2"
-              ]
-            },
-            {
-              "label": "主队小胜",
-              "chance": 16,
-              "examples": [
-                "2-1",
-                "1-0",
-                "2-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "客队不败低比分",
-              "chance": 49,
-              "examples": [
-                "1-1",
-                "0-0",
-                "1-2"
-              ]
-            },
-            {
-              "label": "主队不败低比分",
-              "chance": 47,
-              "examples": [
-                "1-1",
-                "0-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "客队胜出覆盖",
-              "chance": 32,
-              "examples": [
-                "1-2",
-                "0-1",
-                "0-2"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
-          "id": "ger-cuw-25",
-          "match": "德国 vs 库拉索",
-          "date": "2026-06-15",
-          "kickoffTime": "01:00",
-          "kickoff": "2026-06-14T17:00:00.000Z",
-          "predictionSource": "current-model",
-          "lockedAt": null,
-          "modelVersion": "retro",
-          "modelVersionLabel": "历史回放基准",
-          "modelVersionNote": "未赛前锁定，按当前模型回放，不参与版本成绩混算",
-          "actualOutcome": "主胜",
-          "predictedOutcome": "主胜",
-          "outcomeHit": true,
-          "actualScore": "7-1",
-          "actualScoreBand": "主队大胜",
-          "topScoreHit": false,
-          "scoreBandHit": true,
-          "scoreScenarioHit": true,
-          "confidence": 76,
-          "brier": 0.1746,
-          "logLoss": 0.4005,
-          "marketOutcome": "",
-          "marketHit": null,
-          "probabilities": [
-            67,
-            24,
-            9
-          ],
-          "scoreBands": [
-            {
-              "label": "主队小胜",
-              "chance": 35,
-              "examples": [
-                "2-0",
-                "1-0",
-                "2-1"
-              ]
-            },
-            {
-              "label": "主队大胜",
-              "chance": 23,
-              "examples": [
-                "3-0",
-                "4-0",
-                "4-1"
-              ]
-            },
-            {
-              "label": "低比分平局",
-              "chance": 20,
-              "examples": [
-                "1-1",
-                "0-0"
-              ]
-            }
-          ],
-          "scoreScenarios": [
-            {
-              "label": "主队不败低比分",
-              "chance": 64,
-              "examples": [
-                "2-0",
-                "1-0",
-                "1-1"
-              ]
-            },
-            {
-              "label": "主队胜出覆盖",
-              "chance": 67,
-              "examples": [
-                "2-0",
-                "1-0",
-                "3-0"
-              ]
-            },
-            {
-              "label": "主队优势胜",
-              "chance": 46,
-              "examples": [
-                "2-0",
-                "3-0",
-                "3-1"
-              ]
-            }
-          ],
-          "marketProbabilities": null
-        },
-        {
           "id": "aus-tur-20",
           "match": "澳大利亚 vs 土耳其",
           "date": "2026-06-14",
@@ -125433,20 +124484,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 60,
-          "brier": 0.7352,
-          "logLoss": 1.204,
+          "confidence": 61,
+          "brier": 0.7778,
+          "logLoss": 1.273,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            30,
-            36,
-            34
+            28,
+            37,
+            35
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 29,
+              "chance": 31,
               "examples": [
                 "1-1",
                 "0-0"
@@ -125454,7 +124505,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 22,
+              "chance": 23,
               "examples": [
                 "0-1",
                 "1-2",
@@ -125474,7 +124525,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "客队不败低比分",
-              "chance": 55,
+              "chance": 57,
               "examples": [
                 "1-1",
                 "0-0",
@@ -125492,7 +124543,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队胜出覆盖",
-              "chance": 34,
+              "chance": 35,
               "examples": [
                 "0-1",
                 "1-2",
@@ -125521,20 +124572,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 64,
-          "brier": 0.5642,
+          "confidence": 66,
+          "brier": 0.5766,
           "logLoss": 0.8916,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            15,
-            44,
+            13,
+            46,
             41
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 41,
+              "chance": 42,
               "examples": [
                 "0-0",
                 "1-1"
@@ -125542,7 +124593,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 30,
+              "chance": 29,
               "examples": [
                 "0-1",
                 "0-2",
@@ -125551,7 +124602,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 13,
+              "chance": 11,
               "examples": [
                 "1-0",
                 "2-1",
@@ -125562,7 +124613,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "客队不败低比分",
-              "chance": 75,
+              "chance": 76,
               "examples": [
                 "0-0",
                 "1-1",
@@ -125580,7 +124631,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 41,
+              "chance": 42,
               "examples": [
                 "0-0",
                 "1-1"
@@ -125608,45 +124659,54 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 61,
-          "brier": 0.5954,
-          "logLoss": 0.9943,
+          "confidence": 62,
+          "brier": 0.5784,
+          "logLoss": 0.9676,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            31,
-            37,
-            32
+            34,
+            38,
+            28
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 24,
+              "chance": 26,
               "examples": [
                 "1-1",
                 "0-0"
               ]
             },
             {
-              "label": "客队小胜",
-              "chance": 16,
-              "examples": [
-                "1-2",
-                "0-2",
-                "0-1"
-              ]
-            },
-            {
               "label": "主队小胜",
-              "chance": 15,
+              "chance": 17,
               "examples": [
                 "2-1",
                 "2-0",
                 "1-0"
               ]
+            },
+            {
+              "label": "客队小胜",
+              "chance": 14,
+              "examples": [
+                "1-2",
+                "0-2",
+                "0-1"
+              ]
             }
           ],
           "scoreScenarios": [
+            {
+              "label": "主队不败低比分",
+              "chance": 46,
+              "examples": [
+                "1-1",
+                "0-0",
+                "2-1"
+              ]
+            },
             {
               "label": "客队不败低比分",
               "chance": 42,
@@ -125657,21 +124717,12 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "主队不败低比分",
-              "chance": 41,
-              "examples": [
-                "1-1",
-                "0-0",
-                "2-1"
-              ]
-            },
-            {
               "label": "开放对攻",
-              "chance": 38,
+              "chance": 35,
               "examples": [
                 "2-2",
-                "1-3",
-                "3-1"
+                "3-1",
+                "1-3"
               ]
             }
           ],
@@ -125696,15 +124747,15 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": true,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 66,
-          "brier": 0.5634,
+          "confidence": 65,
+          "brier": 0.5486,
           "logLoss": 0.844,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            9,
+            11,
             43,
-            48
+            46
           ],
           "scoreBands": [
             {
@@ -125717,7 +124768,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 33,
+              "chance": 32,
               "examples": [
                 "0-1",
                 "0-2",
@@ -125726,7 +124777,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队大胜",
-              "chance": 11,
+              "chance": 10,
               "examples": [
                 "0-3",
                 "0-4",
@@ -125737,7 +124788,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "客队不败低比分",
-              "chance": 80,
+              "chance": 77,
               "examples": [
                 "0-0",
                 "1-1",
@@ -125746,7 +124797,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队不败低比分",
-              "chance": 49,
+              "chance": 50,
               "examples": [
                 "0-0",
                 "1-1",
@@ -125783,20 +124834,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": false,
           "scoreScenarioHit": false,
-          "confidence": 66,
-          "brier": 0.6558,
+          "confidence": 65,
+          "brier": 0.6518,
           "logLoss": 1.0498,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
             35,
-            43,
-            22
+            42,
+            23
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 34,
+              "chance": 35,
               "examples": [
                 "1-1",
                 "0-0"
@@ -125804,7 +124855,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 21,
+              "chance": 22,
               "examples": [
                 "1-0",
                 "2-1",
@@ -125813,10 +124864,10 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 15,
+              "chance": 16,
               "examples": [
-                "1-2",
                 "0-1",
+                "1-2",
                 "0-2"
               ]
             }
@@ -125824,7 +124875,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 59,
+              "chance": 60,
               "examples": [
                 "1-1",
                 "0-0",
@@ -125833,16 +124884,16 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 51,
+              "chance": 52,
               "examples": [
                 "1-1",
                 "0-0",
-                "1-2"
+                "0-1"
               ]
             },
             {
               "label": "低比分平局",
-              "chance": 34,
+              "chance": 35,
               "examples": [
                 "1-1",
                 "0-0"
@@ -125891,7 +124942,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 29,
+              "chance": 28,
               "examples": [
                 "1-0",
                 "2-0",
@@ -125899,19 +124950,19 @@ window.ANALYSIS_BACKTEST = {
               ]
             },
             {
-              "label": "客队小胜",
+              "label": "主队大胜",
               "chance": 11,
               "examples": [
-                "0-1",
-                "1-2",
-                "0-2"
+                "3-0",
+                "4-0",
+                "4-1"
               ]
             }
           ],
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 72,
+              "chance": 70,
               "examples": [
                 "1-1",
                 "0-0",
@@ -125957,20 +125008,20 @@ window.ANALYSIS_BACKTEST = {
           "topScoreHit": false,
           "scoreBandHit": true,
           "scoreScenarioHit": true,
-          "confidence": 63,
-          "brier": 0.6134,
-          "logLoss": 0.9943,
+          "confidence": 66,
+          "brier": 0.6878,
+          "logLoss": 1.1087,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            37,
-            41,
-            22
+            33,
+            42,
+            25
           ],
           "scoreBands": [
             {
               "label": "低比分平局",
-              "chance": 37,
+              "chance": 38,
               "examples": [
                 "0-0",
                 "1-1"
@@ -125978,7 +125029,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队小胜",
-              "chance": 28,
+              "chance": 25,
               "examples": [
                 "1-0",
                 "2-0",
@@ -125987,7 +125038,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队小胜",
-              "chance": 18,
+              "chance": 20,
               "examples": [
                 "0-1",
                 "1-2",
@@ -125998,7 +125049,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 68,
+              "chance": 66,
               "examples": [
                 "0-0",
                 "1-1",
@@ -126007,7 +125058,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "客队不败低比分",
-              "chance": 56,
+              "chance": 60,
               "examples": [
                 "0-0",
                 "1-1",
@@ -126016,7 +125067,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 37,
+              "chance": 38,
               "examples": [
                 "0-0",
                 "1-1"
@@ -126045,13 +125096,13 @@ window.ANALYSIS_BACKTEST = {
           "scoreBandHit": true,
           "scoreScenarioHit": true,
           "confidence": 76,
-          "brier": 0.2106,
-          "logLoss": 0.4463,
+          "brier": 0.1982,
+          "logLoss": 0.4308,
           "marketOutcome": "",
           "marketHit": null,
           "probabilities": [
-            64,
-            27,
+            65,
+            26,
             9
           ],
           "scoreBands": [
@@ -126066,7 +125117,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "低比分平局",
-              "chance": 24,
+              "chance": 23,
               "examples": [
                 "1-1",
                 "0-0"
@@ -126074,7 +125125,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队大胜",
-              "chance": 19,
+              "chance": 20,
               "examples": [
                 "3-0",
                 "4-0",
@@ -126085,7 +125136,7 @@ window.ANALYSIS_BACKTEST = {
           "scoreScenarios": [
             {
               "label": "主队不败低比分",
-              "chance": 70,
+              "chance": 69,
               "examples": [
                 "2-0",
                 "1-0",
@@ -126094,7 +125145,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队胜出覆盖",
-              "chance": 64,
+              "chance": 65,
               "examples": [
                 "2-0",
                 "1-0",
@@ -126103,7 +125154,7 @@ window.ANALYSIS_BACKTEST = {
             },
             {
               "label": "主队优势胜",
-              "chance": 41,
+              "chance": 42,
               "examples": [
                 "2-0",
                 "3-0",
@@ -126159,15 +125210,15 @@ window.ANALYSIS_BACKTEST = {
   "confidenceBuckets": [
     {
       "label": "低信心",
-      "count": 18,
-      "hitRate": 50,
-      "averageBrier": 0.6102
+      "count": 15,
+      "hitRate": 40,
+      "averageBrier": 0.6284
     },
     {
       "label": "中信心",
-      "count": 85,
-      "hitRate": 59,
-      "averageBrier": 0.499
+      "count": 88,
+      "hitRate": 60,
+      "averageBrier": 0.5038
     },
     {
       "label": "高信心",
